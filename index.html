@@ -14,6 +14,14 @@
 	<!-- Latest compiled and minified JavaScript -->
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script>
+            var app = angular.module('myMod', []);
+            app.controller('myModCtrl', function($scope) {
+                $scope.lsdk_github = "https://github.com/lsdk";
+            });
+        </script>
+
 </head>
 
 <body role="document">
@@ -40,16 +48,25 @@
         <div class="lsdk-container">
             <h1>LSDK Open Source</h1>
             <ul class="bullet-list-round">
+                <li>Enable the QorIQ® Layerscape Processors Based on ARM Technology. </li>
+                <li>Disaggregated components of LSDK are available in github. </li>
+                <li>Ubuntu-based userland for ARMv7 and ARMv8 targets. </li>
             </ul>
         </div>
     </div>
 
-    <div class="container projects">
+    <div class="container projects" ng-app="myMod" ng-controller="myModCtrl">
         <h2>LSDK Utility</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="project">
                     <div class="project-item">
+                        <h3>lsdk-devel</h3>
+                        <p class="proj-info">The LSDK build system includes three major component:
+			                     package builder, images installer and rootfs maker. The
+                                             utility can run on x86 host of Ubuntu 16.04, arm targets
+                                             and docker container. </p>
+			<a href="{{lsdk_github}}/lsdk-devel">github</a>
                     </div>
                 </div>
             </div>
@@ -60,6 +77,100 @@
             <div class="col-md-4">
                 <div class="project">
                     <div class="project-item">
+                    <h3>u-boot</h3>
+                        <p class="proj-info">An open source primary boot loader used in embedded devices
+			                     to package the instructions to boot the device's operating
+					     system kernel.</p>
+                        <a href="{{lsdk_github}}/u-boot">github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project">
+                    <div class="project-item">
+                    <h3>rcw</h3>
+                        <p class="proj-info">Reset Configuration Word - hardware boot-time parameters for
+                                             the QorIQ targets. </p>
+                        <a href="{{lsdk_github}}/rcw">github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project">
+                    <div class="project-item">
+                    <h3>ls1043a-uefi</h3>
+                        <p class="proj-info"> Unified Extensible Firmware Interface for LS1043A platform. </p>
+                        <a href="{{lsdk_github}}/ls1043a-uefi">github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project">
+                    <div class="project-item">
+                    <h3>mc-binary</h3>
+                        <p class="proj-info">Management Complex Firmware for Data Path Acceleration
+			                     Architecture, second generation. </p>
+                        <a href="{{lsdk_github}}/mc-binary">github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project">
+                    <div class="project-item">
+                    <h3>fm-ucode</h3>
+                    <p class="proj-info">Microcode families of the Frame Manager hardware block in QorIQ
+                                         products. Specific platforms require specific binaries, and those
+					 also have to further match specific software versions (Frame
+					 Manager Driver -- FMD). </p>
+                    <a href="{{lsdk_github}}/fm-ucode">github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project">
+                    <div class="project-item">
+                    <h3>qe-ucode</h3>
+                    <p class="proj-info">The microcode binaries for the QUICC Engine hardware block in
+		    			 QorIQ products. </p>
+                    <a href="{{lsdk_github}}/qe-ucode">github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project">
+                    <div class="project-item">
+                    <h3>ppa-generic</h3>
+                    <p class="proj-info">The Primary Protected Application(PPA), a resident EL3 firmware. </p>
+                    <a href="{{lsdk_github}}/ppa-generic">github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project">
+                    <div class="project-item">
+                    <h3>firmware-aquantia</h3>
+                    <p class="proj-info">These are the firmware images for the Aquantia PHY devices on QorIQ
+		                         development boards. </p>
+                    <a href="{{lsdk_github}}/firmware-aquantia">github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project">
+                    <div class="project-item">
+                    <h3>firmware-cortina</h3>
+                    <p class="proj-info">These are the firmware images for the Cortina PHY devices on QorIQ
+                                         development boards. </p>
+                    <a href="{{lsdk_github}}/firmware-cortina">github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project">
+                    <div class="project-item">
+                    <h3>dpl-examples</h3>
+                        <p class="proj-info">Datapath layout files. </p>
+                        <a href="{{lsdk_github}}/dpl-examples">github</a>
                     </div>
                 </div>
             </div>
@@ -70,6 +181,9 @@
             <div class="col-md-4">
                 <div class="project">
                     <div class="project-item">
+                    <h3>linux</h3>
+                        <p class="proj-info">The Linux kernel for QorIQ ARM platforms. </p>
+                        <a href="{{lsdk_github}}/linux">github</a>
                     </div>
                 </div>
             </div>
@@ -80,6 +194,10 @@
             <div class="col-md-4">
                 <div class="project">
                     <div class="project-item">
+                        <h3>restool</h3>
+                        <p class="proj-info">Resource manager tool for Data Path Acceleration Architecture,
+			                     second generation. </p>
+                        <a href="{{lsdk_github}}/restool">github</a>
                     </div>
                 </div>
             </div>
