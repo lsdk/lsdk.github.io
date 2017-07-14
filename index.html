@@ -1,387 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>	
+
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
-
-	<title>LSDK Open Source</title>
-
-	<link href="css/style.css" rel="stylesheet">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	<!-- Latest compiled and minified JavaScript -->
-
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>LSDK Open Source</title>
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mainA.css">
 </head>
 
-<body role="document">
-	<header>
-		<nav class="navbar navbar-lsdk" role="navigation">
-            <div class="container">
+<body>
+    <!--[if lt IE 9]>
+    <div class="browser-happy">
+        <div class="content">
+            <p>作为前端开发人员，还有这么low的浏览器，再不更新会遭鄙视的～～</p>
+            <a href="http://browsehappy.com/">立即更新</a>
+        </div>
+    </div>
+    <![endif]-->
+    <div class="header">
+        <nav class="navbar navbar-default navbar-fixed-top clearfix">
+            <div class="container navbar-inner">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
-                        <img src="images/nxp-logo.png" alt="NXP" />
-                    </a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="img/nxp-logo.png" alt="NXP logo"></a>
                 </div>
-                <div class="collapse navbar-collapse navbar-link">
+                <div class="menu collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav menusm">
+                       <li class="active"><a href="index.html" class="ms_top">Home </a></li>
+                       <li><a href="introduction.html" class="ms_top">Introduction</a></li>
+                        <li><a href="source.html" class="ms_top">Source Code </a></li>
+                        <li><a href="document.html" class="ms_top">Documentation</a></li>
+                    </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="http://www.nxp.com/products/microcontrollers-and-processors/arm-processors/qoriq-layerscape-arm-processors:QORIQ-ARM?fsrch=1&sr=1&pageNum=1">QorIQ® Processors Based on ARM Technology</a></li>
-                      </ul>
                 </div>
+                <!-- /.navbar-collapse -->
             </div>
-
         </nav>
-    </header>
-
-    <div class="content-panel content-panel-green">
-        <div class="lsdk-container">
-            <h1>LSDK Open Source (Beta)</h1>
-            <ul class="bullet-list-round">
-                <li>Enable the QorIQ® Layerscape Processors Based on ARM Technology. </li>
-                <li>Disaggregated components of LSDK are available in github. </li>
-                <li>Ubuntu-based userland for ARMv7 and ARMv8 targets. </li>
-            </ul>
-        </div>
     </div>
-
-    <div class="container projects" ng-app="myMod" ng-controller="myModCtrl">
-        <h2>LSDK Utility</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>flexbuild</h3>
-                        <p class="proj-info">The LSDK build system includes three major components:
-			                     package builder, rootfs maker and image installer. The
-                                             utility can run on x86 host of Ubuntu 16.04, arm targets
-                                             and docker container. </p>
-			<a href="https://github.com/qoriq-open-source/flexbuild">github</a>
-                    </div>
+    
+    <section class="main-banner" >
+        <div class="container-fluid">
+            <div class="row">
+            <article class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
+                <div>
+                    <h1>LSDK Open Source</h1>
+                    <ul class="bullet-list-round">
+                        <li>Enable the <a href="http://www.nxp.com/products/microcontrollers-and-processors/arm-processors/qoriq-layerscape-arm-processors:QORIQ-ARM?fsrch=1&amp;sr=1&amp;pageNum=1">QorIQ® Layerscape Processors Based on ARM Technology</a>. </li>
+                        <li>Disaggregated components of LSDK are available in github. </li>
+                        <li>Ubuntu-based userland for ARMv7 and ARMv8 targets. </li>
+                        <li>By downloading the LSDK components below, you agree to the <a href="eula.html">EULA(End User License Agreement)</a> </li>
+                    </ul>
+                    <!-- <a href="" class="custom-btn">check more</a> -->
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>lsdk-document</h3>
-                        <p class="proj-info">The user guide of QorIQ Layerscape software development
-                                             kit (LSDK). </p>
-                        <a href="https://freescale.sdlproducts.com/LiveContent/web/pub.xql?c=t&action=home&pub=QorIQ_LSDK&lang=en-US">knowledge center</a>
-                    </div>
-                </div>
-            </div>
+            </article>
         </div>
-
-        <h2>LSDK Firmware</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                    <h3>u-boot</h3>
-                        <p class="proj-info">An open source primary boot loader used in embedded devices
-			                     to package the instructions to boot the device's operating
-					     system kernel. </p>
-                        <a href="https://github.com/qoriq-open-source/u-boot">github</a>
-                    </div>
-                </div>
-            </div>
-	    <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                    <h3>uefi</h3>
-                        <p class="proj-info">The Unified Extensible Firmware Interface (Sources)</p>
-                        <a href="https://github.com/qoriq-open-source/uefi">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                    <h3>ppa</h3>
-                    <p class="proj-info">The Primary Protected Application (sources). </p>
-                    <a href="https://github.com/qoriq-open-source/ppa-generic">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                    <h3>mc-binary</h3>
-                        <p class="proj-info">Management Complex Firmware for Data Path Acceleration
-			                     Architecture, second generation. </p>
-                        <a href="https://github.com/qoriq-open-source/mc-binary">github</a>
-                    </div>
-                </div>
-            </div>
-	    <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                    <h3>uefi-binary</h3>
-                        <p class="proj-info">The Unified Extensible Firmware Interface (Binaries)</p>
-                        <a href="https://github.com/qoriq-open-source/uefi-binary">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                    <h3>ppa-binary</h3>
-                    <p class="proj-info">The Primary Protected Application (binaries). </p>
-                    <a href="https://github.com/qoriq-open-source/ppa-binary">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                    <h3>rcw</h3>
-                        <p class="proj-info">Reset Configuration Word - hardware boot-time parameters for
-                                             the QorIQ targets. </p>
-                        <a href="https://github.com/qoriq-open-source/rcw">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                    <h3>fm-ucode</h3>
-                    <p class="proj-info">Microcode families of the Frame Manager hardware block in QorIQ
-                                         products. Specific platforms require specific binaries, and those
-					 also have to further match specific software versions (Frame
-					 Manager Driver -- FMD). </p>
-                    <a href="https://github.com/qoriq-open-source/fm-ucode">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                    <h3>qe-ucode</h3>
-                    <p class="proj-info">The microcode binaries for the QUICC Engine hardware block in
-		    			 QorIQ products. </p>
-                    <a href="https://github.com/qoriq-open-source/qe-ucode">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                    <h3>firmware-cortina</h3>
-                    <p class="proj-info">The firmware images for the Cortina PHY devices on QorIQ
-                                         development boards. </p>
-                    <a href="https://github.com/qoriq-open-source/firmware-cortina">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                    <h3>dpl-examples</h3>
-                        <p class="proj-info">Datapath layout files. </p>
-                        <a href="https://github.com/qoriq-open-source/dpl-examples">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                    <h3>ramdiskrfs</h3>
-                        <p class="proj-info">Rootfs images to initial bringup. </p>
-                        <a href="https://github.com/qoriq-open-source/ramdiskrfs">github</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <h2>LSDK Linux</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                    <h3>linux</h3>
-                        <p class="proj-info">The Linux kernel for QorIQ ARM platforms. </p>
-                        <a href="https://github.com/qoriq-open-source/linux">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>cryptodev-linux</h3>
-                        <p class="proj-info">A /dev/crypto device driver kernel module. </p>
-                        <a href="https://github.com/qoriq-open-source/cryptodev-linux">github</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-		
-        <h2>LSDK Apps</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>restool</h3>
-                        <p class="proj-info">Resource manager tool for Data Path Acceleration Architecture,
-			                     second generation. </p>
-                        <a href="https://github.com/qoriq-open-source/restool">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>eth-config</h3>
-                        <p class="proj-info">Ethernet Configuration Files. </p>
-                        <a href="https://github.com/qoriq-open-source/eth-config">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>ceetm</h3>
-                        <p class="proj-info">A sub block of the QMan and is an alternative to the regular
-                                             frame queue - work queue - channel scheduling mode. </p>
-                        <a href="https://github.com/qoriq-open-source/ceetm">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>odp</h3>
-                        <p class="proj-info">OpenDataPlane (ODP): a data plane application programming environment. </p>
-                        <a href="https://github.com/qoriq-open-source/odp">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>dpdk</h3>
-                        <p class="proj-info">Data Plane Development Kit (DPDK) software. </p>
-                        <a href="https://github.com/qoriq-open-source/dpdk">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>dpdk-extras</h3>
-                        <p class="proj-info">Data Plane Development Kit Extended utilities. </p>
-                        <a href="https://github.com/qoriq-open-source/dpdk-extras">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>ovs-dpdk</h3>
-                        <p class="proj-info">Open vSwitch with the Data Plane Development Kit. </p>
-                        <a href="https://github.com/qoriq-open-source/ovs-dpdk">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>cst</h3>
-                        <p class="proj-info">Utility for security boot. </p>
-                        <a href="https://github.com/qoriq-open-source/cst">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>openssl</h3>
-                        <p class="proj-info">Secure Socket Layer for QorIQ ARM platforms. </p>
-                        <a href="https://github.com/qoriq-open-source/openssl">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>fmc</h3>
-                        <p class="proj-info">Frame Manager Configuration tool. </p>
-                        <a href="https://github.com/qoriq-open-source/fmc">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>fmlib</h3>
-                        <p class="proj-info">Frame Manager User Space Library. </p>
-                        <a href="https://github.com/qoriq-open-source/fmlib">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>flib</h3>
-                        <p class="proj-info">Foundation library for DPAA (Data Path Acceleration Architecture). </p>
-                        <a href="https://github.com/qoriq-open-source/flib">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>aiopsl</h3>
-                        <p class="proj-info">AIOP (Advanced I/O Processor) Service Layer. </p>
-                        <a href="https://github.com/qoriq-open-source/aiopsl">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>gpp-aioptool</h3>
-                        <p class="proj-info">A userspace application for performing
-                                             operations on an AIOP Tile using MC interfaces. </p>
-                        <a href="https://github.com/qoriq-open-source/gpp-aioptool">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>qbman_userspace</h3>
-                        <p class="proj-info">Qman/Bman applications and libraries. </p>
-                        <a href="https://github.com/qoriq-open-source/qbman_userspace">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>cantest</h3>
-                        <p class="proj-info">Test programs for CAN communication using the SocketCAN API. </p>
-                        <a href="https://github.com/qoriq-open-source/cantest">github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="project">
-                    <div class="project-item">
-                        <h3>ptpd</h3>
-                        <p class="proj-info">The PTP daemon (PTPd) implementing the Precision Time
-                                             Protocol (PTP) version 2 as defined by 'IEEE Std 1588-2008'. </p>
-                        <a href="https://github.com/qoriq-open-source/ptpd">github</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div>       
+    </section>
+    <div id="footer">
+      <!-- container cols -->
+      <div class="copyright">© Copyright <b>2017 NXP Semiconductors</b>. All Rights Reserved.</div>
     </div>
-
-    <div class="lsdk-container-foot"></div>
-
-    <footer class="footer">©2017 NXP Semiconductors. All rights reserved</footer>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
+
 </html>

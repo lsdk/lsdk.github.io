@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Document</title>
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mainA.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!--[if lt IE 9]>
+    <div class="browser-happy">
+        <div class="content">
+            <p>作为前端开发人员，还有这么low的浏览器，再不更新会遭鄙视的～～</p>
+            <a href="http://browsehappy.com/">立即更新</a>
+        </div>
+    </div>
+    <![endif]-->
+    <div class="header">
+        <nav class="navbar navbar-default navbar-fixed-top clearfix">
+            <div class="container navbar-inner">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="img/nxp-logo.png" alt="NXP logo"></a>
+                </div>
+                <div class="menu collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav menusm">
+                        <li><a href="index.html" class="ms_top">Home </a></li>
+                        <li><a href="introduction.html" class="ms_top">Introduction</a></li>
+                        <li><a href="source.html" class="ms_top">Source Code </a></li>
+                        <li class="active"><a href="document.html" class="ms_top">Documentation</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </nav>
+    </div>
+    <div class="container-docs">
+        <!-- <div class="container"> -->
+        <!-- <div class="separator"></div> -->
+        <section class="hero short">
+            <div class="col-wrap">
+                <h2>Docs</h2>
+            </div>
+        </section>
+        <div class="container">
+            <div class="row docs">
+                <div class="nav-docs col-xs-12 col-sm-4 col-md-4 col-lg-4 ">
+                    <nav id="DocsNav">
+                        <ul role="tablist">
+                            <li class="parent">
+                                <a href="javascript:;">Docs</a>
+                            </li>
+                            
+                            <li class="sub-nav" data-parent="Creating">
+                                <ul>
+                                <li class="parent active" role="presentation">
+                                <a href="#first" aria-controls="first" role="tab" data-toggle="tab">LSDK Quick Start</a>
+                            </li>
+                                    <li role="presentation">
+                                        <a class="" href="#two" aria-controls="two" role="tab" data-toggle="tab"  >Select the appropriate build mechanism</a>
+                                    </li>
+                                    <li>
+                                        <a class="" href="#three" aria-controls="three" role="tab" data-toggle="tab">Assemble and deploy LSDK on target board</a>
+                                    </li>
+                                    <li>
+                                        <a class="" href="#four" aria-controls="four" role="tab" data-toggle="tab">Rebuild specific component in Flexbuild if needed</a>
+                                    </li>
+                                    <li class="parent">
+                                        <a class="" href="https://freescale.sdlproducts.com/LiveContent/web/pub.xql?c=t&action=home&pub=QorIQ_LSDK&lang=en-US">knowledge Center ></a>
+                                    </li>
+                                    <!-- <li>
+                                        <ul>
+                                            <li>
+                                                <a class="" href="/docs/releasing/preparing/" data-g-event="Docs_Nav" data-g-action="Click" data-g-label="Preparing For Release">Select the appropriate build mechanism</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="/docs/releasing/contributions/" data-g-event="Docs_Nav" data-g-action="Click" data-g-label="Accepting Contributions">Assemble and deploy LSDK on target board</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="/docs/releasing/contributions/" data-g-event="Docs_Nav" data-g-action="Click" data-g-label="Accepting Contributions">Rebuild specific component in Flexbuild if needed</a>
+                                            </li>
+                                        </ul>
+                                    </li> -->
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="main-container tab-content col-xs-12 col-sm-8 col-md-8 col-lg-8 details-docs">
+                    <div class="tab-pane active" role="tabpanel" id="first">
+                        <p>
+                            Flexbuild is an integrated build framework with flexible system build and distro installation. It builds desired images, firmware and packages for various components (linux, u-boot, rcw, ppa, userspace applications) and Debian/Ubuntu based distro userland. The following is the key functionality.
+                        </p>
+                        <ul>
+                            <li>Automatically build linux, u-boot, ppa, rcw and miscellaneous userspace applications.</li>
+                            <li>Support integrated management with repo-fetch, repo-branch, repo-commit, repo-tag, repo-update for git repositories of all components (linux,uboot,rcw,ppa,odp,dpdk,ovs-dpdk,aiopsl,qbman_userspace,ceetm,etc)</li>
+                            <li>Support cross build on x86 Ubuntu 16.04 host machine for aarch64/armhf arch target</li>
+                            <li>Support native build on aarch64/armhf machine for ARM arch target</li>
+                            <li>Support building in Docker container hosted on CentOS, RHEL, Fedora, SUSE, Debian, etc</li>
+                            <li>Capability of generating custom aarch64/armhf Debian/Ubuntu userland integrated configurable packages and proprietary components.</li>
+                        </ul>
+                        <p>With Flexbuild, LSDK components and custom packages can be built using Ubuntu/Linaro toolchain on Linux host machine. Flexbuild can build each component and generate the boot firmware (contains RCW, U-Boot/UEFI, PHY firmware, kernel image and ramdiskrfs), flex_installer.itb and the Ubuntu userland containing the specified packages and apps components.</p>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="two">
+                            <p ><strong>1. Select the appropriate build mechanism</strong></p>
+                            <p>To accommodate different build environments, LSDK provides three types of build mechanisms. Please refer to the following recommendation if images need to be built from scratch.</p>
+                            <p >Scenario 1: if Ubuntu 16.04 is installed on the host machine, the following cross-build method is recommended.</p>
+                            <div class="p">Prerequisites:
+                                <ul>
+                                    <li>For non-root users, it needs to achieve sudo permission by running command
+                                        <samp class="codeph">sudoedit /etc/sudoers</samp>and adding lines as below in
+                                        <samp class="codeph">/etc/sudoers</samp>:
+                                        <pre class="codeblock">&lt;user-account-name&gt; ALL=(ALL) NOPASSWD: ALL </pre>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>For root user, there is no limitation for the build. </li>
+                                    <li>To build Ubuntu userland, the availability of accessing remote Ubuntu official server is required in user’s network environment.</li>
+                                </ul>
+                            </div>
+                            <div class="p">Steps:
+                                <pre class="codeblock">$ git clone http://github.com/qoriq-open-source/ <br>$ cd flexbuild<br>$ source setup.env<br>$ flex-builder -h
+                                </pre>
+                            </div>
+                            <p>Scenario 2: If other Linux distro (CentOS, RHEL, Fedora, SUSE, Ubuntu, Debian) is installed on host machine, the build-in-docker way can be used.</p>
+                            <div class="p">Prerequisites:
+                                <ul>
+                                    <li>Docker is installed on the host machine and user has achieved sudo permission for ‘docker’ command or has been added to a group of docker. </li>
+                                    <li>To build Ubuntu userland, the availability of accessing remote Ubuntu official server is required in user’s network environment.</li>
+                                </ul>
+                            </div>
+                            <div class="p">To install Docker on the host machine. <a target="_blank" href="https://docs.docker.com/engine/installation/">https://docs.docker.com/engine/installation/</a> can be a reference for Docker installation. If user encounters errors like “Temporary failure resolving 'archive.ubuntu.com'” caused by the Docker DNS config issue, please try to fix it by following example:
+                                <pre class="codeblock">$  nmcli dev show | grep 'IP4.DNS'<br>IP4.DNS[1]:  10.192.130.201<br>then create a daemon configuration file at /etc/docker/daemon.json like below:<br>{<br>    "dns": ["10.192.130.201","8.8.8.8"]<br>}
+                                </pre>
+                            </div>
+                            <p>
+                               Finally, restart docker service by
+                                <samp class="codeph">sudo service docker restart</samp>
+                                and check if
+                                <samp class="codeph">docker images</samp>
+                                can work properly on the host
+                            </p>
+                            <div class="p">Steps:
+                                <pre class="codeblock">$ git clone http://github.com/qoriq-open-source/flexbuild.git<br>$ cd flexbuild<br>$ source setup.env   (on host machine)<br>$ run 'flex-builder docker', then click Enter key<br>$ source setup.env   (in docker container)<br>$ flex-builder -h
+                                </pre>
+                            </div>
+                            <p>
+                                If needed, user can exit from docker container without change current work path by executing
+                                <samp class="codeph">exit</samp>command. 
+                            </p>
+                            <p >
+                                Scenario 3: If the Ubuntu userland is deployed on target board, native build can be done by following the instructions. 
+                            </p>
+                            <div class="p">Prerequisites:
+                                <ul >
+                                    <li>Set the system date and time by 'date -s' command and set git account’ s default identity by git config --global user.email "you@example.com"; git config --global user.name "Your Name". </li>
+                                    <li>To build Ubuntu userland, the availability of accessing remote Ubuntu official server is required in user’s network environment. </li>
+                                </ul>
+                            </div>
+                            <div class="p">Steps:
+                                <pre class="codeblock">$ cd /home/user<br>$ git clone http://github.com/qoriq-open-source/flexbuild.git<br>$ cd flexbuild<br>$ source setup.env<br>$ flex-builder -h<br>
+                                </pre>
+                            </div>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="three">
+                        <p>
+                           <strong>2. Assemble and deploy LSDK on target board</strong>
+                        </p>
+                        <p>
+                            LS2088ARDB is used as an example board. We assume that firmware will be in the board's parallel NOR flash and the Linux file system will be on a SD/USB/SATA storage drive. The process is to git clone the bld script onto a Linux PC running Ubuntu 16_04, download two pre-built binary tarballs of NXP components, use bld to merge them, and then use flex-installer to write them to the SD/USB/SATA storage drive. The contents of the drive are then deployed to the board.
+                        </p>
+                        <p>
+                            The process is to git clone the flex-builder script onto a Linux PC running Ubuntu 16_04, wget two pre-built binary tarballs of NXP components, use flex-builder to merge them, and then use flex-installer to write them to the SD/USB/SATA storage drive. The contents of the drive are then deployed to the target board. 
+                        </p>
+                        <div class="p">
+                            <ul>
+                                <li >Step 1: Login to an Ubuntu 16.04 host machine and clone the flexbuild git repository
+                                    <pre class="codeblock">$ git clone http://github.com/qoriq-open-source/flexbuild.git<br>$ cd flexbuild<br>$ source setup.env<br>$ flex-builder -h<br>
+                                    </pre>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="p">
+                            <ul >
+                                <li >Step 2: Download prebuilt images
+                                    <samp class="codeph">bootpartition_arm64.tgz</samp> and
+                                    <samp class="codeph">components_arm64.tgz</samp>
+                                    <pre class="codeblock">$ wget https://github.com/qoriq-open-source/lsdk-image/raw/master/LSDK-1706/bootpartition_arm64.tgz (URL to be provided later)<br>$ wget https://github.com/qoriq-open-source/lsdk-image/raw/master/LSDK-1706/components_arm64.tgz <br>
+                                    </pre>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="p">
+                            <ul>
+                                <li>Step 3: Generate distro userland, untar component tarball and merge it into distro userland
+                                    <pre class="codeblock" >$ flex-builder -i mkrfs -a arm64<br>$ tar xvzf <br>components_arm64.tgz -C build/images<br>$ flex-builder -i merge-component -a arm64<br>
+                                    </pre>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="p">
+                            <ul>
+                                <li>Step 4: Install LSDK onto SD/USB/SATA storage drive
+                                    <pre class="codeblock">flex-installer --bootpart=bootpartition_arm64.tgz --<br>rootfs=build/images/ubuntu_xenial_arm64_rootfs.d  --machine=ls2088ardb --device=/dev/sdX</pre>
+                                    <p>
+                                       The SD/USB/SATA storage drive in the Linux PC will be called
+                                        <samp class="codeph">/dev/sdX</samp>, where X is a letter such as a, b, c ... Be very careful to choose the correct device name because data on this device will be replaced. You can use
+                                        <samp class="codeph">cat/proc/partitions</samp> to see a list of devices and their sizes. </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <p>After the commands above complete, remove the SD/USB/SATA storage drive from the Linux PC and connect it to the target board. It is assumed that the board has a working U-Boot, perhaps from a prior software release.</p>
+                        <p>Power on the board and press a key if necessary to get a U-Boot prompt. This U-Boot boots from bank 0 of the board. it will automatically boot Ubuntu without extra setting manually.
+                        </p>
+                        <p>To program firmware to alternate bank of flash on the board, refer to the steps in the section “How to program firmware to IFC-NOR flash and QSPI flash”. </p>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="four">              
+                        <p data-cid="1NuaIV"><strong>3. Rebuild specific component in Flexbuild if needed</strong></p>
+                        <p data-cid="28q3AH">In case user needs to rebuild specific component after deploying all LSDK images generated by “flex-builder -i autobuild-all -a arm64” (this command is done only once).
+                        </p>
+                        <p data-cid="1QWiW4">If user needs to rebuild kernel as new code change or needs different kernel config, run
+                            <samp class="codeph">flex-builder -c linux -a arm64 -B menuconfig</samp> to generate new kernel image, then copy the new build/qoriq-linux/kernel/arm64/uImage to /boot directory on target board by wget or scp command. </p>
+                        <p data-cid="uvG1C">If user needs to rebuild u-boot as new code change, for example: run
+                            <samp class="codeph">flex-builder -c uboot -m ls1046ardb -b qspi” and “flex-builder -i mkfw -m ls1046ardb -b qspi -B uboot
+                            </samp>, then program new firmware_ls1046ardb_uboot_qspiboot.img to QSPI flash on target board. </p>
+                        <p data-cid="1udi8G">If user needs to rebuild separate apps component, e.g. run
+                            <samp class="codeph">flex-builder -c dpdk -a arm64” and “flex-builder -i compressapps -a arm64</samp>, then copy new components_arm64.tgz to target board and untar it to override previous apps images. </p>
+                        <p data-cid="1TV39A">Optionally, user can directly rebuild on target board instead of build on host machine. </p>
+                    
+                    </div>
+                    <!-- <div class="main-container tab-content col-xs-12 col-sm-8 col-md-8 col-lg-8 details-docs">
+                        <aside class="doc-bar">This page is part of Google's <a href="/docs/">open source documentation</a>.</aside>
+                        <h1>Creating</h1>
+                        <p>Google strongly believes in open source and wants to empower you to contribute to the wider community. There are serious legal implications anytime a Googler releases code, so we have processes you must follow that help us comply with our legal and ethical obligations.
+                        </p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </div>
+    <div id="footer">
+        <!-- container cols -->
+        <div class="copyright">© Copyright <b>2017 NXP Semiconductors</b>. All Rights Reserved.</div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+
+</html>
