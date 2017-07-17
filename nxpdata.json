@@ -1,8 +1,8 @@
 {
-	"Disaggregated components of LSDK":[
-		["aiopsl","BSD","user space"],
-		["cantest","GPLv2","user space"],
-       		["ceetm","GPLv2","kernel"],
+    "NXP":[
+	["aiopsl","BSD","user space"],
+	["cantest","GPLv2","user space"],
+      		["ceetm","GPLv2","kernel"],
         	["cryptodev-linux","GPLv2","kernel"],
         	["cst","BSD","user space"],
 		["linux","GPLv2","kernel"],
