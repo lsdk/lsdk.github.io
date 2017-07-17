@@ -7,21 +7,13 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Document</title>
+    <title>Introduction</title>
     <link rel="shortcut icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mainA.css">
 </head>
 
 <body>
-    <!--[if lt IE 9]>
-    <div class="browser-happy">
-        <div class="content">
-            <p>作为前端开发人员，还有这么low的浏览器，再不更新会遭鄙视的～～</p>
-            <a href="http://browsehappy.com/">立即更新</a>
-        </div>
-    </div>
-    <![endif]-->
     <div class="header">
         <nav class="navbar navbar-default navbar-fixed-top clearfix">
             <div class="container navbar-inner">
@@ -33,7 +25,6 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#"><img src="img/nxp-logo.png" alt="NXP logo"></a>
-                   <!--  <a href="http://www.nxp.com/products/microcontrollers-and-processors/arm-processors/qoriq-layerscape-arm-processors:QORIQ-ARM?fsrch=1&amp;sr=1&amp;pageNum=1">QorIQ® Processors Based on ARM Technology</a> -->
                 </div>
                 <div class="menu collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav menusm">
@@ -54,12 +45,12 @@
                 <div class="separator"></div>
                 <h1 class="text-center extrabold">Introduction</h1>
                 <h4>About QorIQ Layerscape Software Development Kit (LSDK)</h4>
-                <p>These documents describe the Layerscape Software Development kit.</p>
 
                 <p>LSDK is a complete Linux kit for NXP QorIQ ARM-based SoCs and the reference and evaluation boards that are available for them.</p>
 
                 <p>It is a hybrid form of a Linux distribution because it combines the following major components to form a complete Linux system. </p>
                 <ul style="list-style-type: none">
+                  <ul style="list-style-type: none">
 
                     <li>NXP firmware components including</li>
                     <ol>
@@ -69,18 +60,20 @@
 
                     <li>NXP boot loaders. Two are offered:◦U-Boot, based on denx.de plus patches.</li>
                     <ol>
+                        <li>U-Boot, based on denx.de plus patches.</li>
                         <li>UEFI, based on Tianocore.</li>
-
                         <li>NXP Linux kernel, based on kernel.org upstream plus patches.</li>
                     </ol>
                     <li>NXP added user space components.</li>
                     <li>Ubuntu standard user space file set (user land), including compilers and cross compiler.</li>
 
+                  </ul>
                 </ul>
                <p> The use of Ubuntu user land is what makes LSDK a hybrid. It is not Ubuntu per se because it uses an NXP kernel, but it still uses Ubuntu user space files. This is possible because NXP ARM SoCs are standards-based so programs like bash and thousands of others run without being recompiled.</p>
 
                 <p>The benefit of using Ubuntu user land is the easy availability of thousands of standard Linux user space packages. The experience of using the LSDK is similar to using Ubuntu, but the kernel, firmware, and some special NXP packages are managed separately.</p>
 
+                <p>LSDK also permits easy access to the individual components that either originate or are modified by NXP. Source code is made available via git.</p>
             </div>
         </div>
     </div>
