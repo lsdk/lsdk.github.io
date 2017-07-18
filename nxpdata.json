@@ -66,7 +66,7 @@
 		["udev-extraconf","MIT","user space"],
 		["update-rc.d","GPLv2+","user space"],
 		["util-linux","GPLv2+ & LGPLv2.1+ & BSD","user space"],
-		["wget","","GPLv3","user space"],
+		["wget","GPLv3","user space"],
 		["zlib","Zlib","user space"]
 	]
 }
