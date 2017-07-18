@@ -12,6 +12,15 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mainA.css">
     <link rel="stylesheet" href="css/main.css">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 5px;
+            text-align: left;
+        }
+    </style>
 </head>
 
 <body>
@@ -52,23 +61,20 @@
                 <div class="nav-docs col-xs-12 col-sm-4 col-md-4 col-lg-4 ">
                     <nav id="DocsNav">
                         <ul role="tablist">
-                            <li class="parent">
-                                <a href="javascript:;">Docs</a>
-                            </li>
-                            
+                            <p>
                             <li class="sub-nav" data-parent="Creating">
                                 <ul>
                                 <li class="parent active" role="presentation">
                                 <a href="#first" aria-controls="first" role="tab" data-toggle="tab">LSDK Quick Start</a>
                             </li>
                                     <li role="presentation">
-                                        <a class="" href="#two" aria-controls="two" role="tab" data-toggle="tab"  >Select the appropriate build mechanism</a>
+                                        <a class="" href="#two" aria-controls="two" role="tab" data-toggle="tab"  >Download and build LSDK Images for target board deploymen</a>
                                     </li>
                                     <li>
-                                        <a class="" href="#three" aria-controls="three" role="tab" data-toggle="tab">Assemble and deploy LSDK on target board</a>
+                                        <a class="" href="#three" aria-controls="three" role="tab" data-toggle="tab">Deploy LSDK Images into target board</a>
                                     </li>
                                     <li>
-                                        <a class="" href="#four" aria-controls="four" role="tab" data-toggle="tab">Rebuild specific component in Flexbuild if needed</a>
+                                        <a class="" href="#four" aria-controls="four" role="tab" data-toggle="tab">How to build LSDK with Flexbuild</a>
                                     </li>
                                     <li class="parent">
                                         <a class="" href="https://freescale.sdlproducts.com/LiveContent/web/pub.xql?c=t&action=home&pub=QorIQ_LSDK&lang=en-US">Knowledge Center ></a>
@@ -107,10 +113,10 @@
                         <p>With Flexbuild, LSDK components and custom packages can be built using Ubuntu/Linaro toolchain on Linux host machine. Flexbuild can build each component and generate the boot firmware (contains RCW, U-Boot/UEFI, PHY firmware, kernel image and ramdiskrfs), flex_installer.itb and the Ubuntu userland containing the specified packages and apps components.</p>
                     </div>
                     <div class="tab-pane" role="tabpanel" id="two">
-                            <p ><strong>1. Select the appropriate build mechanism</strong></p>
-                            <p>To accommodate different build environments, LSDK provides three types of build mechanisms. Please refer to the following recommendation if images need to be built from scratch.</p>
+                            <h2>Download and build LSDK Images for target board deployment</h2>
+                            <p>To accommodate different build environments, LSDK provides two types of build mechanisms. Please refer to the following recommendation if images need to be built from scratch. This will generate Ubuntu userland and boot partition images.</p>
                             <p >Scenario 1: if Ubuntu 16.04 is installed on the host machine, the following cross-build method is recommended.</p>
-                            <div class="p">Prerequisites:
+                            <div class="p"><strong>Prerequisites:</strong>
                                 <ul>
                                     <li>For non-root users, it needs to achieve sudo permission by running command
                                         <samp class="codeph">sudoedit /etc/sudoers</samp>and adding lines as below in
@@ -121,124 +127,392 @@
                                 <ul>
                                     <li>For root user, there is no limitation for the build. </li>
                                     <li>To build Ubuntu userland, the availability of accessing remote Ubuntu official server is required in user’s network environment.</li>
+                                    <li>SD/USB/SATA capacity must be at least 8GB. </li>
                                 </ul>
                             </div>
-                            <div class="p">Steps:
-                                <pre class="codeblock">$ git clone http://github.com/qoriq-open-source/ <br>$ cd flexbuild<br>$ source setup.env<br>$ flex-builder -h
-                                </pre>
-                            </div>
-                            <p>Scenario 2: If other Linux distro (CentOS, RHEL, Fedora, SUSE, Ubuntu, Debian) is installed on host machine, the build-in-docker way can be used.</p>
-                            <div class="p">Prerequisites:
-                                <ul>
-                                    <li>Docker is installed on the host machine and user has achieved sudo permission for ‘docker’ command or has been added to a group of docker. </li>
-                                    <li>To build Ubuntu userland, the availability of accessing remote Ubuntu official server is required in user’s network environment.</li>
-                                </ul>
-                            </div>
-                            <div class="p">To install Docker on the host machine. <a target="_blank" href="https://docs.docker.com/engine/installation/">https://docs.docker.com/engine/installation/</a> can be a reference for Docker installation. If user encounters errors like “Temporary failure resolving 'archive.ubuntu.com'” caused by the Docker DNS config issue, please try to fix it by following example:
-                                <pre class="codeblock">$  nmcli dev show | grep 'IP4.DNS'<br>IP4.DNS[1]:  10.192.130.201<br>then create a daemon configuration file at /etc/docker/daemon.json like below:<br>{<br>    "dns": ["10.192.130.201","8.8.8.8"]<br>}
-                                </pre>
-                            </div>
-                            <p>
-                               Finally, restart docker service by
-                                <samp class="codeph">sudo service docker restart</samp>
-                                and check if
-                                <samp class="codeph">docker images</samp>
-                                can work properly on the host
-                            </p>
-                            <div class="p">Steps:
-                                <pre class="codeblock">$ git clone http://github.com/qoriq-open-source/flexbuild.git<br>$ cd flexbuild<br>$ source setup.env   (on host machine)<br>$ run 'flex-builder docker', then click Enter key<br>$ source setup.env   (in docker container)<br>$ flex-builder -h
-                                </pre>
-                            </div>
-                            <p>
-                                If needed, user can exit from docker container without change current work path by executing
-                                <samp class="codeph">exit</samp>command. 
-                            </p>
-                            <p >
-                                Scenario 3: If the Ubuntu userland is deployed on target board, native build can be done by following the instructions. 
-                            </p>
-                            <div class="p">Prerequisites:
-                                <ul >
-                                    <li>Set the system date and time by 'date -s' command and set git account’ s default identity by git config --global user.email "you@example.com"; git config --global user.name "Your Name". </li>
-                                    <li>To build Ubuntu userland, the availability of accessing remote Ubuntu official server is required in user’s network environment. </li>
-                                </ul>
-                            </div>
-                            <div class="p">Steps:
-                                <pre class="codeblock">$ cd /home/user<br>$ git clone http://github.com/qoriq-open-source/flexbuild.git<br>$ cd flexbuild<br>$ source setup.env<br>$ flex-builder -h<br>
-                                </pre>
+                            <div class="p">
+                                <p>
+                                <strong>Step 1: Login to an Ubuntu 16.04 host machine and clone the flexbuild git repository</strong>
+                                <pre class="codeblock">$ git clone http://github.com/qoriq-open-source/ <br>$ cd flexbuild<br>$ source setup.env</pre>
+
+                                <p>
+                                <strong>Step 2:  Download prebuilt images for bootpartition and NXP specific components tarball.</strong>
+                                <pre class="codeblock">$ wget http://sun.ap.freescale.net/images/lsdk-github/master/images/images/components_arm64.tgz<br>Or<br>$ wget http://sun.ap.freescale.net/images/lsdk-github/master/images/images/components_arm32.tgz</pre>
+                                <p><strong>Note:</strong> Components tarball includes NXP specific application components and configuration files.</p>
+
+                                <p>
+                                <strong>Step 3:  Merge NXP specific components into Ubuntu userland and generate Ubuntu rootfs tarball.</strong>
+                                <pre class="codeblock">$ flex-builder -i mkrfs -a arm64 -B additional_packages_list_full</br>$ tar xvzf components_arm64.tgz -C build/images</br>$ flex-builder -i merge-component -a arm64</br>$ flex-builder -i compressrfs -a arm64</pre>
+                                <p><strong>Note:</strong> For 32bit platform, please change architecture type ("-a" parameter) to arm32.</p>
+
                             </div>
                     </div>
+
                     <div class="tab-pane" role="tabpanel" id="three">
-                        <p>
-                           <strong>2. Assemble and deploy LSDK on target board</strong>
-                        </p>
-                        <p>
-                            LS2088ARDB is used as an example board. We assume that firmware will be in the board's parallel NOR flash and the Linux file system will be on a SD/USB/SATA storage drive. The process is to git clone the bld script onto a Linux PC running Ubuntu 16_04, download two pre-built binary tarballs of NXP components, use bld to merge them, and then use flex-installer to write them to the SD/USB/SATA storage drive. The contents of the drive are then deployed to the board.
-                        </p>
-                        <p>
-                            The process is to git clone the flex-builder script onto a Linux PC running Ubuntu 16_04, wget two pre-built binary tarballs of NXP components, use flex-builder to merge them, and then use flex-installer to write them to the SD/USB/SATA storage drive. The contents of the drive are then deployed to the target board. 
-                        </p>
+                        <h2>Deploy LSDK Images into target board </h2>
+                        <p>This section describes how to deploy LSDK images into target board in easy way. There are two major scenarios to deploy LSDK images into target board.</p>
+                        <p>If user can connect a removable media to a local Linux host, user can deploy LSDK images to the removable media and then connect it to the board, update firmware from the storage device. For this scenario, please refer to section "1.3.1 - deploy LSDK images from Linux host". </p>
+                        <p>If user are deploying to a non-removable media on the board, or you don't have a local Linux host to connect removable media, user can build the images on the Linux server, then update firmware through network(tftp), transfer images to the storage device on board through network(tftp/scp/wget), then deploy the rootfs and bootpartition to storage device. Please refer to section "1.3.2 - deploy LSDK images on board"</p>
+                        <p>The deployment will cover how to program LSDK composite firmware into target board (IFC/QSPI NOR and SD card), how to deploy bootpartition images and Ubuntu Userland on different storage media (SD/USB/SATA).</p>
+
+                        <div class="p"><strong>Prerequisites:</strong>
+                           <ul>
+                             <li>SD/USB/SATA capacity must be at least 8GB. </li>
+                           </ul>
+                        </div>
+
                         <div class="p">
+                          <p style="color:green"><strong>1. Deploy LSDK images from Linux Host.</strong></p>
+                          <p>LSDK images had been generated in previous section, so user can start to deploy LSDK images on board if user can connect a removable media to a local Linux host. </p>
+
+                          <p>If target board support SD boot, like as LS1021ATWR, LS1043ARDB, LS1046ARDB and LS1088ARDB, user can directly program LSDK composite firmware, bootpartition images and Ubuntu userland into SD card, please refer to scenario1. Otherwise, please choose scenario 2. </p>
+
+                          <p><strong>Scenario 1: Program LSDK images into SD card on following platform: </strong></p>
+                          <ul>
+                              <li>LS1021ATWR</li>
+                              <li>LS1043ARDB</li>
+                              <li>LS1046ARDB</li>
+                              <li>LS1046ARDB</li>
+                          </ul>
+
+                          <p>Take LS1088ARDB as example and assume user use SD card reader to read/write SD card on Linux host. So the device name of sd card in linux host will be "sdX"
+                             <pre class="codeblock">$ wget firmware_ls1088ardb_uboot_sdboot.img<br>$ flex-installer --bootpart=bootpartition_arm64.tgz --rootfs=ubuntu_xenial_arm64_rootfs.tgz --firmware=firmware_ls1088ardb_uboot_sdboot.img --machine=ls1088ardb --device=/dev/sdX
+</pre>
+                          </p>
+
+                          <p><strong>Note:</strong><br>- If user's linux host support read/write sd card directly, the device name of sd card is mmcblk0.</br>- After above steps, the LSDK composite firmware, bootpartition images and Ubuntu userland were deployed successfully on SD card. </li></p>
+
+                          <p>Plugin SD card on target board and change switch settings on LS1021ATWR, LS1043ARDB, LS1046ARDB and LS1088ARDB to SD boot, the system can automatically bootup. </p>
+
+                          <p><strong>Scenario2: Deploy bootpartition and Ubuntu userland to USB/SATA/SD </strong></p>
+                          <p><strong>Step1: Program bootpartition and Ubuntu userland to USB/SATA/SD</strong></p>
+                          <p>Following step will be done on Linux host. Take LS2088ARDB as example:
+                             <pre class="codeblock">$ flex-installer --bootpart=bootpartition_arm64.tgz --rootfs=build/images/ubuntu_xenial_arm64_rootfs.d  --machine=ls2088ardb --device=/dev/sdX</pre>
+                          </p>
+                          <p><strong>Note:</strong><br>The SD/USB/SATA storage drive in the Linux PC will be called /dev/sdX, where X is a letter such as a, b, c ... Be very careful to choose the correct device name because data on this device will be replaced. Please use command ¡°cat /proc/partitions¡± to see a list of devices and their sizes to make sure the correct device name were chosen. </p>
+                          <p><strong>Step2: Plugin USB/SATA/SD device to target board</strong></p>
+                          <p><strong>Step3: Program firmware to IFC flash from USB/SATA/SD</strong></p>
+                          <p>Bootparition images also include LSDK composite firmware, so user can program LSDK composite firmware from USB/SATA/SD storage device which already include LSDK images. </p>
+
+                          <strong>For IFC-NOR flash:</strong><br>Under uboot:
+                          <table class="table table-hover">
+                              <tbody>
+                                  <tr>
+                                      <th>USB</th>
+                                      <th> ext2load usb 0:2 a0000000 firmware_ls2088ardb_uboot_norboot.img</th>
+                                  </tr>
+                                  <tr>
+                                  <tr>
+                                      <th>SATA</th>
+                                      <th> ext2load sata 0:2 a0000000 firmware_ls2088ardb_uboot_norboot.img</th>
+                                  </tr>
+                                      <th>SD</th>
+                                      <th> ext2load mmc 0:2 a0000000 firmware_ls2088ardb_uboot_norboot.img</th>
+                                  </tr>
+                              </tbody>
+                          </table>
+
+                          <p>To program alternate bank:
+                             <pre class="codeblock">=&gt;protect off 584000000 +$filesize<br>=&gt;erase 584000000 +$filesize<br>=&gt;cp.b a0000000 584000000 $filesize</pre>
+                          </p>
+
+                          <p>To program current bank:
+                             <pre class="codeblock">=&gt;protect off 580000000 +$filesize<br>=&gt;erase 580000000 +$filesize<br>=&gt;cp.b a0000000 580000000 $filesize</pre>
+                          </p>
+
+                          <p><strong>Step4: Bootup system with Ubuntu userland</strong></p>
+
+                          <p>After above commands complete, change to corresponding boot method, Then system will automatically bootup with Ubuntu userland. </p>
+
+                        </div>
+
+                        <div class="p">
+                            <p style="color:green"><strong>2. Deploy LSDK images on board.</strong></p>
+                            <p>LSDK images had been generated in section 1.2, so user can start to deploy LSDK images on board if user are deploying to a non-removable media on the board or user don¡¯t have a local Linux server to connect removable media. </p>
+
+                            <p><strong>Step1: Download LSDK composite firmware from NXP website.</strong></p>
+                            <p>According to different boot method, there are three kinds of firmware. Download LSDK composite firmware to Linux host machine and put them under tftp folder.</p>
                             <ul>
-                                <li >Step 1: Login to an Ubuntu 16.04 host machine and clone the flexbuild git repository
-                                    <pre class="codeblock">$ git clone http://github.com/qoriq-open-source/flexbuild.git<br>$ cd flexbuild<br>$ source setup.env<br>$ flex-builder -h<br>
-                                    </pre>
-                                </li>
+                                <li>firmware_&lt;platform&gt;_uboot_qspiboot.img means firmware boot from QSPI flash. Only LS1046ARDB and LS2088ARDB support QSPI boot.<br>firmware_ls1046ardb_uboot_qspiboot.img<br>firmware_ls2088ardb_uboot_qspiboot.img
+                                   <pre class="codeblock">$ wget http://sun.ap.freescale.net/images/lsdk-github/master/images/images/firmware_ls1046ardb_uboot_qspiboot.img</pre>
+                               </li>
                             </ul>
-                        </div>
-                        <div class="p">
-                            <ul >
-                                <li >Step 2: Download prebuilt images
-                                    <samp class="codeph">bootpartition_arm64.tgz</samp> and
-                                    <samp class="codeph">components_arm64.tgz</samp>
-                                    <pre class="codeblock">$ wget https://github.com/qoriq-open-source/lsdk-image/raw/master/LSDK-1706/bootpartition_arm64.tgz (URL to be provided later)<br>$ wget https://github.com/qoriq-open-source/lsdk-image/raw/master/LSDK-1706/components_arm64.tgz <br>
-                                    </pre>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="p">
+
                             <ul>
-                                <li>Step 3: Generate distro userland, untar component tarball and merge it into distro userland
-                                    <pre class="codeblock" >$ flex-builder -i mkrfs -a arm64<br>$ tar xvzf <br>components_arm64.tgz -C build/images<br>$ flex-builder -i merge-component -a arm64<br>
-                                    </pre>
-                                </li>
+                                <li>firmware_&lt;platform&gt;_uboot_sdboot.img means firmware boot from SD card. LS1021ATWR/LS1043ARDB/LS1046ARDB/LS1088ARDB support SD boot<br>firmware_ls1021atwr_uboot_sdboot.img<br>firmware_ls1043ardb_uboot_sdboot.img<br>firmware_ls1046ardb_uboot_sdboot.img<br>firmware_ls1088ardb_uboot_sdboot.img
+                                <pre class="codeblock">$ wget http://sun.ap.freescale.net/images/lsdk-github/master/images/images/firmware_ls1088ardb_uboot_sdboot.img</pre>
+                               </li>
                             </ul>
-                        </div>
-                        <div class="p">
+
                             <ul>
-                                <li>Step 4: Install LSDK onto SD/USB/SATA storage drive
-                                    <pre class="codeblock">flex-installer --bootpart=bootpartition_arm64.tgz --<br>rootfs=build/images/ubuntu_xenial_arm64_rootfs.d  --machine=ls2088ardb --device=/dev/sdX</pre>
-                                    <p>
-                                       The SD/USB/SATA storage drive in the Linux PC will be called
-                                        <samp class="codeph">/dev/sdX</samp>, where X is a letter such as a, b, c ... Be very careful to choose the correct device name because data on this device will be replaced. You can use
-                                        <samp class="codeph">cat/proc/partitions</samp> to see a list of devices and their sizes. </p>
-                                </li>
+                                <li>firmware_&lt;platform&gt;_uboot_norboot.img means firmware boot from IFC NOR.<br>LS1021ATWR/LS1043ARDB/LS2088ARDB support IFC NOR boot.<br>firmware_ls1021atwr_uboot_norboot.img<br>firmware_ls1043ardb_uboot_norboot.img<br>firmware_ls2088ardb_uboot_norboot.img<pre class="codeblock">$ wget http://sun.ap.freescale.net/images/lsdk-github/master/images/images/firmware_ls2088ardb_uboot_norboot.img </pre>
+                               </li>
                             </ul>
+
+                            <p><strong>Step2: Program LSDK composite firmware for target board</strong></p>
+                            <p>LSDK composite Firmware includes RCW+PBI, U-boot/UEFI, PPA, environment of U-boot/UEFI, DPAA1 Fman ucode, QE/uQE firmware, Ethernet Phy firmware,  boot scripts, DPAA2 MC firmware, DPAA2 DPL, DPAA2 DPC, Device tree(only needed by UEFI), Flex-installer itb files. </p>
+
+                            <p>Transfer LSDK composite firmware to available tftp server, then target board can download images from that tftp server. </p>
+
+                            <p><strong>For SD boot:</strong></p>
+                            <ul>
+                                <li>LS1021ATWR</li>
+                                <li>LS1043ARDB</li>
+                                <li>LS1046ARDB</li>
+                                <li>LS1088ARDB</li>
+                            </ul>
+
+                            <p>Following commands will be executed on target board¡¯s uboot. Take LS1043ARDB as example.
+                                <pre class="codeblock">=&gt; tftp a0000000 firmware_ls1043ardb_uboot_sdboot.img<br>=&gt; mmc write a0000000 8 1fff8       (same on all platforms)<br>=&gt; cpld reset sd</pre>
+                            </p>
+
+                            <p><strong>Note:</strong><br>- For other target board, please choose corresponding SD firmware images and replace it in 1st command. Other two commands are common. <br>- "cpld reset sd" command is only supported on LS1043A/LS1046ARDB board. For LS1021ATWR and LS1088ARDB, please refer to board reference manual to change switch setting for SD boot.  </p>
+
+                            <p>It will automatically bootup system and enter linux system after above steps or change switch setting and power on system.</p>
+
+                            <p><strong>For LS2088ARDB IFC NOR flash:</strong></p>
+                            <p>Under uboot:
+                                 <pre class="codeblock">=&gt; tftp a0000000 firmware_ls2088ardb_uboot_norboot.img </pre>
+                            </p>
+                            <p>To program alternate bank:
+                                 <pre class="codeblock">=&gt; protect off 584000000 +$filesize<br>=&gt; erase 584000000 +$filesize<br>=&gt; cp.b a0000000 584000000 $filesize<br>=&gt; qixis_reset altbank </pre>
+                            </p>
+                            <p>To program current bank:
+                                 <pre class="codeblock">=&gt; protect off 580000000 +$filesize<br>=&gt; erase 580000000 +$filesize<br>=&gt; cp.b a0000000 580000000 $filesize<br>=&gt; reset</pre>
+                            </p>
+
+                            <p><strong>Note:</strong>Note: It will automatically bootup system and enter linux system after above steps. </p>
+
+                            <p><strong>Step3: Deploy bootpartition and Ubuntu 16.04 userland to SD/USB/SATA</strong></p>
+                            <p>After program LSDK composite firmware and use composite firmware to bootup system. User can start deploy bootpartition and Ubuntu Userland. Following execution will be done on target board¡¯s Linux:</p>
+
+                            <ul>
+                                <li>Enable network connection for image downloading:
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Command</th>
+                                                <th>Target Board</th>
+                                                <th>Assumption</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>$ udhcpc -i ni0</th>
+                                                <th>LS2088ARDB</th>
+                                                <th>Assume LS2088ARDB use ETH0 port</th>
+                                            </tr>
+                                            <tr>
+                                                <th>$ udhcpc -i ni0</th>
+                                                <th>LS1088ARDB</th>
+                                                <th>Assume LS1088ARDB use ETH5 port</th>
+                                            </tr>
+                                            <tr>
+                                                <th>$ udhcpc -i eth2</th>
+                                                <th>LS1043ARDB</th>
+                                                <th>Assume LS1043ARDB use RGMII port</th>
+                                            </tr>
+                                            <tr>
+                                                <th>$ udhcpc -i eth0</th>
+                                                <th>LS1046ARDB</th>
+                                                <th>Assume LS1046ARDB use SGMII port</th>
+                                            </tr>
+                                            <tr>
+                                                <th>$ udhcpc -i eth2</th>
+                                                <th>LS1021ATWRB</th>
+                                                <th>Assume LS1021ATWR use SGMII port</th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </li>
+                               <li>Use flex-installer to create and format partitions (USB/SATA/SD):
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Storage Media</th>
+                                                <th>Command in Linux</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>USB</th>
+                                                <th>$ flex-installer -i pf --device=usb</th>
+                                            </tr>
+                                            <tr>
+                                                <th>SATA</th>
+                                                <th>$ flex-installer -i pf --device=sata </th>
+                                            </tr>
+                                            <tr>
+                                                <th>SD</th>
+                                                <th>$ flex-installer -i pf --device=sd </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </li>
+
+                               <li>Transfer (use wget/scp) bootpartition and Ubuntu userland tarball to target board¡¯s storage media¡¯s 3rd partition (eg, /run/media/sdX3 or /run/media/mmcblk0p3). </li>
+
+                               <li>Write bootpartition images and Ubuntu Userland to USB/SATA/SD<br>Take LS2088ARDB as example:
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Storage Media</th>
+                                                <th>Command in Linux</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>USB</th>
+                                                <th>$ flex-installer -i install --bootpart=bootpartition_arm64.tgz --rootfs=build/images/ubuntu_xenial_arm64_rootfs.tgz  --machine=ls2088ardb --device=usb</th>
+                                            </tr>
+                                            <tr>
+                                                <th>SATA</th>
+                                                <th>$ flex-installer -i install --bootpart=bootpartition_arm64.tgz --rootfs=build/images/ubuntu_xenial_arm64_rootfs.tgz  --machine=ls2088ardb --device=sata</th>
+                                            </tr>
+                                            <tr>
+                                                <th>SD</th>
+                                                <th>$ flex-installer -i install --bootpart=bootpartition_arm64.tgz --rootfs=build/images/ubuntu_xenial_arm64_rootfs.tgz  --machine=ls2088ardb --device=sd </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </li>
+
+                                <p>After completed above steps, reboot board with LSDK images, system will automatically boot to Ubuntu Userland. </p>
+                            </ul>
+
                         </div>
-                        <p>After the commands above complete, remove the SD/USB/SATA storage drive from the Linux PC and connect it to the target board. It is assumed that the board has a working U-Boot, perhaps from a prior software release.</p>
-                        <p>Power on the board and press a key if necessary to get a U-Boot prompt. This U-Boot boots from bank 0 of the board. it will automatically boot Ubuntu without extra setting manually.
-                        </p>
-                        <p>To program firmware to alternate bank of flash on the board, refer to the steps in the section “How to program firmware to IFC-NOR flash and QSPI flash”. </p>
+
                     </div>
-                    <div class="tab-pane" role="tabpanel" id="four">              
-                        <p data-cid="1NuaIV"><strong>3. Rebuild specific component in Flexbuild if needed</strong></p>
-                        <p data-cid="28q3AH">In case user needs to rebuild specific component after deploying all LSDK images generated by “flex-builder -i autobuild-all -a arm64” (this command is done only once).
+
+                    <div class="tab-pane" role="tabpanel" id="four">
+                        <h2>How to build LSDK with Flexbuild</h2>
+                        <p>The flexbuild supports many advanced features to support variant usage scenarios. Section 1 had introduce how to build images for quick deployment on target board. This section will introduce different advance usage of flexbuild. </p>
+
+                        <p><strong>Prerequisites</strong>
+                            <ul>
+                                <li>Please set the system date and time by 'date -s' command and set git account¡¯ s default identity by git config --global user.email "you@example.com"; git config --global user.name "Your Name". </li>
+                                <li>Clone Flexbuild git repo and get LSDK source code
+                                    <pre class="codeblock">$ git clone http://github.com/qoriq-open-source/flexbuild.git<br>$ cd flexbuild<br>$ source setup.env<br>$ flex-builder -i repo-fetch<br>$ flex-builder -i repo-commit   ( lockdown to specified commits according to the build_lsdk1706.cfg config file)</pre>
+                                </li>
+                            </ul>
                         </p>
-                        <p data-cid="1QWiW4">If user needs to rebuild kernel as new code change or needs different kernel config, run
-                            <samp class="codeph">flex-builder -c linux -a arm64 -B menuconfig</samp> to generate new kernel image, then copy the new build/qoriq-linux/kernel/arm64/uImage to /boot directory on target board by wget or scp command. </p>
-                        <p data-cid="uvG1C">If user needs to rebuild u-boot as new code change, for example: run
-                            <samp class="codeph">flex-builder -c uboot -m ls1046ardb -b qspi” and “flex-builder -i mkfw -m ls1046ardb -b qspi -B uboot
-                            </samp>, then program new firmware_ls1046ardb_uboot_qspiboot.img to QSPI flash on target board. </p>
-                        <p data-cid="1udi8G">If user needs to rebuild separate apps component, e.g. run
-                            <samp class="codeph">flex-builder -c dpdk -a arm64” and “flex-builder -i compressapps -a arm64</samp>, then copy new components_arm64.tgz to target board and untar it to override previous apps images. </p>
-                        <p data-cid="1TV39A">Optionally, user can directly rebuild on target board instead of build on host machine. </p>
-                    
+
+                        <p style="color:green"><strong>1. Build customized kernel and update bootpartition images with flexbuild</strong></p>
+                        <p>User may choose built-in mode for kernel driver, it just needs to generate kernel image and transfer kernel image to target board. Please follow steps to build kernel images without dependency of kernel module.  If user need kernel modules as well, flex-builder provide the way to package both kernel and kernel modules into bootpartition and deploy bootpartition images to target board. Please refer to build kernel images and merge kernel and modules to bootpartition images.
+                            <ul>
+                                <li>Build kernel images and merge kernel and modules to bootpartition images
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Platform</th>
+                                                <th>Command in Linux</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>LS1043ARDB<br>LS1046ARDB<br>LS1088ARDB<br>LS2088ARDB</th>
+                                                <th>$ flex-builder -c linux -a arm64 --buildarg=menuconfig<br>$ flex-builder -i uimg<br>$ flex-builder -i mkbootpartition -a arm64</th>
+                                            </tr>
+                                            <tr>
+                                                <th>LS1043ARDB 32bit<br>LS1046ARDB 32bit</th>
+                                                <th>$ flex-builder -i mkbootpartition -a arm32<br>$ flex-builder -c linux -a arm32 --buildarg=menuconfig<br>$ flex-builder -i uimg -a arm32<br>$ flex-builder -i mkbootpartition -a arm32</th>
+                                            </tr>
+                                            <tr>
+                                                <th>LS1021ATWR</th>
+                                                <th>$ flex-builder -i mkbootpartition -a arm32<br>$ flex-builder -c linux -m ls1021atwr --buildarg=menuconfig<br>$ flex-builder -i uimg -a arm32 -m ls1021atwr<br>$ flex-builder -i mkbootpartition -a arm32</th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p><strong>Note:</strong> The above commands will generate bootpartition tarball under <flexbuild_installation_dir>/flexbuild/build/images/</p>
+                               </li>
+                               <p><strong>Note:</strong> The above commands will generate bootpartition tarball under <flexbuild_installation_dir>/flexbuild/build/images/</p>
+
+                               <li>Deploy updated kernel or bootpartition image on target board
+                                    <p>After rebuild kernel image, it will need transfer kernel images or deploy bootpartition images on target board¡¯s storage media (USB/SATA/SD).</p>
+                                    <p>Assume LSDK images had been deployed on target board¡¯s USB/SATA/SD and system bootup with LSDK images. Followings steps are under LSDK Linux prompt:
+                                        <ul>
+                                            <li>Make sure 2nd partition of SD/USB/SATA were mounted under /boot directory.</li>
+                                            <li>Transfer bootpartition tarball to target board</li>
+                                            <li>Make sure system date is correct </li>
+                                            <li>Extract bootpartition tarball to /boot directory
+                                                <pre class="codeblock">$ tar zxvf bootpartition_arm64_<date>.tgz -C /boot</pre>
+                                            </li>
+                                            <li>Reboot system</li>
+                                        </ul>
+                                    </p>
+                               </li>
+                            </ul>
+                        </p>
+
+                        <p style="color:green"><strong>2. Rebuild images after modifying the source code of NXP Userspace components locally </strong></p>
+                        <p>Flexbuild supports to build specific components after source code changed and deploy changes to target board.<p>
+                        <p><strong>Step1: Modify source code of user space components under packages/qoriq-apps/</strong></p>
+                        <p><strong>Step2: Clean old build footprint under user space component</strong><br>Take DPDK as example:
+                            <pre class="codeblock">$ cd packages/qoriq-apps/dpdk<br>$make clean</pre>
+                        </p>
+                        <p><strong>Step3: If needed, build kernel for component which has kernel dependency </strong>
+                            <pre class="codeblock">$ flex_builder -c linux -a arm64 </pre>
+                        </p>
+                        <p><strong>Step4: build userspace component </strong>
+                            <pre class="codeblock">$ flex_builder -c $item -a arm64     # item can be restool, odp, openssl, dpdk </pre>
+                        </p>
+                        <p><strong>Step5: generate bootpartition tarball </strong>
+                            <pre class="codeblock">$ flex-builder -i mkbootpartition -a arm64 </pre>
+                        </p>
+                        <p><strong>Step6: generate components tarball </strong>
+                            <pre class="codeblock">$ flex-builder -i compressapps -a arm64 </pre>
+                        </p>
+                        <p><strong>Step7: Transfer components_arm64.tgz and bootpartition_arm64.tgz to target board.  </strong></p>
+                        <p><strong>Step8: Extract bootpartition tarball to /boot directory</strong>
+                            <pre class="codeblock">$ tar zxvf bootpartition_arm64 -C /boot </pre>
+                        </p>
+                        <p><strong>Step9: Extract components_arm64.tgz to $HOME directory </strong>
+                            <pre class="codeblock">$ tar zxvf components_arm64.tgz -C $HOME </pre>
+                        </p>
+                        <p><strong>Step10: Copy all files in $HOME/components_arm64 to root filesystem </strong>
+                            <pre class="codeblock">$ cp -a $HOME/components_arm64/* /</pre>
+                        </p>
+
+                        <p style="color:green"><strong>3. Native build and deploy LSDK images on target board </strong></p>
+                        <p>If the Ubuntu 16.04 userland is already deployed on target board, native build can be done by following instructions. Correspondingly, the re-deployment with different media (USB/SATA/SD) can also be done on target board directly</p>
+
+                        <p><strong>Prerequisites</strong></p>
+                        <ul>
+                            <li>Please set the system date and time by 'date -s' command and set git account¡¯ s default identity by git config --global user.email "you@example.com"; git config --global user.name "Your Name". </li>
+                            <li>To build Ubuntu userland, the availability of accessing remote Ubuntu official server is required in user's network environment.</li>
+                            <li>Deploy Ubuntu 16.04 userland with full package list on target board.  ( $ flex-builder -i mkrfs -a arm64 -B additional_packages_list_full )</li> 
+                            <li>SD/USB/SATA capacity must be at least 16GB.</li>
+                        </ul>
+
+                        <p><strong>Rebuild kernel and deploy kernel images on target board</strong></p>
+                        <ul>
+                            <li>For modification of kernel source code and rebuild kernel, please refer to "Build kernel images and merge kernel and modules to bootpartition" in section °Build customized kernel and update bootpartition images with flexbuild". </li>
+                            <li>After complete kernel image build, use following steps to deploy kernel images and kernel modules on target board:</li>
+                            <li>Step1: Copy kernel files to root filesystem
+                                <pre class="codeblock">$ cp -a $HOME/flexbuild/build/images/bootpartition_arm64/* /boot</pre>
+                            </li>
+                        </ul>
+
+                        <p><strong>Modify and build source of userspace application and deploy changes on target board</strong></p>
+                        <ul>
+                            <li>For modification of source code of userspace application, please refer to step1 through step6 of Section "Rebuild images after modifying the source code of NXP Userspace components locally". </li>
+                            <li>After userspace application build complete, refer to following step to deploy changes on target board. </li>
+                            <li>Step1: Copy kernel files to root filesystem
+                                <pre class="codeblock">$ cp -a $HOME/flexbuild/build/images/components_arm64/* /</pre>
+                            </li>
+                            <li>Step2: Copy bootpartition images to /boot directory
+                                <pre class="codeblock">$ cp -a $HOME/flexbuild/build/images/bootpartition_arm64/* /boot</pre>
+                            </li>
+                        </ul>
+
+                        <p><strong>Generate LSDK composite firmware and update firmware on target board</strong></p>
+                        <p>Take LS1043RDB IFC NOR boot as example: 
+                           <pre class="codeblock">$ flex-builder -c firmware -m ls1043ardb<br>$ flex-builder -i mkfw -m ls1043ardb -b nor -B uboot</pre>
+                        <p>
+                        <p><strong>Note:</strong>firmware images was generate under $HOME/flexbuild/build/images/firmware_ls1043ardb_uboot_norboot.img </p>
+                        <p>For firmware update, please refer to ¡°Step2: Program LSDK composite firmware for target board¡± in section "Deploy LSDK Images into target board".</p>
                     </div>
-                    <!-- <div class="main-container tab-content col-xs-12 col-sm-8 col-md-8 col-lg-8 details-docs">
-                        <aside class="doc-bar">This page is part of Google's <a href="/docs/">open source documentation</a>.</aside>
-                        <h1>Creating</h1>
-                        <p>Google strongly believes in open source and wants to empower you to contribute to the wider community. There are serious legal implications anytime a Googler releases code, so we have processes you must follow that help us comply with our legal and ethical obligations.
-                        </p>
-                    </div> -->
+
                 </div>
             </div>
         </div>
