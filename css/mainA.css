@@ -339,12 +339,12 @@ h4 {
     transition: color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-shadow 0s cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
     position: relative;
 }
-button.outline, .button.outline {
+.main-wraper button.outline, .main-wraper .button.outline {
     background: transparent;
     border: 1px solid #169CEE;
     color: #169CEE;
 }
-button, .button {
+.main-wraper button, .main-wraper .button {
     font-family: "din";
     border-radius: 4px;
     outline: none;
@@ -359,7 +359,7 @@ button, .button {
     transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     font-weight: 100;
 }
-button.outline:hover, .button.outline:hover {
+.main-wraper button.outline:hover,.main-wraper button.outline:hover {
     background: #169CEE;
     color: #ffffff;
 }
@@ -538,7 +538,7 @@ button.outline:hover, .button.outline:hover {
     height: 215px;
     width: 510px;
 }
-.main-introduct-container{width: 70%;margin:0 auto;padding-bottom: 20px}
+.main-introduct-container{width: 70%;margin:0 auto!important;padding-bottom: 20px}
 .main-introduct-container h4{font-family: Arial, sans-serif !important;
     font-size: 14px;
     padding: 10px;}
