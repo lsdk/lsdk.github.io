@@ -509,22 +509,6 @@
                             <div class="tableWrapper">
                                 <table>
                                     <tbody>
-                                        <!--tr class="repoList">
-                                            <td><a href="agreement.html" target="_blank"><h4 class="js-title">flex_installer_arm32.itb</h4><p class="repoDescription js-description">The Kernel ITB file for Ubuntu userland deployment on ARM32 target board.</p></a></td>
-                                            <td class="download">
-                                            	<a href="agreement.html">
-                                                    <button class="outline js-download">DOWNLOAD</button>
-                                               </a>
-                                            </td>
-                                        </tr-->
-                                        <tr class="repoList">
-                                             <td><a href="agreement.html" target="_blank"><h4 class="js-title">flex_installer_arm64.itb</h4><p class="repoDescription js-description">The Kernel ITB file for Ubuntu userland deployment on ARM64 target board.</p></a></td>
-                                            <td class="download">
-                                            	<a href="agreement.html">
-                                                    <button class="outline js-download">DOWNLOAD</button>
-                                               </a>
-                                            </td>
-                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -540,26 +524,21 @@
     </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
-    <!-- <script src="js/jquery.autocomplete_2e9587b.js"></script>
-    <script src="js/jquery.mousewheel_608c2df.js"></script>
-    <script src="js/jquery.mCustomScrollbar_280d687.js"></script>
-    <script src="js/shifone_9d5414d.js"></script> -->
     <script type="text/javascript">
     $('#myTabs a').click(function(e) {
         e.preventDefault()
         $(this).tab('show')
-    })
-    $(".js-download").click(function(e){
-    	e.preventDefault();
-    	var title=$(this).parents('.repoList').find(".js-title").text(),
-    	    description=$(this).parents('.repoList').find(".js-description").text(),
-    	    link=$(this).parent().attr("href");
-    	    var formstyle='<form action="agreement.html" class="js-paradesc" method="get"><input type="hidden" name="inputtitle" class="inputtitle" value=""><input type="hidden" name="inputdesc" class="inputdesc" value=""><input type="hidden" name="inputlink" class="inputlink" value=""></form>';
-    	        $(".tableWrapper").append(formstyle);
-	    	    $(".inputlink").val(link); 
-	    	    $(".inputdesc").val(description);  
-	    	    $(".inputtitle").val(title); 
-	    	    $(".js-paradesc").submit();  
+    });
+
+    $.get("download.json",function(rs){
+    	if(typeof rs=='string'){
+            rs=JSON.parse(rs);
+        }
+        for(var i=0;i<rs.length;i++){
+            var table_download='<tr class="repoList" index="'+i+'"><td><a href="agreement.html?down_idx='+i+'&title='+rs[i][0]+'" target="_blank"><h4 class="js-title">'+rs[i][0]+'</h4><p class="repoDescription js-description">'+rs[i][1]+'</p></a></td><td class="download"><a href="agreement.html?down_idx='+i+'&title='+rs[i][0]+'"><button class="outline js-download">DOWNLOAD</button></a></td></tr>';
+            $(".tableWrapper tbody").append(table_download);
+
+        }
     })
     </script>
 </body>

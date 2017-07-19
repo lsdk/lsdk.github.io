@@ -1,0 +1,21 @@
+[
+	["bootpartition_arm32.tgz","The prebuilt images for boot partition generation of ARM32 targets.","http://www.nxp.com/lgfiles/sdk/lsdk1706/bootpartition_arm32.tgz"],
+	["bootpartition_arm64.tgz","The prebuilt images for boot partition generation of ARM64 targets.","http://www.nxp.com/lgfiles/sdk/lsdk1706/bootpartition_arm64.tgz"],
+	["components_arm32.tgz","The prebuilt binaries of NXP initialized and modified userspace packages for ARM32 targets.","http://www.nxp.com/lgfiles/sdk/lsdk1706/components_arm32.tgz"],
+	["components_arm64.tgz","The prebuilt binaries of NXP initialized and modified userspace packages for ARM64 targets.","http://www.nxp.com/lgfiles/sdk/lsdk1706/components_arm64.tgz"],
+	["flex_installer_arm32.itb","The Kernel ITB file for Ubuntu userland deployment on ARM32 target board.","http://www.nxp.com/lgfiles/sdk/lsdk1706/flex_installer_arm32.itb"],
+	["flex_installer_arm64.itb","The Kernel ITB file for Ubuntu userland deployment on ARM64 target board.","http://www.nxp.com/lgfiles/sdk/lsdk1706/flex_installer_arm64.itb"],
+	["firmware_ls1021atwr_uboot_norboot.img","The firmware image to boot ls1021atwr board from NOR flash with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1021atwr_uboot_norboot.img"]
+	["firmware_ls1021atwr_uboot_qspiboot.img","The firmware image to boot ls1021atwr board from QSPI flash with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1021atwr_uboot_qspiboot.img"],
+	["firmware_ls1021atwr_uboot_sdboot.img","The firmware image to boot ls1021atwr board from SD card with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1021atwr_uboot_sdboot.img"],
+	["firmware_ls1043ardb_uboot_norboot.img","The firmware image to boot ls1043ardb board from NOR flash with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1043ardb_uboot_norboot.img"],
+	["firmware_ls1043ardb_uboot_sdboot.img","The firmware image to boot ls1043ardb board from SD card with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1043ardb_uboot_sdboot.img"],
+	["firmware_ls1043ardb_uefi_norboot.img","The firmware image to boot ls1043ardb board from SD card with UEFI.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1043ardb_uefi_norboot.img"],
+	["firmware_ls1046ardb_uboot_qspiboot.img","The firmware image to boot ls1046ardb board from QSPI flash with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1046ardb_uboot_qspiboot.img"],
+	["firmware_ls1046ardb_uboot_sdboot.img","The firmware image to boot ls1046ardb board from SD card with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1046ardb_uboot_sdboot.img"],
+	["firmware_ls1046ardb_uefi_qspiboot.img","The firmware image to boot ls1046ardb board from QSPI flash with UEFI.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1046ardb_uefi_qspiboot.img"],
+	["firmware_ls1088ardb_uboot_sdboot.img","The firmware image to boot ls1088ardb board from SD card with u-noot.","http://www.nxp.com/lgfmles/sdk/lsdk1706/firmware_ls1088ardb_uboot_sdboot.img"],
+	["firmware_ls2088ardb_uboot_norboot.img","The firmware image to boot ls2088ardb board from NOR flash with u-boot.","http://www.nxp.com/lgfmles/sdk/lsdk1706/firmware_ls2088ardb_uboot_norboot.img"],
+	["firmware_ls2088ardb_uboot_qspiboot.img","The firmware image to boot ls2088ardb board from QSPI flash with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls2088ardb_uboot_qspiboot.img"],
+	["firmware_ls2088ardb_uefi_norboot.img","The firmware image to boot ls2088ardb board from NOR flash with UEFI.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls2088ardb_uefi_norboot.img"]
+]

@@ -59,12 +59,6 @@
                             <div class="tableWrapper">
                                 <table>
                                     <tbody>
-                                        <tr class="repoList">
-                                             <td><h4 class="js-title"></h4><p class="repoDescription js-description"></p>
-                                             <div class="p" style="    margin: 5px 15px;"><p style="padding: 5px">Download Command:</p>
-                                                <pre class="codeblock js-link">
-                                                </pre>
-                                            </div>
                                     </tbody>
                                 </table>
                                 
@@ -81,24 +75,16 @@
     </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
-    <!-- <script src="js/jquery.autocomplete_2e9587b.js"></script>
-    <script src="js/jquery.mousewheel_608c2df.js"></script>
-    <script src="js/jquery.mCustomScrollbar_280d687.js"></script>
-    <script src="js/shifone_9d5414d.js"></script> -->
+    <script src="js/main.js"></script>
     <script type="text/javascript">
-    (function ($) {
-            $.getUrlParam = function (name) {
-                var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-                var r = window.location.search.substr(1).match(reg);
-                if (r != null) return unescape(r[2]).replace(/\+/g,' '); return null;
+    var down_idx=$.getUrlParam('down_idx');
+        $.get("download.json",function(rs){
+            if(typeof rs=='string'){
+                rs=JSON.parse(rs);
             }
-        })(jQuery);
-    var inputtitle=$.getUrlParam('inputtitle'),
-        inputdesc=$.getUrlParam('inputdesc'),
-        inputlink='http://www.nxp.com/downloads/en/software-development-kits/flex_installer_arm64.itb';
-        $(".js-description").text(inputdesc);
-        $(".js-title").text(inputtitle);
-        $(".js-link").text('wget '+inputlink);
+            var table_download='<tr class="repoList"><td><h4 class="js-title">'+rs[down_idx][0]+'</h4><p class="repoDescription js-description">'+rs[down_idx][1]+'</p> <div class="p" style="margin: 5px 15px;"><p style="padding: 5px">Download Command:</p><pre class="codeblock js-link"> wget '+rs[down_idx][2]+'</pre></div></td></tr>';
+            $(".tableWrapper tbody").append(table_download);
+    });
     </script>
 </body>
 

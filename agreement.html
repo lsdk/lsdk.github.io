@@ -597,9 +597,7 @@
 		            </div>
 		        </div>
 		        <form action="components_agree.html" method="get" class="js-paradesc">
-		            <input type="hidden" name="inputtitle" class="inputtitle" value="">
-		            <input type="hidden" name="inputdesc" class="inputdesc" value="">
-		            <input type="hidden" name="inputlink" class="inputlink" value="">
+		            <input type="hidden" name="down_idx" class="down_idx" value="">
 		            <div class="row sub-btn">
 		            	<button type="button" class="btn btn-orange btn-lg accept-btn js-accept">I Accept</button>
 		                <button type="button" class="btn btn-gray-dark btn-lg" id="decline">Decline</button>
@@ -626,23 +624,12 @@
     </div>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript">
-	    (function ($) {
-	        $.getUrlParam = function (name) {
-	            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-	            var r = window.location.search.substr(1).match(reg);
-	            /*r=r.replace(/\+/g,' ');*/
-	            if (r != null) return unescape(r[2]).replace(/\+/g,' '); return null;
-	        }
-	    })(jQuery);
-	    var inputtitle=$.getUrlParam('inputtitle'),
-	        inputdesc=$.getUrlParam('inputdesc');
-	        inputlink=$.getUrlParam('inputlink');
-	        $(".inputlink").val(inputlink); 
-    	    $(".inputdesc").val(inputdesc);  
-    	    $(".inputtitle").val(inputtitle); 
-
-         $(".js-title").text(inputtitle);
+	    var inputtitle=$.getUrlParam('title'),
+            down_idx=$.getUrlParam('down_idx');
+        $(".js-title").text(inputtitle);
+        $(".down_idx").val(down_idx);
 	    var height=$("body").height();
 	    $(".page").css("height",height);
     	$("#decline").click(function(){
@@ -656,7 +643,8 @@
     		window.location.href="components.html";
     	})
     	 $(".js-accept").click(function(){
-    	    $(".js-paradesc").submit();  
+             $(".down_idx").val(down_idx);
+    	    $(".js-paradesc").submit();
     })
     </script>
 </body>
