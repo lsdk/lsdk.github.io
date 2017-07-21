@@ -13,8 +13,8 @@
 	["firmware_ls1046ardb_uboot_qspiboot.img","The firmware image to boot ls1046ardb board from QSPI flash with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1046ardb_uboot_qspiboot.img"],
 	["firmware_ls1046ardb_uboot_sdboot.img","The firmware image to boot ls1046ardb board from SD card with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1046ardb_uboot_sdboot.img"],
 	["firmware_ls1046ardb_uefi_qspiboot.img","The firmware image to boot ls1046ardb board from QSPI flash with UEFI.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1046ardb_uefi_qspiboot.img"],
-	["firmware_ls1088ardb_uboot_sdboot.img","The firmware image to boot ls1088ardb board from SD card with u-noot.","http://www.nxp.com/lgfmles/sdk/lsdk1706/firmware_ls1088ardb_uboot_sdboot.img"],
-	["firmware_ls2088ardb_uboot_norboot.img","The firmware image to boot ls2088ardb board from NOR flash with u-boot.","http://www.nxp.com/lgfmles/sdk/lsdk1706/firmware_ls2088ardb_uboot_norboot.img"],
+	["firmware_ls1088ardb_uboot_sdboot.img","The firmware image to boot ls1088ardb board from SD card with u-noot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1088ardb_uboot_sdboot.img"],
+	["firmware_ls2088ardb_uboot_norboot.img","The firmware image to boot ls2088ardb board from NOR flash with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls2088ardb_uboot_norboot.img"],
 	["firmware_ls2088ardb_uboot_qspiboot.img","The firmware image to boot ls2088ardb board from QSPI flash with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls2088ardb_uboot_qspiboot.img"],
 	["firmware_ls2088ardb_uefi_norboot.img","The firmware image to boot ls2088ardb board from NOR flash with UEFI.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls2088ardb_uefi_norboot.img"]
 ]
