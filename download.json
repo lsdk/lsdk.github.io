@@ -6,7 +6,6 @@
 	["flex_installer_arm32.itb","26c7f1588dbb0d9461a30a2ad281524d","The Kernel ITB file for Ubuntu userland deployment on ARM32 target board.","http://www.nxp.com/lgfiles/sdk/lsdk1706/flex_installer_arm32.itb"],
 	["flex_installer_arm64.itb","c10c3389cad07e7865e6055a7b951f32","The Kernel ITB file for Ubuntu userland deployment on ARM64 target board.","http://www.nxp.com/lgfiles/sdk/lsdk1706/flex_installer_arm64.itb"],
 	["firmware_ls1021atwr_uboot_norboot.img","2c01653048b51ae072f4c8bb98e0248d","The firmware image to boot ls1021atwr board from NOR flash with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1021atwr_uboot_norboot.img"],
-	["firmware_ls1021atwr_uboot_qspiboot.img","5b423f38028d09d18e6d9c749b8df399","The firmware image to boot ls1021atwr board from NOR flash with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1021atwr_uboot_qspiboot.img"],
 	["firmware_ls1021atwr_uboot_sdboot.img","a3b919a0e548bdbe7c7bf487b5adab1b","The firmware image to boot ls1021atwr board from SD card with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1021atwr_uboot_sdboot.img"],
 	["firmware_ls1043ardb_uboot_norboot.img","2534718c2861adf6d3426d36d6e29be1","The firmware image to boot ls1043ardb board from NOR flash with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1043ardb_uboot_norboot.img"],
 	["firmware_ls1043ardb_uboot_sdboot.img","a199f1cb6014a7a76609ab0c9a2426a8","The firmware image to boot ls1043ardb board from SD card with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1706/firmware_ls1043ardb_uboot_sdboot.img"],
