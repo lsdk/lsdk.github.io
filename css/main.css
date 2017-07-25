@@ -1295,7 +1295,7 @@ table td {
 }
 .repoList .repoDescription {
     opacity: 0.6;
-    margin: 0px;
+    margin: 0px 0 10px 0;
     padding-left: 24px;
     overflow: hidden;
     /* white-space: nowrap;
@@ -1366,4 +1366,12 @@ table td.download a{text-align: right;}
 }
 #btnspace {
     padding: 10px;
+}
+.repoDescriptionMd5{
+    opacity: 1;
+    padding-left: 24px!important;
+    margin-left: 0!important;
+   /* background-image: url(../img/grid.gif);
+    padding: 20px;
+    margin: 20px;*/
 }
