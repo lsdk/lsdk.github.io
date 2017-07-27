@@ -679,7 +679,7 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript">
-        $.get("nxpdata.json",function(rs){
+        $.get("nxpdata.json?ver=1.0",function(rs){
             // console.log(rs);
             if(typeof rs=='string'){
                 rs=JSON.parse(rs);
