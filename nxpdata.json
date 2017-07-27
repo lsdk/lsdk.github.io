@@ -20,6 +20,7 @@
 		["gpp-aioptool","BSD-3-Clause","user space"],
 		["mc-binary","Freescale-Binary-EULA","firmware"],
 		["odp","BSD-3-Clause","user space"],
+		["ofp","BSD-3-Clause","user space"],
 		["openssl","openssl | SSLeay","user space"],
 		["ovs-dpdk","Apache & GPLv2 & BSD-2-Clause & BSD-3-Clause","user space"],
 		["ppa-binary","BSD-3-Clause","firmware"],
