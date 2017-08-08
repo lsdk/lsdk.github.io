@@ -11,6 +11,7 @@ body {
     font-size: 1.6rem;
     background-color: #f9f9f9;
     color: #4E546B;
+    overflow-y: scroll;
 }
 body ul {
     list-style: none;
