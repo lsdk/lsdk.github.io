@@ -9,7 +9,6 @@
 		["rcw","BSD-3-Clause","firmware"],
 		["u-boot","GPLv2+","firmware"],
 		["dpdk","BSD-3-Clause & LGPLv2 & GPLv2","user space"],
-		["dpdk-extras","BSD-3-Clause","user space"],
 		["dpl-examples","BSD-3-Clause","firmware"],
 		["eth-config","BSD-3-Clause & GPLv2+","user space"],
 		["firmware-cortina","Freescale-EULA","firmware"],
@@ -18,6 +17,7 @@
 		["fmc","MIT","user space"],
 		["fmlib","BSD-3-Clause & GPLv2","user space"],
 		["gpp-aioptool","BSD-3-Clause","user space"],
+		["lttng-modules","LGPLv2.1 & GPLv2 & MIT","kernel"],
 		["mc-binary","Freescale-Binary-EULA","firmware"],
 		["odp","BSD-3-Clause","user space"],
 		["ofp","BSD-3-Clause","user space"],
@@ -31,9 +31,7 @@
 		["ramdiskrfs","Freescale-EULA","firmware"],
 		["restool","BSD-3-Clause","user space"],
 		["uefi-binary","BSD-2-Clause","firmware"],
-		["uefi-ls1043ardb","BSD-2-Clause","firmware"],
-		["uefi-ls1046ardb","BSD-2-Clause","firmware"],
-		["uefi-ls2088ardb","BSD-2-Clause","firmware"]
+		["uefi","BSD-2-Clause","firmware"]
 	],
 	"ramdiskfs":[
 		["base-files","GPLv2","user space"],
