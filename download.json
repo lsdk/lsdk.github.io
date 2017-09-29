@@ -1,8 +1,8 @@
 [
-	["arm32-modules-4.4.80-00007-g953d467.tgz","75b7bd6605b37762b0cddfff36abc958","The prebuilt kernel modules of linux-4.4 for ARM32 targets.","http://www.nxp.com/lgfiles/sdk/lsdk1709/arm32-modules-4.4.80-00007-g953d467.tgz"],
-	["arm32-modules-4.9.35-03435-g1e65b65.tgz","baa94a429679fb3ceaad07b8bc60d22a","The prebuilt kernel modules of linux-4.9 for ARM32 targets.","http://www.nxp.com/lgfiles/sdk/lsdk1709/arm32-modules-4.9.35-03435-g1e65b65.tgz"],
-	["arm64-modules-4.4.80-00007-g953d467.tgz","64523f752be70bc20f993fb0bf16bada","The prebuilt kernel modules of linux-4.4 for ARM64 targets.","http://www.nxp.com/lgfiles/sdk/lsdk1709/arm64-modules-4.4.80-00007-g953d467.tgz"],
-	["arm64-modules-4.9.35-03435-g1e65b65.tgz","fca80da36e9608522629a13687231896","The prebuilt kernel modules of linux-4.9 for ARM32 targets.","http://www.nxp.com/lgfiles/sdk/lsdk1709/arm64-modules-4.9.35-03435-g1e65b65.tgz"],
+	["arm32-modules-4.4.80.tgz","75b7bd6605b37762b0cddfff36abc958","The prebuilt kernel modules of linux-4.4 for ARM32 targets.","http://www.nxp.com/lgfiles/sdk/lsdk1709/arm32-modules-4.4.80.tgz"],
+	["arm32-modules-4.9.35.tgz","baa94a429679fb3ceaad07b8bc60d22a","The prebuilt kernel modules of linux-4.9 for ARM32 targets.","http://www.nxp.com/lgfiles/sdk/lsdk1709/arm32-modules-4.9.35.tgz"],
+	["arm64-modules-4.4.80.tgz","64523f752be70bc20f993fb0bf16bada","The prebuilt kernel modules of linux-4.4 for ARM64 targets.","http://www.nxp.com/lgfiles/sdk/lsdk1709/arm64-modules-4.4.80.tgz"],
+	["arm64-modules-4.9.35.tgz","fca80da36e9608522629a13687231896","The prebuilt kernel modules of linux-4.9 for ARM32 targets.","http://www.nxp.com/lgfiles/sdk/lsdk1709/arm64-modules-4.9.35.tgz"],
 	["bootpartition_arm32_lts_4.4.tgz","113ffd6767fc81f4f8b6b99d251fcaf5","The prebuilt images for boot partition generation of ARM32 targets with kernel 4.4.","http://www.nxp.com/lgfiles/sdk/lsdk1709/bootpartition_arm32_lts_4.4.tgz"],
 	["bootpartition_arm32_lts_4.9.tgz","0bacb48808961086d462b00e963147f1","The prebuilt images for boot partition generation of ARM32 targets with kernel 4.9.","http://www.nxp.com/lgfiles/sdk/lsdk1709/bootpartition_arm32_lts_4.9.tgz"],
 	["bootpartition_arm64_lts_4.4.tgz","113ffd6767fc81f4f8b6b99d251fcaf5","The prebuilt images for boot partition generation of ARM64 targets with kernel 4.4.","http://www.nxp.com/lgfiles/sdk/lsdk1709/bootpartition_arm64_lts_4.4.tgz"],
