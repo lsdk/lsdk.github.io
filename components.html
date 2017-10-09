@@ -506,6 +506,10 @@
                     </div>
                     <div class="tab-pane" role="tabpanel" id="images">
                         <div id="main-wraper" class="main-wraper">
+                            <select class="form-control form-group" id="test">
+                                <option>1706</option>
+                                <option>1709</option>
+                            </select>
                             <div class="tableWrapper">
                                 <table>
                                     <tbody>
@@ -529,17 +533,29 @@
         e.preventDefault()
         $(this).tab('show')
     });
-
-    $.get("download.json?ver=1.1",function(rs){
-    	if(typeof rs=='string'){
-            rs=JSON.parse(rs);
-        }
-        for(var i=0;i<rs.length;i++){
-            var table_download='<tr class="repoList" index="'+i+'"><td><a href="agreement.html?down_idx='+i+'&title='+rs[i][0]+'" target="_blank"><h4 class="js-title">'+rs[i][0]+' </h4><p class="repoDescriptionMd5 js-description">  md5sum : '+rs[i][1]+'</p><p class="repoDescription js-description">'+rs[i][2]+'</p></a></td><td class="download"><a href="agreement.html?down_idx='+i+'&title='+rs[i][0]+'"><button class="outline js-download">DOWNLOAD</button></a></td></tr>';
-            $(".tableWrapper tbody").append(table_download);
-
-        }
+    var version= $("#test").children('option:selected').val()
+    var url='download'+version+'.json?ver=1.1'
+    $("#test").change(function(){
+        var version=$(this).children('option:selected').val()
+        var url='download'+version+'.json?ver=1.1'
+        $(".tableWrapper tbody").html('')
+        getImage(url)
     })
+    getImage(url)
+    function getImage(url){
+        var url='json/'+url
+        $.get(url,function(rs){
+            if(typeof rs=='string'){
+                rs=JSON.parse(rs);
+            }
+            for(var i=0;i<rs.length;i++){
+                var table_download='<tr class="repoList" index="'+i+'"><td><a href="agreement.html?down_idx='+i+'&title='+rs[i][0]+'" target="_blank"><h4 class="js-title">'+rs[i][0]+' </h4><p class="repoDescriptionMd5 js-description">  md5sum : '+rs[i][1]+'</p><p class="repoDescription js-description">'+rs[i][2]+'</p></a></td><td class="download"><a href="agreement.html?down_idx='+i+'&title='+rs[i][0]+'"><button class="outline js-download">DOWNLOAD</button></a></td></tr>';
+                $(".tableWrapper tbody").append(table_download);
+
+            }
+        })
+    }
+
     </script>
 </body>
 

@@ -638,6 +638,12 @@
                 </div>
                 <div class="tab-pane SCR" role="tabpanel">
                     <div class="container">
+                        <div>
+                            <select class="form-control form-group" id="test">
+                                <option>1706</option>
+                                <option>1709</option>
+                            </select>
+                        </div>
                        <div><h4>Disaggregated components of LSDK</h4></div>
                         <table class="table table-hover">
                             <thead>
@@ -679,30 +685,44 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
-        $.get("nxpdata.json?ver=1.0",function(rs){
-            // console.log(rs);
-            if(typeof rs=='string'){
-                rs=JSON.parse(rs);
-            }
-
-            var nxp_data=rs["NXP"],
-                ramdiskfs_table=rs["ramdiskfs"];
-            // console.log(nxp_data);//js-nxp-table js-ramdiskfs-table
-
-            var table_style='<tr><td></td><td></td><td></td><td></td></tr>';
-            for(var nxpIdx=0;nxpIdx<nxp_data.length;nxpIdx++){
-                var cur=nxp_data[nxpIdx],
-                    nxpNum=nxpIdx+1;
-                $(".js-nxp-table").append('<tr><td>'+nxpNum+'</td><td>'+cur[0]+'</td><td>'+cur[1]+'</td><td>'+cur[2]+'</td></tr>');
-            }
-
-            for(var ramIdx=0;ramIdx<ramdiskfs_table.length;ramIdx++){
-                var cur=ramdiskfs_table[ramIdx],
-                    nxpNum=ramIdx+1;
-                $(".js-ramdiskfs-table").append('<tr><td>'+nxpNum+'</td><td>'+cur[0]+'</td><td>'+cur[1]+'</td><td>'+cur[2]+'</td></tr>')
-               }
-
+        var version=$("#test").children('option:selected').val()
+        var url='nxpdata'+version+'.json?ver=1.0'
+        $("#test").change(function(){
+            var version=$(this).children('option:selected').val()
+            var url='nxpdata'+version+'.json?ver=1.0';
+            $(".js-nxp-table").html('')
+            $(".js-ramdiskfs-table").html('')
+            getScr(url)
         })
+        getScr(url)
+        function getScr(url){
+            var url='json/'+url;
+            $.get(url,function(rs){
+                // console.log(rs);
+                if(typeof rs=='string'){
+                    rs=JSON.parse(rs);
+                }
+
+                var nxp_data=rs["NXP"],
+                    ramdiskfs_table=rs["ramdiskfs"];
+                // console.log(nxp_data);//js-nxp-table js-ramdiskfs-table
+
+                var table_style='<tr><td></td><td></td><td></td><td></td></tr>';
+                for(var nxpIdx=0;nxpIdx<nxp_data.length;nxpIdx++){
+                    var cur=nxp_data[nxpIdx],
+                        nxpNum=nxpIdx+1;
+                    $(".js-nxp-table").append('<tr><td>'+nxpNum+'</td><td>'+cur[0]+'</td><td>'+cur[1]+'</td><td>'+cur[2]+'</td></tr>');
+                }
+
+                for(var ramIdx=0;ramIdx<ramdiskfs_table.length;ramIdx++){
+                    var cur=ramdiskfs_table[ramIdx],
+                        nxpNum=ramIdx+1;
+                    $(".js-ramdiskfs-table").append('<tr><td>'+nxpNum+'</td><td>'+cur[0]+'</td><td>'+cur[1]+'</td><td>'+cur[2]+'</td></tr>')
+                }
+
+            })
+        }
+
     </script>
 </body>
 
