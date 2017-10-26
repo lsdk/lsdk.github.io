@@ -1,0 +1,65 @@
+<h1 id="caam-dma-user-manual">CAAM DMA User Manual</h1>
+<h2 id="description">Description</h2>
+<p>The CAAM DMA module implements a DMA driver that uses the CAAM DMA controler to provide both SG and MEMCPY DMA capability to be used by the platform. It is based on the CAAM JR interface that must be enabled in the kernel config as a prerequisite for the CAAM DMA driver.</p>
+<h2 id="kernel-configure-options">Kernel Configure Options</h2>
+<h3 id="tree-view">Tree View</h3>
+<p>To enable the CAAM DMA module set the following options for &quot;make menuconfig&quot;:</p>
+<pre><code>-*- Cryptographic API ---&gt;
+    [*] Hardware crypto devices ---&gt;
+            &lt;*&gt; Freescale CAAM-Multicore driver backend
+            &lt;*&gt;     Freescale CAAM Job Ring driver backend
+    Device Drivers ---&gt;
+            &lt;*&gt; DMA Engine support ---&gt;
+            &lt;*&gt;     CAAM DMA engine support</code></pre>
+<p>NOTE: Be aware that the CAAM DMA driver depends on the CAAM and CAAM JR drivers which have to be enabled as well.</p>
+<h3 id="identifier">Identifier</h3>
+<p>Below are the configure identifiers which are used in kernel source code and default configuration files.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Option</th>
+<th align="left">Values</th>
+<th align="left">Default Value</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">CRYPTO_CONFIG_DEV_FSL_CAAM_DMA</td>
+<td align="left">y/m/n</td>
+<td align="left">n</td>
+<td align="left">CAAM DMA engine support</td>
+</tr>
+</tbody>
+</table>
+<h2 id="device-tree-node">Device Tree Node</h2>
+<p>Below is an example device tree node required by this feature.</p>
+<pre><code>caam_dma {
+    compatible = &quot;fsl,sec-v5.4-dma&quot;;
+};</code></pre>
+<h2 id="source-files">Source Files</h2>
+<p>The following source files are related to this feature in Linux kernel.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Source File</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">drivers/dma/caam_dma.c</td>
+<td align="left">The CAAM DMA driver</td>
+</tr>
+</tbody>
+</table>
+<h2 id="verification-in-linux">Verification in Linux</h2>
+<p>On successful probing the driver will print in dmesg the following message:</p>
+<pre><code>[    1.443940] caam-dma 1700000.crypto:caam_dma: caam dma support with 4 job rings</code></pre>
+<p>Additionally you can also run the following command:</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">ls</span> -l /sys/class/dma/
+<span class="kw">total</span> 0
+<span class="kw">lrwxrwxrwx</span> 1 root root 0 Jan  1  1970 dma0chan0 -<span class="kw">&gt;</span> ../../devices/platform/soc/1700000.crypto/1700000.crypto:caam_dma/dma/dma0chan0
+<span class="kw">lrwxrwxrwx</span> 1 root root 0 Jan  1  1970 dma0chan1 -<span class="kw">&gt;</span> ../../devices/platform/soc/1700000.crypto/1700000.crypto:caam_dma/dma/dma0chan1
+<span class="kw">lrwxrwxrwx</span> 1 root root 0 Jan  1  1970 dma0chan2 -<span class="kw">&gt;</span> ../../devices/platform/soc/1700000.crypto/1700000.crypto:caam_dma/dma/dma0chan2
+<span class="kw">lrwxrwxrwx</span> 1 root root 0 Jan  1  1970 dma0chan3 -<span class="kw">&gt;</span> ../../devices/platform/soc/1700000.crypto/1700000.crypto:caam_dma/dma/dma0chan3</code></pre></div>
