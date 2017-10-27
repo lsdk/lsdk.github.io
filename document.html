@@ -135,6 +135,15 @@
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script>
+  function resizeIframe(obj) {
+    ifheight = 1020;
+    if ( obj.contentWindow.document.body.scrollHeight ) {
+        ifheight = obj.contentWindow.document.body.scrollHeight + 8;
+    }
+    obj.style.height = ifheight + 'px';
+  }
+</script>
+<script>
     var version= $("#resHistory").children('option:selected').val()
     var url='lsdk_revs/lsdk'+version+'.html'
     $("#resHistory").change(function(){
@@ -144,7 +153,7 @@
     })
     getImage(url)
     function getImage(url){
-        var resHistoryIframe=' <iframe src="'+url+'" width="750" height="2000" style="border:0px" scrolling="no" class="resiframe"></iframe>'
+        var resHistoryIframe=' <iframe src="'+url+'" width="750" onload="resizeIframe(this)" style="border:0px" scrolling="no" class="resiframe"></iframe>'
         $(".releaseHistory").html(resHistoryIframe)
     }
 
