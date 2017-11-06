@@ -36,7 +36,7 @@
 	["firmware_ls2088ardb_uboot_norboot_secure.img","3db14c988a5e6fc0e741cf33c31cac58","The firmware image to secure boot ls2088ardb board from NOR flash with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1709-update-103017/firmware_ls2088ardb_uboot_norboot_secure.img"],
 	["firmware_ls2088ardb_uboot_qspiboot.img","ed9321f2bdc0eb66d3a1724352886f7f","The firmware image to boot ls2088ardb board from QSPI flash with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1709-update-103017/firmware_ls2088ardb_uboot_qspiboot.img"],
 	["firmware_ls2088ardb_uboot_qspiboot_secure.img","2aa5462d151f6bd9a6e9fe1dc02b2263","The firmware image to secure boot ls2088ardb board from QSPI flash with u-boot.","http://www.nxp.com/lgfiles/sdk/lsdk1709-update-103017/firmware_ls2088ardb_uboot_qspiboot_secure.img"],
-	["firmware_ls2088ardb_uefi_norboot.img","915e96dd84be2b53233f0918bbfd4b72","The firmware image to boot ls2088ardb board from NOR flash with UEFI.","http://www.nxp.com/lgfiles/sdk/lsdk1709-update-103017/firmware_ls2088ardb_uefi_norboot.img"],
+	["firmware_ls2088ardb_uefi_norboot.img","b017509fc8ec2d40a799ac52c30e41ac","The firmware image to boot ls2088ardb board from NOR flash with UEFI.","http://www.nxp.com/lgfiles/sdk/lsdk1709-update-103017/firmware_ls2088ardb_uefi_norboot.img"],
 	["linux-lib-firmware.tgz","62fad40db09a9684ea6267e6916581b8","PPFE firmware","http://www.nxp.com/lgfiles/sdk/lsdk1709-update-103017/linux-lib-firmware.tgz"],
 	["srk_hash.txt","9abef03d3959ea2b0e6ac28aaadeb0e4","SRK (Public Key) Hash.","http://www.nxp.com/lgfiles/sdk/lsdk1709-update-103017/srk_hash.txt"],
 	["srk.pri","c941226e035d7ecfc473d5694e48df1a","srk.pri.","http://www.nxp.com/lgfiles/sdk/lsdk1709-update-103017/srk.pri"],
