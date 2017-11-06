@@ -94,24 +94,24 @@
                 <div class="tab-pane" role="tabpanel" id="second">
                     <h2>Frequently Asked Questions</h2>
                     <ul>
-                        <li><strong>Question:</strong> In case of building LSDK in docker, if user encounters errors like "Temporary failure resolving 'archive.ubuntu.com'" caused by Docker DNS config.<br>
-                            <strong>Answer:</strong>   To achieve permanent system-wide fix, it needs to change the DNS settings of the Docker daemon. Please try to fix it by the following example:
+                        <li><strong>Question:</strong> When building LSDK using Docker, what should the user do if he/she encounters errors like "Temporary failure resolving 'archive.ubuntu.com'" caused by Docker DNS config?<br>
+                            <strong>Answer:</strong>   To achieve permanent system-wide fix, the user needs to change the DNS settings of the Docker daemon. Implement the fix using the following command as an example:
                             <pre class="codeblock">$ nmcli dev show | grep 'IP4.DNS'<br>IP4.DNS[1]:  10.192.130.201</pre>
-                            then create a daemon configuration file at /etc/docker/daemon.json like below:<pre class="codeblock">{<br>"dns": ["10.192.130.201", "8.8.8.8"]<br>}</pre>Finally, restart docker service by "sudo service docker restart"<p>
+                            Create a daemon configuration file in the directory /etc/docker/daemon.json like below:<pre class="codeblock">{<br>"dns": ["10.192.130.201", "8.8.8.8"]<br>}</pre>Finally, restart docker service by using the command "sudo service docker restart"<p>
                         </li>
-                        <li><strong>Question:</strong> On some boards which support DPAA1 network ports, if user can't see the desired network interface with command "ifconfig -a" in Linux due to the lack of MAC address in E2PROM flash or in U-Boot environment variable.<br>
-                            <strong>Answer:</strong>   set MAC address in U-Boot environment variable like below:
+                        <li><strong>Question:</strong> On some boards which support DPAA1 network ports, what should the user do if he/she can't see the desired network interface using the command "ifconfig -a" in Linux due to the lack of MAC address in E2PROM flash or in the U-Boot environment variable?<br>
+                            <strong>Answer:</strong>   Set MAC address in the U-Boot environment variable like below:
                             <pre class="codeblock">=&gt; setenv ethaddr 00:04:9F:00:00:00<br>=&gt; setenv eth1addr 00:04:9F:00:00:01<br>=&gt; setenv eth2addr 00:04:9F:00:00:02<br>=&gt; setenv eth3addr 00:04:9F:00:00:03<br>...<br>=&gt; saveenv</pre>
                             The total number of MAC addresses must be no less than the total number of all network ports on the board.<p>
                         </li>
-                        <li><strong>Question:</strong> During building Ubuntu rootfs in Flexbuild, if user interrupted the build proceeding in the midway unexpectedly, the error like "/usr/aptpkg/additional_packages_list_full: No such file or directory" might occur.<br>
-                            <strong>Answer:</strong>   Run "flex-builder -i clean-distrorfs -a <arch>" to clean the old incomplete distro rootfs directory, then rebuild it again.<p>
+                        <li><strong>Question:</strong> When building Ubuntu rootfs in Flexbuild, what should the user do if the user interrupted the build proceeding in the midway unexpectedly, and an error such as "/usr/aptpkg/additional_packages_list_full: No such file or directory" occurs.<br>
+                            <strong>Answer:</strong>   Run the command, "flex-builder -i clean-distrorfs -a <arch>" to clean the old incomplete distro rootfs directory, then rebuild it again.<p>
                         </li>
-                        <li><strong>Question:</strong> In the environment of some host machines, user may encounter error like "mount: failed to setup loop device: No such file or directory".<br>
-                            <strong>Answer:</strong>   Run "sudo losetup -f" to setup /dev/loop* device.<p>
+                        <li><strong>Question:</strong> In the environment of some host machines, what should the user do if he/she encounters an error such as "mount: failed to setup loop device: No such file or directory".<br>
+                            <strong>Answer:</strong>   Run the command, "sudo losetup -f" to setup /dev/loop* device.<p>
                         </li>
 
-                        <li><strong>Question:</strong> Where can I find the Software Content Register?<br>
+                        <li><strong>Question:</strong> Where can the user find the Software Content Register?<br>
                             <strong>Answer:</strong>   The SCR of LSDK can be got from https://lsdk.github.io/ -&gt  EULA (End User License Agreement) -&gt SCR.
                         </li>
 
