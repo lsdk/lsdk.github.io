@@ -116,12 +116,26 @@
                         <li><strong>Question:</strong> Where can the user find the Software Content Register?<br>
                             <strong>Answer:</strong>   The SCR of LSDK can be got from https://lsdk.github.io/ -&gt  EULA (End User License Agreement) -&gt SCR.<p>
                         </li>
-
                         <li><strong>Question:</strong> How to solve the distro boot failure issue if the similiar error log as below was observed during booting LSDK Ubuntu from SD/eMMC card?
 			    <pre class="codeblock">VFS: Cannot open root device "PARTUUID=c2d6227c-03" or unknown-block(179,3): error -30 </pre>
-                            <strong>Answer:</strong>   Make sure the SD/eMMC card is not locked as read-only as it needs write permissions to the SD/eMMC card on bootup.
+                            <strong>Answer:</strong>   Make sure the SD/eMMC card is not locked as read-only as it needs write permissions to the SD/eMMC card on bootup.<p>
                         </li>
-
+                        <li><strong>Question:</strong> LSDK_1712 U-Boot and Linux kernel Ethernet failure on LS2088ARDB. Neither U-Boot nor Linux kernel Ethernet work "out of the box" in LSDK_1712. How to resolve the issue?<br>
+                            <strong>Answer:</strong>   The root cause is two issues:
+                                <ul><li>The Management Complex is not started by U-Boot variable mcinitcmd.</li>
+                                <li>The U-Boot command "fsl_mc lazyapply dpl..." does not work.</li></ul>
+                                The problems can be worked around by changing two U-Boot environment variables, saving them, and resetting as follows.<br>
+                                Press a key to stop U-Boot from booting Linux and get a U-Boot prompt.  Then enter the following commands to U-Boot being careful to avoid line breaks.<br>
+                            <pre class="codeblock">=&gt setenv mcinitcmd fsl_mc start mc 0x580a00000 0x580e00000
+=&gt setenv bootcmd 'env exists secureboot && esbc_validate 0x580700000 && esbc_validate 0x580740000 && esbc_validate 0x580780000; fsl_mc apply dpl 0x580d00000;run distro_bootcmd;run nor_bootcmd;env exists secureboot && esbc_halt'
+=&gt saveenv
+=&gt qixis_reset</pre>
+                                The first setenv causes U-Boot to automatically load and start the Management Complex.  This enables U-Boot Ethernet.<br>
+                                The next setenv modifies bootcmd to remove "fsl_mc start mc..." since it is already done and changes "fsl_mc lazyapply dpl..." to "fsl_mc apply dpl..." to work around the issue with lazyapply.<br>
+                                Note that the MC firmware and Data Path Control file are not being secure boot validated prior to enabling U-Boot networking.<br>
+                                Note also that the "lazyzpply" command would normally be done in mcinitcmd rendering the "apply" command in bootcmd unnecessary, but this is not possible until the issue with "lazyapply" is fixed in a later release.<br>
+                                UEFI boot scenarios are not affected by these U-boot issues.
+                        </li>
                     </ul>
                 </div>
                 <div class="tab-pane" role="tabpanel" id="three">
