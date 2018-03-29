@@ -136,6 +136,10 @@
                                 Note also that the "lazyzpply" command would normally be done in mcinitcmd rendering the "apply" command in bootcmd unnecessary, but this is not possible until the issue with "lazyapply" is fixed in a later release.<p>
                                 UEFI boot scenarios are not affected by these U-boot issues.
                         </li>
+                        <li><strong>Question:</strong> When using UEFI bootloader,  does device tree blob (dtb) need to be updated to boot different Linux kernels?<br>
+                            <strong>Answer:</strong>   Yes, When UEFI is used as bootloader, dtb file (stored in NOR/QSPI etc) should be updated to boot different Linux kernel Versions.<p>
+                                For Example, to boot Linux 4.9 or 4.14 corresponding dtb file should be used OR else some feature may not work as expected.
+                        </li>
                     </ul>
                 </div>
                 <div class="tab-pane" role="tabpanel" id="three">
