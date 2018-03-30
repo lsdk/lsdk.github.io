@@ -150,7 +150,13 @@ color:black'>LS2084A and LS2088A top bin and non-E part</span></p>
 background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
-color:black'>DPAA2 direct device assignment in guest kernel on LTS 4.14</span></p>
+color:black'>Direct device assignment in guest kernel on LTS 4.14 [DPAA2 processors]</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
+background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:black'>Support for edge compute on EdgeScale, including secure manufacturing, secure keys, EdgeScale dashboard for users and application management</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
 background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
@@ -174,13 +180,7 @@ color:black'>Support for DPDK 17.11 as base and OVS 2.9</span></p>
 background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
-color:black'>Support for ODP and OFP on LTS 4.9</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
-background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
-color:black'>Support for secure on-boarding device to EdgeScale and OTA</span></p>
+color:black'>Includes several software fixes. Refer to Fixed, Open, and Closed Issues on Layerscape Software Development Kit 18.03 Documentation - Knowledge Center which has a list of all fixed issues</span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
 background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
@@ -219,7 +219,7 @@ color:black'>LTS kernel 4.14.16</span></p>
 background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
-color:black'>DPAA2 direct device assignment in guest kernel on LTS 4.14</span></p>
+color:black'>Direct device assignment in guest kernel on LTS 4.14 [DPAA2 processors]</span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
 background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
@@ -235,7 +235,7 @@ style='font-family:"Arial",sans-serif;color:black'>Linux Kernel Drivers</span></
 background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
-color:black'>DPAA2 CAAM: GCM (AES)</span></p>
+color:black'>DPAA2 CAAM: generic gcm (aes), IPsec GCM - rfc4106</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
 background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
@@ -251,19 +251,86 @@ color:black'>USB: U1/U2 mode in host</span></p>
 
 <p class=MsoNormal style='margin-top:3.75pt;margin-right:0in;margin-bottom:
 7.5pt;margin-left:0in;line-height:normal;background:white'><b><span
+style='font-family:"Arial",sans-serif;color:black'>Data Plane Development Kit
+(DPDK)</span></b></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;line-height:normal;
+background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:black'>Support of DPDK 17.11 as base</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
+background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:black'>Support of LTS 4.14</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
+background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:black'>AIOP cmdif support</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
+background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:black'>Ethernet poll mode driver with push mode queues, Crypto - Scatter Gather support, Eventde driver, tail drop using WRED </span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
+background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:black'>CGR [DPAA1 processors]</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
+background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:black'>IPSEC protocol offload support</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
+background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:black'>KNI support</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
+background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:black'>PKTGEN 3.4.8</span></p>
+
+<p class=MsoNormal style='margin-top:3.75pt;margin-right:0in;margin-bottom:
+7.5pt;margin-left:0in;line-height:normal;background:white'><b><span
+style='font-family:"Arial",sans-serif;color:black'>Virtualization - OVS-DPDK</span></b></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
+background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:black'>Support of OVS 2.9</span></p>
+
+<p class=MsoNormal style='margin-top:3.75pt;margin-right:0in;margin-bottom:
+7.5pt;margin-left:0in;line-height:normal;background:white'><b><span
+style='font-family:"Arial",sans-serif;color:black'>Open Data Plane (ODP)</span></b></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
+background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:black'>No change since the last LSDK</span></p>
+
+<p class=MsoNormal style='margin-top:3.75pt;margin-right:0in;margin-bottom:
+7.5pt;margin-left:0in;line-height:normal;background:white'><b><span
 style='font-family:"Arial",sans-serif;color:black'>U-Boot Boot Loader</span></b></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;line-height:normal;
 background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
-color:black'>U-Boot v2017.11 update</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
-background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
-color:black'>OP-TEE: fuse provisioning [LS1046A]</span></p>
+color:black'>U-Boot v2017.11</span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
 background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
@@ -283,46 +350,31 @@ color:black'>No change since the last LSDK</span></p>
 
 <p class=MsoNormal style='margin-top:3.75pt;margin-right:0in;margin-bottom:
 7.5pt;margin-left:0in;line-height:normal;background:white'><b><span
-style='font-family:"Arial",sans-serif;color:black'>Data Plane Development Kit
-(DPDK)</span></b></p>
-
-<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;line-height:normal;
-background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
-color:black'>DPDK 17.11 as base</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
-background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
-color:black'>Support of LTS 4.14</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
-background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
-color:black'>Ethernet poll mode driver with push mode queues, Crypto - Scatter Gather support, Eventde driver, tail drop using WRED - CGR [DPAA1]</span></p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
-background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
-color:black'>Inclusion of PKTGEN 3.4.8</span></p>
-
-<p class=MsoNormal style='margin-top:3.75pt;margin-right:0in;margin-bottom:
-7.5pt;margin-left:0in;line-height:normal;background:white'><b><span
-style='font-family:"Arial",sans-serif;color:black'>Virtualization - OVS-DPDK</span></b></p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
-background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
-color:black'>OVS 2.9</span></p>
-
-<p class=MsoNormal style='margin-top:3.75pt;margin-right:0in;margin-bottom:
-7.5pt;margin-left:0in;line-height:normal;background:white'><b><span
 style='font-family:"Arial",sans-serif;color:black'>Other Tools and Utilities</span></b></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
+background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:black'>AIOPSL: AIOP boot error handling, error frame handling, TX buffer layout</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
+background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:black'>AIOPSL: API for configuring timestamp passing behavior inside a recycle path flow</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
+background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:black'>AIOPSL: ASA opaque</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
+background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
+color:black'>AIOPSL: User-defined exception handler</span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
 background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
@@ -353,30 +405,6 @@ background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
 color:black'>RCW: Python scripts to generate RCW binaries for LS1012A, LS1088A and LS2088A</span></p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
-background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
-color:black'>AIOPSL: AIOP boot error handling, error frame handling, TX buffer layout</span></p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
-background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
-color:black'>AIOPSL: API for configuring timestamp passing behavior inside a recycle path flow</span></p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
-background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
-color:black'>AIOPSL: ASA opaque</span></p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
-background:white'><span style='font-size:10.0pt;font-family:Symbol;color:black'>・<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:10.0pt;font-family:"Arial",sans-serif;
-color:black'>AIOPSL: User-defined exception handler</span></p>
 
 </div>
 
