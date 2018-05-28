@@ -140,6 +140,20 @@
                             <strong>Answer:</strong>   Yes, When UEFI is used as bootloader, dtb file (stored in NOR/QSPI etc) should be updated to boot different Linux kernel Versions.<p>
                                 For Example, to boot Linux 4.9 or 4.14 corresponding dtb file should be used OR else some feature may not work as expected.
                         </li>
+                        <li><strong>Question:</strong> Why do I get the following '401 Unauthorized' error when generating LSDK Ubuntu rootfs by 'flex-builder -i mkrfs'?
+                            <pre class="codeblock">Err: http://&lturl&gt/php/browser_challenge.php?vsys=1&url=http://us.ports.ubuntu.com/ubuntu-ports arm64 xx 401 Unauthorized</pre>
+                            <strong>Answer:</strong> Generally, it is caused by incorrect HTTP proxy setting if the build machine is located in a subnet that needs a proxy to access external Internet, it can be resolved by setting HTTP proxy as below:<br>
+1. Add the following settings in ~/.bashrc as below<br>
+   export http_proxy="http://&ltdomain&gt\&ltusername&gt:&ltpassword&gt@&ltURL&gt:&ltport&gt"<br>
+   export https_proxy="http://&ltdomain&gt\&ltusername&gt:&ltpassword&gt@&ltURL&gt:&ltport&gt"<br>
+   export no_proxy="localhost,&ltlocal-domain1&gt&ltlocal-domain2&gt"<br><br>
+2. Add the following settings in /etc/wgetrc<br>
+   http_proxy = "http://&ltdomain&gt\&ltusername&gt:&ltpassword&gt@&ltURL&gt:&ltport&gt"<br>
+   https_proxy = "http://&ltdomain&gt\&ltusername&gt:&ltpassword&gt@&ltURL&gt:&ltport&gt"<br><br>
+3. Add the following settings in /etc/apt/apt.conf<br>
+   Acquire::http::proxy "http://&ltdomain&gt\&ltusername&gt:&ltpassword&gt@&ltURL&gt:&ltport&gt"<br>
+   Acquire::https::proxy "http://&ltdomain&gt\&ltusername&gt:&ltpassword&gt@&ltURL&gt:&ltport&gt"<br><p>
+                        </li>
                     </ul>
                 </div>
                 <div class="tab-pane" role="tabpanel" id="three">
