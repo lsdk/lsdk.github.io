@@ -40,8 +40,6 @@
 	["linux-lib-firmware.tgz","0a742b1d706eba5f1c48959900df5ec8","PPFE firmware.","http://www.nxp.com/lgfiles/sdk/lsdk1803/linux-lib-firmware.tgz"],
 	["lsdk_linux_arm32_tiny.itb","19dc8234308a78baaf4db41b5031b6cc","The Kernel ITB file for Ubuntu userland deployment on ARM32 target board.","http://www.nxp.com/lgfiles/sdk/lsdk1803/lsdk_linux_arm32_tiny.itb"],
 	["lsdk_linux_arm64_tiny.itb","bf0cdfb1ee25db3dcf37ec487a8ae145","The Kernel ITB file for Ubuntu userland deployment on ARM64 target board.","http://www.nxp.com/lgfiles/sdk/lsdk1803/lsdk_linux_arm64_tiny.itb"],
-	["ramdisk_rootfs_arm32.ext4.gz","ff258012ce1b0abd271f610b4333aa46","Rootfs images to arm32 initial bringup.","http://www.nxp.com/lgfiles/sdk/lsdk1803/ramdisk_rootfs_arm32.ext4.gz"],
-	["ramdisk_rootfs_arm64.ext4.gz","94c7ee8b770327c9cd9ff9fa55aaeff6","Rootfs images to arm64 initial bringup.","http://www.nxp.com/lgfiles/sdk/lsdk1803/ramdisk_rootfs_arm64.ext4.gz"],
 	["srk_hash.txt","898bd87ab28e4dadd87dc92fb27e79c5","SRK (Public Key) Hash.","http://www.nxp.com/lgfiles/sdk/lsdk1803/srk_hash.txt"],
 	["srk.pri","c93c3c1039924020e324dc50606e47a8","srk.pri.","http://www.nxp.com/lgfiles/sdk/lsdk1803/srk.pri"],
 	["srk.pub","fcd603070dc3bfb3d2383b68f4a60668","srk.pub.","http://www.nxp.com/lgfiles/sdk/lsdk1803/srk.pub"]
