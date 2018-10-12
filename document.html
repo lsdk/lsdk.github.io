@@ -97,13 +97,19 @@
 <li>In <b>3.5 Fixed, Open, and Closed Issues</b></li>
 <ul type="square">
 <li>The workaround for QSDK-5118 is to replace OpenSSL 1.1.0g with OpenSSL 1.0.2i.</li>
+<li>The fix for QLINUX-10300 is to update the below kernel configs.</li>
+<table border=1>
+<tr><th>Config</th><th>Default</th><th>Change to</th></tr>
+<tr><td>FSL_DPAA_CEETM_CCS_THRESHOLD_1G</td><td>0x000a0000</td><td>0x00005000</td></tr>
+<tr><td>FSL_DPAA_CEETM_CCS_THRESHOLD_10G</td><td>0x00640000</td><td>0x00032000</td></tr>
+</table>
 <li>The following open issues were reported after LSDK 18.09 knowledge center being frozen.</li>
-</ul>
 <table border=1>
 <tr><th>ID</th><th>Description</th><th>Disposition</th><th>Opened In</th><th>Workarounds</th></tr>
 <tr><td>QLINUX-10300</td><td>Strict priority feature of CEETM does not work on DPAA1 platforms.</td><td>Open</td><td>LSDK 18.09</td><td>&nbsp</td></tr>
 <tr><td>QSDK-5070</td><td>Intel x710 card can't be correctly identified as Gen3 X8 on LS2088ARDB</td><td>Open</td><td>LSDK 18.09</td><td>&nbsp</td></tr>
 </table>
+</ul>
 </ul>
                 </div>
                 <div class="tab-pane" role="tabpanel" id="second">
