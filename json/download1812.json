@@ -38,7 +38,7 @@
 	["firmware_ls2088ardb_uboot_qspiboot_secure.img","ca15d7af906e893d7fd2b1416bfc4517","The firmware image to secure boot ls2088ardb board from QSPI flash with u-boot.","https://www.nxp.com/lgfiles/sdk/lsdk1812/firmware_ls2088ardb_uboot_qspiboot_secure.img"],
 	["firmware_ls2088ardb_uefi_norboot.img","ace3728593df082485837b41c6277711","The firmware image to boot ls2088ardb board from NOR flash with UEFI.","https://www.nxp.com/lgfiles/sdk/lsdk1812/firmware_ls2088ardb_uefi_norboot.img"],
 	["lib_modules_LS_arm32_4.14.83.tgz","666a3b2f0e7ca84d47ee3b81b9ae3aed","The prebuilt kernel modules of linux-4.14 for ARM32 targets.","https://www.nxp.com/lgfiles/sdk/lsdk1812/lib_modules_LS_arm32_4.14.83.tgz"],
-	["lib_modules_LS_arm32_4.9.140.tgz","9e09d4556515192cfe3627b8e16a6053","The prebuilt kernel modules of linux-4.9 for ARM32 targets.","https://www.nxp.com/lgfiles/sdk/lsdk1812/lib_modules_LS_arm32_4.9.140.tgz"],
+	["lib_modules_LS_arm32_4.9.140.tgz","b6759f54534a8fe48a5a31feb27e63c7","The prebuilt kernel modules of linux-4.9 for ARM32 targets.","https://www.nxp.com/lgfiles/sdk/lsdk1812/lib_modules_LS_arm32_4.9.140.tgz"],
 	["lib_modules_LS_arm64_4.14.83.tgz","ed594f801c8616ff24abade11af0b037","The prebuilt kernel modules of linux-4.14 for ARM64 targets.","https://www.nxp.com/lgfiles/sdk/lsdk1812/lib_modules_LS_arm64_4.14.83.tgz"],
 	["lib_modules_LS_arm64_4.9.140.tgz","79405fe78104f9b24f398912bc3b9dc7","The prebuilt kernel modules of linux-4.9 for ARM32 targets.","https://www.nxp.com/lgfiles/sdk/lsdk1812/lib_modules_LS_arm64_4.9.140.tgz"],
 	["linux_lib_firmware_LS_arm32.tgz","c062fa7e5a0106991af1052870ed1c27","PPFE firmware for arm32.","https://www.nxp.com/lgfiles/sdk/lsdk1812/linux_lib_firmware_LS_arm32.tgz"],
