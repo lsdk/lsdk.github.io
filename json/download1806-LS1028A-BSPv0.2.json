@@ -1,0 +1,12 @@
+[
+	["app_components_arm64.tgz","fc62fd71b6bf2c4fd2f5284e6a4b9688","The prebuilt binaries of NXP initialized and modified userspace packages for ARM64 targets.","https://www.nxp.com/lgfiles/sdk/ls1028a_bsp_02/app_components_arm64.tgz"],
+	["bootpartition_arm64_lts_4.14.tgz","167c75632fd032d142a076d153d6a84a","The prebuilt images for boot partition generation of ARM64 targets with kernel 4.14.","https://www.nxp.com/lgfiles/sdk/ls1028a_bsp_02/bootpartition_arm64_lts_4.14.tgz"],
+	["firmware_ls1028aqds_uboot_sdboot.img","ifbade785cbd8d6eeb3038ffb19bde2b6","The firmware image to boot ls1028aqds board from SD card.","https://www.nxp.com/lgfiles/sdk/ls1028a_bsp_02/firmware_ls1028aqds_uboot_sdboot.img"],
+	["firmware_ls1028aqds_uboot_xspiboot_secure.img","d3af06885da78b2bff1a80b590ff8777","The firmware image to secure boot ls1028aqds board from XSPI flash with u-boot.","https://www.nxp.com/lgfiles/sdk/ls1028a_bsp_02/firmware_ls1028aqds_uboot_xspiboot_secure.img"],
+	["firmware_ls1028ardb_uboot_emmcboot.img","e575a9b7f7550d68d13a260a1f381962","The firmware image to boot ls1028ardb board from eMMC flash with u-boot.","https://www.nxp.com/lgfiles/sdk/ls1028a_bsp_02/firmware_ls1028ardb_uboot_emmcboot.img"],
+	["firmware_ls1028ardb_uboot_sdboot.img","4273b0a58ebc834919507cbecf54f68a","The firmware image to boot ls1028ardb board from SD card.","https://www.nxp.com/lgfiles/sdk/ls1028a_bsp_02/firmware_ls1028ardb_uboot_sdboot.img"],
+	["firmware_ls1028ardb_uboot_xspiboot.img","6e66e79d6e4f47866ec9b1c64c09acb9","The firmware image to boot ls1028ardb board from XSPI flash with u-boot.","https://www.nxp.com/lgfiles/sdk/ls1028a_bsp_02/firmware_ls1028ardb_uboot_xspiboot.img"],
+	["firmware_ls1028ardb_uboot_xspiboot_secure.img","1d06da21a062e6dc847766481c10b7e5","The firmware image to secure boot ls1028ardb board from XSPI flash with u-boot.","https://www.nxp.com/lgfiles/sdk/ls1028a_bsp_02/firmware_ls1028ardb_uboot_xspiboot_secure.img"],
+	["arm64-modules-4.14.47.tgz","8461c97e90fe953dbeecd3d6dcd26d59","The prebuilt kernel modules of linux-4.14.47 for ARM64 targets.","https://www.nxp.com/lgfiles/sdk/ls1028a_bsp_02/arm64-modules-4.14.47.tgz"],
+	["lsdk_linux_arm64_tiny.itb","444b75be6452dcacb6a3d7b902dc52b6","The Kernel ITB file for Ubuntu userland deployment on ARM64 target board.","https://www.nxp.com/lgfiles/sdk/ls1028a_bsp_02/lsdk_linux_arm64_tiny.itb"]
+]
