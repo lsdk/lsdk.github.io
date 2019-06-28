@@ -2,406 +2,172 @@
 
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=gb2312">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
 <style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
-@font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:DengXian;
-	panose-1:2 1 6 0 3 1 1 1 1 1;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
-@font-face
-	{font-family:"Segoe UI";
-	panose-1:2 11 5 2 4 2 4 2 2 3;}
-@font-face
-	{font-family:"\@等线";
-	panose-1:2 1 6 0 3 1 1 1 1 1;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin:0in;
-	margin-bottom:.0001pt;
-	text-align:justify;
-	text-justify:inter-ideograph;
-	font-size:10.5pt;
-	font-family:DengXian;}
-a:link, span.MsoHyperlink
-	{color:blue;
-	text-decoration:underline;}
-a:visited, span.MsoHyperlinkFollowed
-	{color:#954F72;
-	text-decoration:underline;}
-p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin:0in;
-	margin-bottom:.0001pt;
-	text-align:justify;
-	text-justify:inter-ideograph;
-	text-indent:21.0pt;
-	font-size:10.5pt;
-	font-family:DengXian;}
-.MsoChpDefault
-	{font-size:10.5pt;}
- /* Page Definitions */
- @page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:1.0in 1.25in 1.0in 1.25in;
-	layout-grid:15.6pt;}
-div.WordSection1
-	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
--->
+p {
+    font-size:12.0pt;
+    font-family:"Times New Roman",serif;
+    font-weight:bold;
+}
+
+ul li {
+    font-size:11.0pt;
+    font-family:"Times New Roman",serif;
+	list-style-type: disc;
+}
+
+ul li ul li{
+    font-size:11.0pt;
+    font-family:"Times New Roman",serif;
+	list-style-type: square;
+}
+
+ul li ul li ul li{
+    font-size:11.0pt;
+    font-family:"Times New Roman",serif;
+	list-style-type: '-';
+}
 </style>
-
-</head>
-
-<body lang=EN-US link=blue vlink="#954F72" style='text-justify-trim:punctuation'>
-
-<div class=WordSection1 style='layout-grid:15.6pt'>
-
-<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>What's
-New in LSDK 19.06</span></b></p>
-
-<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><a name="_Hlk5107672"><b><span style='font-size:11.0pt;
-font-family:"Calibri",sans-serif'>Highlights</span></b></a></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Support
-of the dual kernel, LTS 4.14.122 and LTS 4.19.46</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>U-boot
-v2019.04 uprev </span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>The
-distribution of NXP LSDK Userland including Ubuntu main packages and NXP
-packages</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Integration
-of LS1046A FRWY</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Base
-platform boot with ACPI on LX2160A RDB. Refer to Chapter 5.4 UEFI for the list
-of supported features</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>No
-formal support of 32-bit kernel space on 64-bit devices</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Removal
-of Linux backplane driver, which will be releases separately</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Support
-of DPDK 18.11, OVS 2.11, Pktgen 3.6.6 and VPP 19.01</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Flexbuild:
-support of new layout of SD partitions and auto deployment, support of
-automatic download and deployment of distro images and more than 5 partitions
-based on 4KiB limitation of partition table for SD boot MC 10.16.2 update</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Inclusion
-of fixes for Linux TCP DoS Attack - SACK CVE 2019-11477</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Inclusion
-of several software fixes. Refer to </span><a
-href="https://freescalereach01.sdlproducts.com/LiveContent/content/en-US/LSDKUG_Rev19.06/GUID-38B02850-872C-4567-8088-75AC149FD52C"><span
-style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Fixed, Open, and
-Closed Issues</span></a><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>
-which has a list of all fixed issues </span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Inclusion
-of additional workarounds for Chip Errata: A-008098, A-009460, A-010131,
-A-010635, A-011270, A-050106</span></p>
-
-<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>List
-of changes:</span></b></p>
-
-<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Processor
-and Board Support</span></b></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>LS1046A
-FRWY</span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'> </span></p>
-
-<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>NXP
-LSDK Userland</span></b></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>The
-distribution of NXP LSDK Userland including Ubuntu main packages and NXP
-packages</span></p>
-
-<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Linux
-Kernel Core, Virtualization</span></b></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>LTS
-kernel 4.14.122 update</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>LTS
-kernel 4.19.46 update</span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>
-</span></p>
-
-<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Linux
-Kernel Drivers</span></b></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>DPAA1.x
-QBMan kexec support</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>IEEE1588:
-linuxptp replacing ptpd2 for testing</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Inclusion
-of fixes for Linux TCP DoS Attack - SACK CVE 2019-11477</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>LX2160A:
-CEETM, CPU idle</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>LS1046A
-FRWY: Clock, eDMA, Ethernet, GIC, I2C, micro-SD, NAND, OCRAM, PCIe-Gen3 RC,
-QSPI access to NOR flash, QDMA, SEC, UART, USB</span></p>
-
-<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Data
-Plane Development Kit (DPDK)</span></b></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Support
-of DPDK 18.11</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Support
-of LS1046A FRWY</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Support
-of Pktgen 3.6.6</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Support
-of VPP 19.01</span></p>
-
-<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Virtualization
-- OVS-DPDK</span></b></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Support
-for LS1046A FRWY</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Support
-for OVS 2.11</span></p>
-
-<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Trust
-Firmware - A (TF-A)</span></b></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Support
-of LS1046A FRWY</span></p>
-
-<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>U-Boot
-Boot Loader</span></b></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>U-boot
-v2019.04 update</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>LS1046A
-FRWY: Boot from QSPI NOR flash and micro-SD, clock, DDR4, Ethernet, GIC, I2C,
-NAND, OCRAM, PCIe-Gen3, USB, UART</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:11.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>LX2160A:
-Negate IRQ signal in GIC for AQR107 interrupt pins</span></p>
-
-<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Unified
-Extensible Firmware Interface (UEFI)</span></b></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>LX2160A:
-Base platform boot with ACPI on RDB. Refer to Chapter 5.4 UEFI for the list of
-supported features </span></p>
-
-<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>EdgeScale
-– Edge Compute</span></b></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Support
-of LS1046A FRWY</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Secure
-Manufacturing</span></p>
-
-<p class=MsoListParagraph style='margin-left:58.0pt;text-indent:-22.0pt'><span
-style='font-size:11.0pt'>—<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Key
-and fuse config management</span></p>
-
-<p class=MsoListParagraph style='margin-left:58.0pt;text-indent:-22.0pt'><span
-style='font-size:11.0pt'>—<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Device
-enrollment with fused device identity</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>EgdeScale
-Device Agent Enhancement</span></p>
-
-<p class=MsoListParagraph style='margin-left:58.0pt;text-indent:-22.0pt'><span
-style='font-size:11.0pt'>—<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Reconnecting
-cloud when network is down and up</span></p>
-
-<p class=MsoListParagraph style='margin-left:58.0pt;text-indent:-22.0pt'><span
-style='font-size:12.0pt'>—<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Keeping
-docker images during OTA updates</span></p>
-
-<p class=MsoNormal><b><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Other
-Tools and Utilities</span></b></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Flexbuild</span></p>
-
-<p class=MsoListParagraph style='margin-left:58.0pt;text-indent:-22.0pt'><span
-style='font-size:11.0pt'>—<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Flex-builder</span></p>
-
-<p class=MsoListParagraph style='margin-left:63.0pt;text-indent:-21.0pt'><span
-style='font-size:12.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Support
-of new layout of SD partitions and auto deployment </span></p>
-
-<p class=MsoListParagraph style='margin-left:63.0pt;text-indent:-21.0pt'><span
-style='font-size:12.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Support
-of docker-ce arm32 and arm64 built from source instead of apt installation </span></p>
-
-<p class=MsoListParagraph style='margin-left:63.0pt;text-indent:-21.0pt'><span
-style='font-size:12.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Support
-of the uprev of dpdk, ovs-dpdk, pktgen_dpdk and vpp </span></p>
-
-<p class=MsoListParagraph style='margin-left:63.0pt;text-indent:-21.0pt'><span
-style='font-size:12.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Support
-of multiple scales of LSDK userland (main, edgescale, etc.)</span></p>
-
-<p class=MsoListParagraph style='margin-left:63.0pt;text-indent:-21.0pt'><span
-style='font-size:12.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Optimization
-of building for secure boot Chain of Trust with confidentiality Removal of
-ARMv8 32bit </span></p>
-
-<p class=MsoListParagraph style='margin-left:39.0pt;text-indent:-.25in'><span
-style='font-size:11.0pt'>—<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>Flex-installer</span></p>
-
-<p class=MsoListParagraph style='margin-left:63.0pt;text-indent:-21.0pt'><span
-style='font-size:12.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Support
-of automatic download and deployment of distro images </span></p>
-
-<p class=MsoListParagraph style='margin-left:63.0pt;text-indent:-21.0pt'><span
-style='font-size:12.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Support
-of more than 5 partitions based on 4KiB limitation of partition table for SD
-boot </span></p>
-
-<p class=MsoListParagraph style='margin-left:63.0pt;text-indent:-21.0pt'><span
-style='font-size:12.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Support
-of configurable multiple partitions with ‘-p &lt;partition-list&gt;’ option in
-flex-installer cmdline </span></p>
-
-<p class=MsoListParagraph style='margin-left:63.0pt;text-indent:-21.0pt'><span
-style='font-size:12.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Support
-of dual system boot on single storage device </span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>MC
-upgrade to 10.16.2</span></p>
-
-<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><span
-style='font-size:12.0pt;font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:12.0pt;font-family:"Calibri",sans-serif'>Soft
-Parser Configuration Tool</span></p>
-
-<p class=MsoNormal style='margin-left:10.5pt;text-indent:11.0pt'><span
-lang=ZH-CN style='font-size:11.0pt'>—</span><span lang=ZH-CN style='font-size:
-11.0pt;font-family:"Calibri",sans-serif'> </span><span style='font-size:11.0pt;
-font-family:"Calibri",sans-serif'>Support of 'load-on-parser' and
-'load-protocol' option</span></p>
-
-</div>
+</meta>
+
+<body>
+<p>
+What's New in LSDK 19.06
+</p>
+<p>
+Highlights
+</p>
+
+<ul type=disc>
+<li>
+Support of the dual kernel, LTS 4.14.122 and LTS 4.19.46
+</li><li>U-boot v2019.04 uprev 
+</li><li>The distribution of NXP LSDK Userland including Ubuntu main packages and NXP packages
+</li><li>Integration of LS1046A FRWY
+</li><li>Base platform boot with ACPI on LX2160A RDB. Refer to Chapter 5.4 UEFI for the list of supported features
+</li><li>No formal support of 32-bit kernel space on 64-bit devices
+</li><li>Removal of Linux backplane driver, which will be releases separately
+</li><li>Support of DPDK 18.11, OVS 2.11, Pktgen 3.6.6 and VPP 19.01
+</li><li>Flexbuild: support of new layout of SD partitions and auto deployment, support of automatic download and deployment of distro images and more than 5 partitions based on 4KiB limitation of partition table for SD boot MC 10.16.2 update
+</li><li>Inclusion of fixes for Linux TCP DoS Attack - SACK CVE 2019-11477
+</li><li>Inclusion of several software fixes. Refer to Fixed, Open, and Closed Issues which has a list of all fixed issues 
+</li><li>Inclusion of additional workarounds for Chip Errata: A-008098, A-009460, A-010131, A-010635, A-011270, A-050106
+</li>
+</ul>
+
+<p>
+List of changes:
+</p>
+
+<p>
+Processor and Board Support
+</p>
+
+<ul type=disc>
+<li>LS1046A FRWY 
+</li>
+</ul>
+
+<p>
+NXP LSDK Userland
+</p>
+
+<ul type=disc><li>The distribution of NXP LSDK Userland including Ubuntu main packages and NXP packages
+</li></ul>
+
+<p>
+Linux Kernel Core, Virtualization
+</p>
+<ul type=disc><li>LTS kernel 4.14.122 update
+</li><li>LTS kernel 4.19.46 update 
+</li></ul>
+
+<p>
+Linux Kernel Drivers
+</p>
+
+<ul type=disc><li>DPAA1.x QBMan kexec support
+</li><li>IEEE1588: linuxptp replacing ptpd2 for testing
+</li><li>Inclusion of fixes for Linux TCP DoS Attack - SACK CVE 2019-11477
+</li><li>LX2160A: CEETM, CPU idle
+</li><li>LS1046A FRWY: Clock, eDMA, Ethernet, GIC, I2C, micro-SD, NAND, OCRAM, PCIe-Gen3 RC, QSPI access to NOR flash, QDMA, SEC, UART, USB
+</li></ul>
+
+<p>Data Plane Development Kit (DPDK)</p>
+<ul type=disc><li>Support of DPDK 18.11
+</li><li>Support of LS1046A FRWY
+</li><li>Support of Pktgen 3.6.6
+</li><li>Support of VPP 19.01
+</li></ul>
+
+<p>Virtualization - OVS-DPDK</p>
+<ul type=disc><li>Support for LS1046A FRWY
+</li><li>Support for OVS 2.11
+</li></ul>
+
+<p>Trust Firmware - A (TF-A)</p>
+<ul type=disc><li>Support of LS1046A FRWY
+</li></ul>
+
+<p>U-Boot Boot Loader</p>
+<ul type=disc><li>U-boot v2019.04 update
+</li><li>LS1046A FRWY: Boot from QSPI NOR flash and micro-SD, clock, DDR4, Ethernet, GIC, I2C, NAND, OCRAM, PCIe-Gen3, USB, UART
+</li><li>LX2160A: Negate IRQ signal in GIC for AQR107 interrupt pins
+</li></ul>
+
+<p>Unified Extensible Firmware Interface (UEFI)
+</p>
+<ul type=disc><li>LX2160A: Base platform boot with ACPI on RDB. Refer to Chapter 5.4 UEFI for the list of supported features 
+</li></ul>
+
+<p>EdgeScale - Edge Compute
+</p>
+
+<ul type=disc>
+<li>Support of LS1046A FRWY</li>
+<li>Secure Manufacturing</li>
+	<ul type=square>
+	<li>Key and fuse config management
+	</li><li>Device enrollment with fused device identity
+	</li>
+	</ul>
+
+<li>EgdeScale Device Agent Enhancement
+</li>
+<ul type=square>
+<li>Reconnecting cloud when network is down and up
+</li><li>Keeping docker images during OTA updates
+</li></ul>
+</ul>
+
+<p>Other Tools and Utilities
+</p>
+<ul type=disc>
+	<li>Flexbuild</li>
+		<ul type=square>
+			<li>Flex-builder</li>
+				<ul type='-'>
+					<li>Support of new layout of SD partitions and auto deployment 
+					</li><li>Support of docker-ce arm32 and arm64 built from source instead of apt installation 
+					</li><li>Support of the uprev of dpdk, ovs-dpdk, pktgen_dpdk and vpp 
+					</li><li>Support of multiple scales of LSDK userland (main, edgescale, etc.)
+					</li><li>Optimization of building for secure boot Chain of Trust with confidentiality Removal of ARMv8 32bit
+					</li>
+				</ul> 
+			<li>Flex-installer</li>
+				<ul type='-'>
+					<li>Support of automatic download and deployment of distro images 
+					</li><li>Support of more than 5 partitions based on 4KiB limitation of partition table for SD boot 
+					</li><li>Support of configurable multiple partitions with '-p <partition-list>' option in </li><li>flex-installer cmdline 
+					</li><li>Support of dual system boot on single storage device 
+					</li>
+				</ul>
+		</ul>
+	<li>MC upgrade to 10.16.2</li>
+	<li>Soft Parser Configuration Tool</li>
+		<ul type=square>
+			<li>Support of 'load-on-parser' and 'load-protocol' option</li>
+		</ul>
+</ul>
 
 </body>
-
 </html>
