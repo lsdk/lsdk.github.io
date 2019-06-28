@@ -56,7 +56,7 @@
 	["lsdk_linux_arm64_LS_tiny.itb","c61a8226b0336f3252ffaa3bd7eebb18","The Kernel ITB file for Ubuntu userland deployment on ARM64 target board.","https://www.nxp.com/lgfiles/sdk/lsdk1906/lsdk_linux_arm64_LS_tiny.itb"],
 	["srk_hash.txt","6cc11bf5fe9bae5706bf1becc4e1d93a","SRK (Public Key) Hash.","https://www.nxp.com/lgfiles/sdk/lsdk1906/srk_hash.txt"],
 	["srk.pri","b5ad4d82ad13d0b56fab482f77b05bc9","srk.pri.","https://www.nxp.com/lgfiles/sdk/lsdk1906/srk.pri"],
-	["srk.pub","683e1a6822953943455cb8582873ccdb","srk.pub.","https://www.nxp.com/lgfiles/sdk/lsdk1906/srk.pub"]
-	["rootfs_lsdk1906_LS_arm32_main.tgz","1ca8bd9d06bd60b9eab435679762873d","Userland including Ubuntu main packages and NXP packages for arm32.","https://www.nxp.com/lgfiles/sdk/lsdk1906/rootfs_lsdk1906_LS_arm32_main.tgz"]
+	["srk.pub","683e1a6822953943455cb8582873ccdb","srk.pub.","https://www.nxp.com/lgfiles/sdk/lsdk1906/srk.pub"],
+	["rootfs_lsdk1906_LS_arm32_main.tgz","1ca8bd9d06bd60b9eab435679762873d","Userland including Ubuntu main packages and NXP packages for arm32.","https://www.nxp.com/lgfiles/sdk/lsdk1906/rootfs_lsdk1906_LS_arm32_main.tgz"],
 	["rootfs_lsdk1906_LS_arm64_main.tgz","00427b5194cc47e955c086214e6da630","Userland including Ubuntu main packages and NXP packages for arm64.","https://www.nxp.com/lgfiles/sdk/lsdk1906/rootfs_lsdk1906_LS_arm64_main.tgz"]
 ]
