@@ -1,0 +1,2832 @@
+[
+  {
+    "number": 1,
+    "pkg": "acl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/acl/copyright"
+  },
+  {
+    "number": 2,
+    "pkg": "adduser",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/adduser/copyright"
+  },
+  {
+    "number": 3,
+    "pkg": "apt",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/apt/copyright"
+  },
+  {
+    "number": 4,
+    "pkg": "apt-utils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/apt-utils/copyright"
+  },
+  {
+    "number": 5,
+    "pkg": "autoconf",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/autoconf/copyright"
+  },
+  {
+    "number": 6,
+    "pkg": "automake",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/automake/copyright"
+  },
+  {
+    "number": 7,
+    "pkg": "autopoint",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/autopoint/copyright"
+  },
+  {
+    "number": 8,
+    "pkg": "autotools-dev",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/autotools-dev/copyright"
+  },
+  {
+    "number": 9,
+    "pkg": "base-files",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/base-files/copyright"
+  },
+  {
+    "number": 10,
+    "pkg": "base-passwd",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/base-passwd/copyright"
+  },
+  {
+    "number": 11,
+    "pkg": "bash",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/bash/copyright"
+  },
+  {
+    "number": 12,
+    "pkg": "bc",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/bc/copyright"
+  },
+  {
+    "number": 13,
+    "pkg": "binutils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/binutils/copyright"
+  },
+  {
+    "number": 14,
+    "pkg": "binutils-aarch64-linux-gnu",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/binutils-aarch64-linux-gnu/copyright"
+  },
+  {
+    "number": 15,
+    "pkg": "binutils-common:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/binutils-common:arm64/copyright"
+  },
+  {
+    "number": 16,
+    "pkg": "binutils-dev",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/binutils-dev/copyright"
+  },
+  {
+    "number": 17,
+    "pkg": "bison",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/bison/copyright"
+  },
+  {
+    "number": 18,
+    "pkg": "bridge-utils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/bridge-utils/copyright"
+  },
+  {
+    "number": 19,
+    "pkg": "bsdmainutils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/bsdmainutils/copyright"
+  },
+  {
+    "number": 20,
+    "pkg": "bsdutils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/bsdutils/copyright"
+  },
+  {
+    "number": 21,
+    "pkg": "build-essential",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/build-essential/copyright"
+  },
+  {
+    "number": 22,
+    "pkg": "busybox-initramfs",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/busybox-initramfs/copyright"
+  },
+  {
+    "number": 23,
+    "pkg": "bzip2",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/bzip2/copyright"
+  },
+  {
+    "number": 24,
+    "pkg": "ca-certificates",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/ca-certificates/copyright"
+  },
+  {
+    "number": 25,
+    "pkg": "console-setup",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/console-setup/copyright"
+  },
+  {
+    "number": 26,
+    "pkg": "console-setup-linux",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/console-setup-linux/copyright"
+  },
+  {
+    "number": 27,
+    "pkg": "containerd.io",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/containerd.io/copyright"
+  },
+  {
+    "number": 28,
+    "pkg": "coreutils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/coreutils/copyright"
+  },
+  {
+    "number": 29,
+    "pkg": "cpio",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/cpio/copyright"
+  },
+  {
+    "number": 30,
+    "pkg": "cpp",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/cpp/copyright"
+  },
+  {
+    "number": 31,
+    "pkg": "cpp-7",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/cpp-7/copyright"
+  },
+  {
+    "number": 32,
+    "pkg": "cron",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/cron/copyright"
+  },
+  {
+    "number": 33,
+    "pkg": "curl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/curl/copyright"
+  },
+  {
+    "number": 34,
+    "pkg": "dash",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/dash/copyright"
+  },
+  {
+    "number": 35,
+    "pkg": "dbus",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/dbus/copyright"
+  },
+  {
+    "number": 36,
+    "pkg": "debconf",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/debconf/copyright"
+  },
+  {
+    "number": 37,
+    "pkg": "debconf-i18n",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/debconf-i18n/copyright"
+  },
+  {
+    "number": 38,
+    "pkg": "debhelper",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/debhelper/copyright"
+  },
+  {
+    "number": 39,
+    "pkg": "debianutils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/debianutils/copyright"
+  },
+  {
+    "number": 40,
+    "pkg": "debootstrap",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/debootstrap/copyright"
+  },
+  {
+    "number": 41,
+    "pkg": "device-tree-compiler",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/device-tree-compiler/copyright"
+  },
+  {
+    "number": 42,
+    "pkg": "dh-autoreconf",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/dh-autoreconf/copyright"
+  },
+  {
+    "number": 43,
+    "pkg": "dh-strip-nondeterminism",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/dh-strip-nondeterminism/copyright"
+  },
+  {
+    "number": 44,
+    "pkg": "diffutils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/diffutils/copyright"
+  },
+  {
+    "number": 45,
+    "pkg": "dirmngr",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/dirmngr/copyright"
+  },
+  {
+    "number": 46,
+    "pkg": "distro-info-data",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/distro-info-data/copyright"
+  },
+  {
+    "number": 47,
+    "pkg": "dmsetup",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/dmsetup/copyright"
+  },
+  {
+    "number": 48,
+    "pkg": "dosfstools",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/dosfstools/copyright"
+  },
+  {
+    "number": 49,
+    "pkg": "dpkg",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/dpkg/copyright"
+  },
+  {
+    "number": 50,
+    "pkg": "dpkg-dev",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/dpkg-dev/copyright"
+  },
+  {
+    "number": 51,
+    "pkg": "e2fsprogs",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/e2fsprogs/copyright"
+  },
+  {
+    "number": 52,
+    "pkg": "efibootmgr",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/efibootmgr/copyright"
+  },
+  {
+    "number": 53,
+    "pkg": "eject",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/eject/copyright"
+  },
+  {
+    "number": 54,
+    "pkg": "ethtool",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/ethtool/copyright"
+  },
+  {
+    "number": 55,
+    "pkg": "fakeroot",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/fakeroot/copyright"
+  },
+  {
+    "number": 56,
+    "pkg": "fdisk",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/fdisk/copyright"
+  },
+  {
+    "number": 57,
+    "pkg": "file",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/file/copyright"
+  },
+  {
+    "number": 58,
+    "pkg": "findutils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/findutils/copyright"
+  },
+  {
+    "number": 59,
+    "pkg": "flex",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/flex/copyright"
+  },
+  {
+    "number": 60,
+    "pkg": "fontconfig-config",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/fontconfig-config/copyright"
+  },
+  {
+    "number": 61,
+    "pkg": "fonts-dejavu-core",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/fonts-dejavu-core/copyright"
+  },
+  {
+    "number": 62,
+    "pkg": "ftp",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/ftp/copyright"
+  },
+  {
+    "number": 63,
+    "pkg": "g++",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/g++/copyright"
+  },
+  {
+    "number": 64,
+    "pkg": "g++-7",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/g++-7/copyright"
+  },
+  {
+    "number": 65,
+    "pkg": "gcc",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gcc/copyright"
+  },
+  {
+    "number": 66,
+    "pkg": "gcc-7",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gcc-7/copyright"
+  },
+  {
+    "number": 67,
+    "pkg": "gcc-7-base:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gcc-7-base:arm64/copyright"
+  },
+  {
+    "number": 68,
+    "pkg": "gcc-8-base:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gcc-8-base:arm64/copyright"
+  },
+  {
+    "number": 69,
+    "pkg": "gettext",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gettext/copyright"
+  },
+  {
+    "number": 70,
+    "pkg": "gettext-base",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gettext-base/copyright"
+  },
+  {
+    "number": 71,
+    "pkg": "gir1.2-glib-2.0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gir1.2-glib-2.0:arm64/copyright"
+  },
+  {
+    "number": 72,
+    "pkg": "gir1.2-harfbuzz-0.0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gir1.2-harfbuzz-0.0:arm64/copyright"
+  },
+  {
+    "number": 73,
+    "pkg": "git",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/git/copyright"
+  },
+  {
+    "number": 74,
+    "pkg": "git-man",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/git-man/copyright"
+  },
+  {
+    "number": 75,
+    "pkg": "gnupg",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gnupg/copyright"
+  },
+  {
+    "number": 76,
+    "pkg": "gnupg-l10n",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gnupg-l10n/copyright"
+  },
+  {
+    "number": 77,
+    "pkg": "gnupg-utils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gnupg-utils/copyright"
+  },
+  {
+    "number": 78,
+    "pkg": "gpg",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gpg/copyright"
+  },
+  {
+    "number": 79,
+    "pkg": "gpg-agent",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gpg-agent/copyright"
+  },
+  {
+    "number": 80,
+    "pkg": "gpg-wks-client",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gpg-wks-client/copyright"
+  },
+  {
+    "number": 81,
+    "pkg": "gpg-wks-server",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gpg-wks-server/copyright"
+  },
+  {
+    "number": 82,
+    "pkg": "gpgconf",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gpgconf/copyright"
+  },
+  {
+    "number": 83,
+    "pkg": "gpgsm",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gpgsm/copyright"
+  },
+  {
+    "number": 84,
+    "pkg": "gpgv",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gpgv/copyright"
+  },
+  {
+    "number": 85,
+    "pkg": "grep",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/grep/copyright"
+  },
+  {
+    "number": 86,
+    "pkg": "groff-base",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/groff-base/copyright"
+  },
+  {
+    "number": 87,
+    "pkg": "gzip",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/gzip/copyright"
+  },
+  {
+    "number": 88,
+    "pkg": "hdparm",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/hdparm/copyright"
+  },
+  {
+    "number": 89,
+    "pkg": "hostname",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/hostname/copyright"
+  },
+  {
+    "number": 90,
+    "pkg": "ibverbs-providers:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/ibverbs-providers:arm64/copyright"
+  },
+  {
+    "number": 91,
+    "pkg": "icu-devtools",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/icu-devtools/copyright"
+  },
+  {
+    "number": 92,
+    "pkg": "ifenslave",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/ifenslave/copyright"
+  },
+  {
+    "number": 93,
+    "pkg": "ifupdown",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/ifupdown/copyright"
+  },
+  {
+    "number": 94,
+    "pkg": "init",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/init/copyright"
+  },
+  {
+    "number": 95,
+    "pkg": "init-system-helpers",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/init-system-helpers/copyright"
+  },
+  {
+    "number": 96,
+    "pkg": "initramfs-tools",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/initramfs-tools/copyright"
+  },
+  {
+    "number": 97,
+    "pkg": "initramfs-tools-bin",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/initramfs-tools-bin/copyright"
+  },
+  {
+    "number": 98,
+    "pkg": "initramfs-tools-core",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/initramfs-tools-core/copyright"
+  },
+  {
+    "number": 99,
+    "pkg": "intltool-debian",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/intltool-debian/copyright"
+  },
+  {
+    "number": 100,
+    "pkg": "iproute2",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/iproute2/copyright"
+  },
+  {
+    "number": 101,
+    "pkg": "iptables",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/iptables/copyright"
+  },
+  {
+    "number": 102,
+    "pkg": "iputils-ping",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/iputils-ping/copyright"
+  },
+  {
+    "number": 103,
+    "pkg": "ipxe-qemu",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/ipxe-qemu/copyright"
+  },
+  {
+    "number": 104,
+    "pkg": "ipxe-qemu-256k-compat-efi-roms",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/ipxe-qemu-256k-compat-efi-roms/copyright"
+  },
+  {
+    "number": 105,
+    "pkg": "isc-dhcp-client",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/isc-dhcp-client/copyright"
+  },
+  {
+    "number": 106,
+    "pkg": "isc-dhcp-common",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/isc-dhcp-common/copyright"
+  },
+  {
+    "number": 107,
+    "pkg": "iso-codes",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/iso-codes/copyright"
+  },
+  {
+    "number": 108,
+    "pkg": "kbd",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/kbd/copyright"
+  },
+  {
+    "number": 109,
+    "pkg": "kexec-tools",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/kexec-tools/copyright"
+  },
+  {
+    "number": 110,
+    "pkg": "keyboard-configuration",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/keyboard-configuration/copyright"
+  },
+  {
+    "number": 111,
+    "pkg": "keyutils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/keyutils/copyright"
+  },
+  {
+    "number": 112,
+    "pkg": "klibc-utils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/klibc-utils/copyright"
+  },
+  {
+    "number": 113,
+    "pkg": "kmod",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/kmod/copyright"
+  },
+  {
+    "number": 114,
+    "pkg": "krb5-locales",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/krb5-locales/copyright"
+  },
+  {
+    "number": 115,
+    "pkg": "language-pack-en",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/language-pack-en/copyright"
+  },
+  {
+    "number": 116,
+    "pkg": "language-pack-en-base",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/language-pack-en-base/copyright"
+  },
+  {
+    "number": 117,
+    "pkg": "less",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/less/copyright"
+  },
+  {
+    "number": 118,
+    "pkg": "libacl1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libacl1:arm64/copyright"
+  },
+  {
+    "number": 119,
+    "pkg": "libaio1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libaio1:arm64/copyright"
+  },
+  {
+    "number": 120,
+    "pkg": "libalgorithm-diff-perl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libalgorithm-diff-perl/copyright"
+  },
+  {
+    "number": 121,
+    "pkg": "libalgorithm-diff-xs-perl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libalgorithm-diff-xs-perl/copyright"
+  },
+  {
+    "number": 122,
+    "pkg": "libalgorithm-merge-perl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libalgorithm-merge-perl/copyright"
+  },
+  {
+    "number": 123,
+    "pkg": "libapparmor1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libapparmor1:arm64/copyright"
+  },
+  {
+    "number": 124,
+    "pkg": "libapt-inst2.0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libapt-inst2.0:arm64/copyright"
+  },
+  {
+    "number": 125,
+    "pkg": "libapt-pkg5.0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libapt-pkg5.0:arm64/copyright"
+  },
+  {
+    "number": 126,
+    "pkg": "libarchive-cpio-perl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libarchive-cpio-perl/copyright"
+  },
+  {
+    "number": 127,
+    "pkg": "libarchive-zip-perl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libarchive-zip-perl/copyright"
+  },
+  {
+    "number": 128,
+    "pkg": "libargon2-0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libargon2-0:arm64/copyright"
+  },
+  {
+    "number": 129,
+    "pkg": "libasan4:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libasan4:arm64/copyright"
+  },
+  {
+    "number": 130,
+    "pkg": "libasn1-8-heimdal:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libasn1-8-heimdal:arm64/copyright"
+  },
+  {
+    "number": 131,
+    "pkg": "libasound2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libasound2:arm64/copyright"
+  },
+  {
+    "number": 132,
+    "pkg": "libasound2-data",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libasound2-data/copyright"
+  },
+  {
+    "number": 133,
+    "pkg": "libassuan0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libassuan0:arm64/copyright"
+  },
+  {
+    "number": 134,
+    "pkg": "libasyncns0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libasyncns0:arm64/copyright"
+  },
+  {
+    "number": 135,
+    "pkg": "libatm1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libatm1:arm64/copyright"
+  },
+  {
+    "number": 136,
+    "pkg": "libatomic1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libatomic1:arm64/copyright"
+  },
+  {
+    "number": 137,
+    "pkg": "libattr1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libattr1:arm64/copyright"
+  },
+  {
+    "number": 138,
+    "pkg": "libaudit-common",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libaudit-common/copyright"
+  },
+  {
+    "number": 139,
+    "pkg": "libaudit1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libaudit1:arm64/copyright"
+  },
+  {
+    "number": 140,
+    "pkg": "libbinutils:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libbinutils:arm64/copyright"
+  },
+  {
+    "number": 141,
+    "pkg": "libbison-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libbison-dev:arm64/copyright"
+  },
+  {
+    "number": 142,
+    "pkg": "libblas3:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libblas3:arm64/copyright"
+  },
+  {
+    "number": 143,
+    "pkg": "libblkid1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libblkid1:arm64/copyright"
+  },
+  {
+    "number": 144,
+    "pkg": "libbluetooth3:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libbluetooth3:arm64/copyright"
+  },
+  {
+    "number": 145,
+    "pkg": "libbrlapi0.6:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libbrlapi0.6:arm64/copyright"
+  },
+  {
+    "number": 146,
+    "pkg": "libbsd-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libbsd-dev:arm64/copyright"
+  },
+  {
+    "number": 147,
+    "pkg": "libbsd0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libbsd0:arm64/copyright"
+  },
+  {
+    "number": 148,
+    "pkg": "libbz2-1.0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libbz2-1.0:arm64/copyright"
+  },
+  {
+    "number": 149,
+    "pkg": "libc-bin",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libc-bin/copyright"
+  },
+  {
+    "number": 150,
+    "pkg": "libc-dev-bin",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libc-dev-bin/copyright"
+  },
+  {
+    "number": 151,
+    "pkg": "libc6:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libc6:arm64/copyright"
+  },
+  {
+    "number": 152,
+    "pkg": "libc6-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libc6-dev:arm64/copyright"
+  },
+  {
+    "number": 153,
+    "pkg": "libcaca0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libcaca0:arm64/copyright"
+  },
+  {
+    "number": 154,
+    "pkg": "libcacard0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libcacard0:arm64/copyright"
+  },
+  {
+    "number": 155,
+    "pkg": "libcairo-gobject2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libcairo-gobject2:arm64/copyright"
+  },
+  {
+    "number": 156,
+    "pkg": "libcairo-script-interpreter2:a",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libcairo-script-interpreter2:arm64/copyright"
+  },
+  {
+    "number": 157,
+    "pkg": "libcairo2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libcairo2:arm64/copyright"
+  },
+  {
+    "number": 158,
+    "pkg": "libcairo2-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libcairo2-dev:arm64/copyright"
+  },
+  {
+    "number": 159,
+    "pkg": "libcap-ng0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libcap-ng0:arm64/copyright"
+  },
+  {
+    "number": 160,
+    "pkg": "libcap2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libcap2:arm64/copyright"
+  },
+  {
+    "number": 161,
+    "pkg": "libcap2-bin",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libcap2-bin/copyright"
+  },
+  {
+    "number": 162,
+    "pkg": "libcc1-0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libcc1-0:arm64/copyright"
+  },
+  {
+    "number": 163,
+    "pkg": "libcom-err2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libcom-err2:arm64/copyright"
+  },
+  {
+    "number": 164,
+    "pkg": "libcroco3:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libcroco3:arm64/copyright"
+  },
+  {
+    "number": 165,
+    "pkg": "libcryptsetup12:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libcryptsetup12:arm64/copyright"
+  },
+  {
+    "number": 166,
+    "pkg": "libcurl3-gnutls:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libcurl3-gnutls:arm64/copyright"
+  },
+  {
+    "number": 167,
+    "pkg": "libcurl4:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libcurl4:arm64/copyright"
+  },
+  {
+    "number": 168,
+    "pkg": "libdb5.3:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libdb5.3:arm64/copyright"
+  },
+  {
+    "number": 169,
+    "pkg": "libdbus-1-3:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libdbus-1-3:arm64/copyright"
+  },
+  {
+    "number": 170,
+    "pkg": "libdebconfclient0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libdebconfclient0:arm64/copyright"
+  },
+  {
+    "number": 171,
+    "pkg": "libdevmapper1.02.1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libdevmapper1.02.1:arm64/copyright"
+  },
+  {
+    "number": 172,
+    "pkg": "libdns-export1100",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libdns-export1100/copyright"
+  },
+  {
+    "number": 173,
+    "pkg": "libdpkg-perl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libdpkg-perl/copyright"
+  },
+  {
+    "number": 174,
+    "pkg": "libdw1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libdw1:arm64/copyright"
+  },
+  {
+    "number": 175,
+    "pkg": "libedit-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libedit-dev:arm64/copyright"
+  },
+  {
+    "number": 176,
+    "pkg": "libedit2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libedit2:arm64/copyright"
+  },
+  {
+    "number": 177,
+    "pkg": "libefiboot1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libefiboot1:arm64/copyright"
+  },
+  {
+    "number": 178,
+    "pkg": "libefivar1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libefivar1:arm64/copyright"
+  },
+  {
+    "number": 179,
+    "pkg": "libelf-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libelf-dev:arm64/copyright"
+  },
+  {
+    "number": 180,
+    "pkg": "libelf1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libelf1:arm64/copyright"
+  },
+  {
+    "number": 181,
+    "pkg": "liberror-perl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/liberror-perl/copyright"
+  },
+  {
+    "number": 182,
+    "pkg": "libestr0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libestr0:arm64/copyright"
+  },
+  {
+    "number": 183,
+    "pkg": "libevdev-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libevdev-dev:arm64/copyright"
+  },
+  {
+    "number": 184,
+    "pkg": "libevdev2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libevdev2:arm64/copyright"
+  },
+  {
+    "number": 185,
+    "pkg": "libexpat1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libexpat1:arm64/copyright"
+  },
+  {
+    "number": 186,
+    "pkg": "libexpat1-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libexpat1-dev:arm64/copyright"
+  },
+  {
+    "number": 187,
+    "pkg": "libext2fs2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libext2fs2:arm64/copyright"
+  },
+  {
+    "number": 188,
+    "pkg": "libfakeroot:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libfakeroot:arm64/copyright"
+  },
+  {
+    "number": 189,
+    "pkg": "libfastjson4:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libfastjson4:arm64/copyright"
+  },
+  {
+    "number": 190,
+    "pkg": "libfdisk1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libfdisk1:arm64/copyright"
+  },
+  {
+    "number": 191,
+    "pkg": "libfdt1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libfdt1:arm64/copyright"
+  },
+  {
+    "number": 192,
+    "pkg": "libffi-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libffi-dev:arm64/copyright"
+  },
+  {
+    "number": 193,
+    "pkg": "libffi6:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libffi6:arm64/copyright"
+  },
+  {
+    "number": 194,
+    "pkg": "libfile-fcntllock-perl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libfile-fcntllock-perl/copyright"
+  },
+  {
+    "number": 195,
+    "pkg": "libfile-stripnondeterminism-pe",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libfile-stripnondeterminism-perl/copyright"
+  },
+  {
+    "number": 196,
+    "pkg": "libfl-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libfl-dev:arm64/copyright"
+  },
+  {
+    "number": 197,
+    "pkg": "libfl2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libfl2:arm64/copyright"
+  },
+  {
+    "number": 198,
+    "pkg": "libflac8:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libflac8:arm64/copyright"
+  },
+  {
+    "number": 199,
+    "pkg": "libfontconfig1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libfontconfig1:arm64/copyright"
+  },
+  {
+    "number": 200,
+    "pkg": "libfontconfig1-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libfontconfig1-dev:arm64/copyright"
+  },
+  {
+    "number": 201,
+    "pkg": "libfreetype6:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libfreetype6:arm64/copyright"
+  },
+  {
+    "number": 202,
+    "pkg": "libfreetype6-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libfreetype6-dev:arm64/copyright"
+  },
+  {
+    "number": 203,
+    "pkg": "libfribidi0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libfribidi0:arm64/copyright"
+  },
+  {
+    "number": 204,
+    "pkg": "libgcc-7-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libgcc-7-dev:arm64/copyright"
+  },
+  {
+    "number": 205,
+    "pkg": "libgcc1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libgcc1:arm64/copyright"
+  },
+  {
+    "number": 206,
+    "pkg": "libgcrypt20:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libgcrypt20:arm64/copyright"
+  },
+  {
+    "number": 207,
+    "pkg": "libgdbm-compat4:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libgdbm-compat4:arm64/copyright"
+  },
+  {
+    "number": 208,
+    "pkg": "libgdbm5:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libgdbm5:arm64/copyright"
+  },
+  {
+    "number": 209,
+    "pkg": "libgfortran4:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libgfortran4:arm64/copyright"
+  },
+  {
+    "number": 210,
+    "pkg": "libgirepository-1.0-1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libgirepository-1.0-1:arm64/copyright"
+  },
+  {
+    "number": 211,
+    "pkg": "libglib2.0-0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libglib2.0-0:arm64/copyright"
+  },
+  {
+    "number": 212,
+    "pkg": "libglib2.0-bin",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libglib2.0-bin/copyright"
+  },
+  {
+    "number": 213,
+    "pkg": "libglib2.0-data",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libglib2.0-data/copyright"
+  },
+  {
+    "number": 214,
+    "pkg": "libglib2.0-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libglib2.0-dev:arm64/copyright"
+  },
+  {
+    "number": 215,
+    "pkg": "libglib2.0-dev-bin",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libglib2.0-dev-bin/copyright"
+  },
+  {
+    "number": 216,
+    "pkg": "libgmp10:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libgmp10:arm64/copyright"
+  },
+  {
+    "number": 217,
+    "pkg": "libgnutls30:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libgnutls30:arm64/copyright"
+  },
+  {
+    "number": 218,
+    "pkg": "libgomp1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libgomp1:arm64/copyright"
+  },
+  {
+    "number": 219,
+    "pkg": "libgpg-error0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libgpg-error0:arm64/copyright"
+  },
+  {
+    "number": 220,
+    "pkg": "libgpm2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libgpm2:arm64/copyright"
+  },
+  {
+    "number": 221,
+    "pkg": "libgraphite2-3:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libgraphite2-3:arm64/copyright"
+  },
+  {
+    "number": 222,
+    "pkg": "libgraphite2-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libgraphite2-dev:arm64/copyright"
+  },
+  {
+    "number": 223,
+    "pkg": "libgssapi-krb5-2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libgssapi-krb5-2:arm64/copyright"
+  },
+  {
+    "number": 224,
+    "pkg": "libgssapi3-heimdal:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libgssapi3-heimdal:arm64/copyright"
+  },
+  {
+    "number": 225,
+    "pkg": "libgudev-1.0-0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libgudev-1.0-0:arm64/copyright"
+  },
+  {
+    "number": 226,
+    "pkg": "libharfbuzz-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libharfbuzz-dev:arm64/copyright"
+  },
+  {
+    "number": 227,
+    "pkg": "libharfbuzz-gobject0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libharfbuzz-gobject0:arm64/copyright"
+  },
+  {
+    "number": 228,
+    "pkg": "libharfbuzz-icu0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libharfbuzz-icu0:arm64/copyright"
+  },
+  {
+    "number": 229,
+    "pkg": "libharfbuzz0b:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libharfbuzz0b:arm64/copyright"
+  },
+  {
+    "number": 230,
+    "pkg": "libhcrypto4-heimdal:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libhcrypto4-heimdal:arm64/copyright"
+  },
+  {
+    "number": 231,
+    "pkg": "libheimbase1-heimdal:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libheimbase1-heimdal:arm64/copyright"
+  },
+  {
+    "number": 232,
+    "pkg": "libheimntlm0-heimdal:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libheimntlm0-heimdal:arm64/copyright"
+  },
+  {
+    "number": 233,
+    "pkg": "libhogweed4:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libhogweed4:arm64/copyright"
+  },
+  {
+    "number": 234,
+    "pkg": "libhx509-5-heimdal:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libhx509-5-heimdal:arm64/copyright"
+  },
+  {
+    "number": 235,
+    "pkg": "libibverbs1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libibverbs1:arm64/copyright"
+  },
+  {
+    "number": 236,
+    "pkg": "libice-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libice-dev:arm64/copyright"
+  },
+  {
+    "number": 237,
+    "pkg": "libice6:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libice6:arm64/copyright"
+  },
+  {
+    "number": 238,
+    "pkg": "libicu-dev",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libicu-dev/copyright"
+  },
+  {
+    "number": 239,
+    "pkg": "libicu-le-hb-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libicu-le-hb-dev:arm64/copyright"
+  },
+  {
+    "number": 240,
+    "pkg": "libicu-le-hb0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libicu-le-hb0:arm64/copyright"
+  },
+  {
+    "number": 241,
+    "pkg": "libicu60:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libicu60:arm64/copyright"
+  },
+  {
+    "number": 242,
+    "pkg": "libiculx60:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libiculx60:arm64/copyright"
+  },
+  {
+    "number": 243,
+    "pkg": "libidn11:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libidn11:arm64/copyright"
+  },
+  {
+    "number": 244,
+    "pkg": "libidn2-0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libidn2-0:arm64/copyright"
+  },
+  {
+    "number": 245,
+    "pkg": "libinput-bin",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libinput-bin/copyright"
+  },
+  {
+    "number": 246,
+    "pkg": "libinput-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libinput-dev:arm64/copyright"
+  },
+  {
+    "number": 247,
+    "pkg": "libinput10:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libinput10:arm64/copyright"
+  },
+  {
+    "number": 248,
+    "pkg": "libip4tc0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libip4tc0:arm64/copyright"
+  },
+  {
+    "number": 249,
+    "pkg": "libip6tc0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libip6tc0:arm64/copyright"
+  },
+  {
+    "number": 250,
+    "pkg": "libiptc0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libiptc0:arm64/copyright"
+  },
+  {
+    "number": 251,
+    "pkg": "libisc-export169:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libisc-export169:arm64/copyright"
+  },
+  {
+    "number": 252,
+    "pkg": "libiscsi7:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libiscsi7:arm64/copyright"
+  },
+  {
+    "number": 253,
+    "pkg": "libisl19:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libisl19:arm64/copyright"
+  },
+  {
+    "number": 254,
+    "pkg": "libitm1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libitm1:arm64/copyright"
+  },
+  {
+    "number": 255,
+    "pkg": "libjpeg-turbo8:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libjpeg-turbo8:arm64/copyright"
+  },
+  {
+    "number": 256,
+    "pkg": "libjpeg8:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libjpeg8:arm64/copyright"
+  },
+  {
+    "number": 257,
+    "pkg": "libjson-c3:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libjson-c3:arm64/copyright"
+  },
+  {
+    "number": 258,
+    "pkg": "libk5crypto3:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libk5crypto3:arm64/copyright"
+  },
+  {
+    "number": 259,
+    "pkg": "libkeyutils1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libkeyutils1:arm64/copyright"
+  },
+  {
+    "number": 260,
+    "pkg": "libklibc",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libklibc/copyright"
+  },
+  {
+    "number": 261,
+    "pkg": "libkmod2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libkmod2:arm64/copyright"
+  },
+  {
+    "number": 262,
+    "pkg": "libkrb5-26-heimdal:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libkrb5-26-heimdal:arm64/copyright"
+  },
+  {
+    "number": 263,
+    "pkg": "libkrb5-3:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libkrb5-3:arm64/copyright"
+  },
+  {
+    "number": 264,
+    "pkg": "libkrb5support0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libkrb5support0:arm64/copyright"
+  },
+  {
+    "number": 265,
+    "pkg": "libksba8:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libksba8:arm64/copyright"
+  },
+  {
+    "number": 266,
+    "pkg": "liblapack3:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/liblapack3:arm64/copyright"
+  },
+  {
+    "number": 267,
+    "pkg": "libldap-2.4-2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libldap-2.4-2:arm64/copyright"
+  },
+  {
+    "number": 268,
+    "pkg": "libldap-common",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libldap-common/copyright"
+  },
+  {
+    "number": 269,
+    "pkg": "liblocale-gettext-perl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/liblocale-gettext-perl/copyright"
+  },
+  {
+    "number": 270,
+    "pkg": "liblsan0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/liblsan0:arm64/copyright"
+  },
+  {
+    "number": 271,
+    "pkg": "libltdl-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libltdl-dev:arm64/copyright"
+  },
+  {
+    "number": 272,
+    "pkg": "libltdl7:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libltdl7:arm64/copyright"
+  },
+  {
+    "number": 273,
+    "pkg": "liblua5.3-0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/liblua5.3-0:arm64/copyright"
+  },
+  {
+    "number": 274,
+    "pkg": "liblua5.3-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/liblua5.3-dev:arm64/copyright"
+  },
+  {
+    "number": 275,
+    "pkg": "liblz4-1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/liblz4-1:arm64/copyright"
+  },
+  {
+    "number": 276,
+    "pkg": "liblzma-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/liblzma-dev:arm64/copyright"
+  },
+  {
+    "number": 277,
+    "pkg": "liblzma5:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/liblzma5:arm64/copyright"
+  },
+  {
+    "number": 278,
+    "pkg": "liblzo2-2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/liblzo2-2:arm64/copyright"
+  },
+  {
+    "number": 279,
+    "pkg": "libmagic-mgc",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libmagic-mgc/copyright"
+  },
+  {
+    "number": 280,
+    "pkg": "libmagic1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libmagic1:arm64/copyright"
+  },
+  {
+    "number": 281,
+    "pkg": "libmail-sendmail-perl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libmail-sendmail-perl/copyright"
+  },
+  {
+    "number": 282,
+    "pkg": "libmnl0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libmnl0:arm64/copyright"
+  },
+  {
+    "number": 283,
+    "pkg": "libmount1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libmount1:arm64/copyright"
+  },
+  {
+    "number": 284,
+    "pkg": "libmpc3:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libmpc3:arm64/copyright"
+  },
+  {
+    "number": 285,
+    "pkg": "libmpdec2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libmpdec2:arm64/copyright"
+  },
+  {
+    "number": 286,
+    "pkg": "libmpfr6:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libmpfr6:arm64/copyright"
+  },
+  {
+    "number": 287,
+    "pkg": "libmtdev-dev",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libmtdev-dev/copyright"
+  },
+  {
+    "number": 288,
+    "pkg": "libmtdev1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libmtdev1:arm64/copyright"
+  },
+  {
+    "number": 289,
+    "pkg": "libncurses5:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libncurses5:arm64/copyright"
+  },
+  {
+    "number": 290,
+    "pkg": "libncurses5-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libncurses5-dev:arm64/copyright"
+  },
+  {
+    "number": 291,
+    "pkg": "libncursesw5:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libncursesw5:arm64/copyright"
+  },
+  {
+    "number": 292,
+    "pkg": "libnetfilter-conntrack3:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libnetfilter-conntrack3:arm64/copyright"
+  },
+  {
+    "number": 293,
+    "pkg": "libnettle6:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libnettle6:arm64/copyright"
+  },
+  {
+    "number": 294,
+    "pkg": "libnewt0.52:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libnewt0.52:arm64/copyright"
+  },
+  {
+    "number": 295,
+    "pkg": "libnfnetlink0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libnfnetlink0:arm64/copyright"
+  },
+  {
+    "number": 296,
+    "pkg": "libnghttp2-14:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libnghttp2-14:arm64/copyright"
+  },
+  {
+    "number": 297,
+    "pkg": "libnl-3-200:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libnl-3-200:arm64/copyright"
+  },
+  {
+    "number": 298,
+    "pkg": "libnl-3-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libnl-3-dev:arm64/copyright"
+  },
+  {
+    "number": 299,
+    "pkg": "libnl-genl-3-200:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libnl-genl-3-200:arm64/copyright"
+  },
+  {
+    "number": 300,
+    "pkg": "libnl-genl-3-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libnl-genl-3-dev:arm64/copyright"
+  },
+  {
+    "number": 301,
+    "pkg": "libnl-route-3-200:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libnl-route-3-200:arm64/copyright"
+  },
+  {
+    "number": 302,
+    "pkg": "libnpth0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libnpth0:arm64/copyright"
+  },
+  {
+    "number": 303,
+    "pkg": "libnspr4:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libnspr4:arm64/copyright"
+  },
+  {
+    "number": 304,
+    "pkg": "libnss-systemd:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libnss-systemd:arm64/copyright"
+  },
+  {
+    "number": 305,
+    "pkg": "libnss3:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libnss3:arm64/copyright"
+  },
+  {
+    "number": 306,
+    "pkg": "libnuma-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libnuma-dev:arm64/copyright"
+  },
+  {
+    "number": 307,
+    "pkg": "libnuma1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libnuma1:arm64/copyright"
+  },
+  {
+    "number": 308,
+    "pkg": "libogg0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libogg0:arm64/copyright"
+  },
+  {
+    "number": 309,
+    "pkg": "libp11-kit0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libp11-kit0:arm64/copyright"
+  },
+  {
+    "number": 310,
+    "pkg": "libpam-cap:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpam-cap:arm64/copyright"
+  },
+  {
+    "number": 311,
+    "pkg": "libpam-modules:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpam-modules:arm64/copyright"
+  },
+  {
+    "number": 312,
+    "pkg": "libpam-modules-bin",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpam-modules-bin/copyright"
+  },
+  {
+    "number": 313,
+    "pkg": "libpam-runtime",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpam-runtime/copyright"
+  },
+  {
+    "number": 314,
+    "pkg": "libpam-systemd:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpam-systemd:arm64/copyright"
+  },
+  {
+    "number": 315,
+    "pkg": "libpam0g:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpam0g:arm64/copyright"
+  },
+  {
+    "number": 316,
+    "pkg": "libpam0g-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpam0g-dev:arm64/copyright"
+  },
+  {
+    "number": 317,
+    "pkg": "libpcap-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpcap-dev:arm64/copyright"
+  },
+  {
+    "number": 318,
+    "pkg": "libpcap0.8:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpcap0.8:arm64/copyright"
+  },
+  {
+    "number": 319,
+    "pkg": "libpcap0.8-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpcap0.8-dev:arm64/copyright"
+  },
+  {
+    "number": 320,
+    "pkg": "libpci3:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpci3:arm64/copyright"
+  },
+  {
+    "number": 321,
+    "pkg": "libpcre16-3:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpcre16-3:arm64/copyright"
+  },
+  {
+    "number": 322,
+    "pkg": "libpcre3:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpcre3:arm64/copyright"
+  },
+  {
+    "number": 323,
+    "pkg": "libpcre3-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpcre3-dev:arm64/copyright"
+  },
+  {
+    "number": 324,
+    "pkg": "libpcre32-3:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpcre32-3:arm64/copyright"
+  },
+  {
+    "number": 325,
+    "pkg": "libpcrecpp0v5:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpcrecpp0v5:arm64/copyright"
+  },
+  {
+    "number": 326,
+    "pkg": "libperl5.26:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libperl5.26:arm64/copyright"
+  },
+  {
+    "number": 327,
+    "pkg": "libpipeline1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpipeline1:arm64/copyright"
+  },
+  {
+    "number": 328,
+    "pkg": "libpixman-1-0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpixman-1-0:arm64/copyright"
+  },
+  {
+    "number": 329,
+    "pkg": "libpixman-1-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpixman-1-dev:arm64/copyright"
+  },
+  {
+    "number": 330,
+    "pkg": "libpng-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpng-dev:arm64/copyright"
+  },
+  {
+    "number": 331,
+    "pkg": "libpng-tools",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpng-tools/copyright"
+  },
+  {
+    "number": 332,
+    "pkg": "libpng16-16:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpng16-16:arm64/copyright"
+  },
+  {
+    "number": 333,
+    "pkg": "libpopt0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpopt0:arm64/copyright"
+  },
+  {
+    "number": 334,
+    "pkg": "libprocps6:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libprocps6:arm64/copyright"
+  },
+  {
+    "number": 335,
+    "pkg": "libpsl5:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpsl5:arm64/copyright"
+  },
+  {
+    "number": 336,
+    "pkg": "libpthread-stubs0-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpthread-stubs0-dev:arm64/copyright"
+  },
+  {
+    "number": 337,
+    "pkg": "libpulse0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpulse0:arm64/copyright"
+  },
+  {
+    "number": 338,
+    "pkg": "libpython-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpython-dev:arm64/copyright"
+  },
+  {
+    "number": 339,
+    "pkg": "libpython-stdlib:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpython-stdlib:arm64/copyright"
+  },
+  {
+    "number": 340,
+    "pkg": "libpython2.7:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpython2.7:arm64/copyright"
+  },
+  {
+    "number": 341,
+    "pkg": "libpython2.7-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpython2.7-dev:arm64/copyright"
+  },
+  {
+    "number": 342,
+    "pkg": "libpython2.7-minimal:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpython2.7-minimal:arm64/copyright"
+  },
+  {
+    "number": 343,
+    "pkg": "libpython2.7-stdlib:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpython2.7-stdlib:arm64/copyright"
+  },
+  {
+    "number": 344,
+    "pkg": "libpython3-stdlib:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpython3-stdlib:arm64/copyright"
+  },
+  {
+    "number": 345,
+    "pkg": "libpython3.6:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpython3.6:arm64/copyright"
+  },
+  {
+    "number": 346,
+    "pkg": "libpython3.6-minimal:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpython3.6-minimal:arm64/copyright"
+  },
+  {
+    "number": 347,
+    "pkg": "libpython3.6-stdlib:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libpython3.6-stdlib:arm64/copyright"
+  },
+  {
+    "number": 348,
+    "pkg": "librados2",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/librados2/copyright"
+  },
+  {
+    "number": 349,
+    "pkg": "librbd1",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/librbd1/copyright"
+  },
+  {
+    "number": 350,
+    "pkg": "librdmacm1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/librdmacm1:arm64/copyright"
+  },
+  {
+    "number": 351,
+    "pkg": "libreadline-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libreadline-dev:arm64/copyright"
+  },
+  {
+    "number": 352,
+    "pkg": "libreadline7:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libreadline7:arm64/copyright"
+  },
+  {
+    "number": 353,
+    "pkg": "libroken18-heimdal:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libroken18-heimdal:arm64/copyright"
+  },
+  {
+    "number": 354,
+    "pkg": "librtmp1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/librtmp1:arm64/copyright"
+  },
+  {
+    "number": 355,
+    "pkg": "libsasl2-2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libsasl2-2:arm64/copyright"
+  },
+  {
+    "number": 356,
+    "pkg": "libsasl2-modules:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libsasl2-modules:arm64/copyright"
+  },
+  {
+    "number": 357,
+    "pkg": "libsasl2-modules-db:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libsasl2-modules-db:arm64/copyright"
+  },
+  {
+    "number": 358,
+    "pkg": "libsdl1.2debian:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libsdl1.2debian:arm64/copyright"
+  },
+  {
+    "number": 359,
+    "pkg": "libseccomp2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libseccomp2:arm64/copyright"
+  },
+  {
+    "number": 360,
+    "pkg": "libselinux1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libselinux1:arm64/copyright"
+  },
+  {
+    "number": 361,
+    "pkg": "libsemanage-common",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libsemanage-common/copyright"
+  },
+  {
+    "number": 362,
+    "pkg": "libsemanage1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libsemanage1:arm64/copyright"
+  },
+  {
+    "number": 363,
+    "pkg": "libsensors4:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libsensors4:arm64/copyright"
+  },
+  {
+    "number": 364,
+    "pkg": "libsensors4-dev",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libsensors4-dev/copyright"
+  },
+  {
+    "number": 365,
+    "pkg": "libsepol1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libsepol1:arm64/copyright"
+  },
+  {
+    "number": 366,
+    "pkg": "libsigsegv2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libsigsegv2:arm64/copyright"
+  },
+  {
+    "number": 367,
+    "pkg": "libslang2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libslang2:arm64/copyright"
+  },
+  {
+    "number": 368,
+    "pkg": "libsm-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libsm-dev:arm64/copyright"
+  },
+  {
+    "number": 369,
+    "pkg": "libsm6:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libsm6:arm64/copyright"
+  },
+  {
+    "number": 370,
+    "pkg": "libsmartcols1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libsmartcols1:arm64/copyright"
+  },
+  {
+    "number": 371,
+    "pkg": "libsndfile1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libsndfile1:arm64/copyright"
+  },
+  {
+    "number": 372,
+    "pkg": "libsqlite3-0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libsqlite3-0:arm64/copyright"
+  },
+  {
+    "number": 373,
+    "pkg": "libss2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libss2:arm64/copyright"
+  },
+  {
+    "number": 374,
+    "pkg": "libssl-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libssl-dev:arm64/copyright"
+  },
+  {
+    "number": 375,
+    "pkg": "libssl-doc",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libssl-doc/copyright"
+  },
+  {
+    "number": 376,
+    "pkg": "libssl1.0.0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libssl1.0.0:arm64/copyright"
+  },
+  {
+    "number": 377,
+    "pkg": "libssl1.1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libssl1.1:arm64/copyright"
+  },
+  {
+    "number": 378,
+    "pkg": "libstdc++-7-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libstdc++-7-dev:arm64/copyright"
+  },
+  {
+    "number": 379,
+    "pkg": "libstdc++6:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libstdc++6:arm64/copyright"
+  },
+  {
+    "number": 380,
+    "pkg": "libsys-hostname-long-perl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libsys-hostname-long-perl/copyright"
+  },
+  {
+    "number": 381,
+    "pkg": "libsystemd0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libsystemd0:arm64/copyright"
+  },
+  {
+    "number": 382,
+    "pkg": "libtasn1-6:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libtasn1-6:arm64/copyright"
+  },
+  {
+    "number": 383,
+    "pkg": "libtext-charwidth-perl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libtext-charwidth-perl/copyright"
+  },
+  {
+    "number": 384,
+    "pkg": "libtext-iconv-perl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libtext-iconv-perl/copyright"
+  },
+  {
+    "number": 385,
+    "pkg": "libtext-wrapi18n-perl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libtext-wrapi18n-perl/copyright"
+  },
+  {
+    "number": 386,
+    "pkg": "libtimedate-perl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libtimedate-perl/copyright"
+  },
+  {
+    "number": 387,
+    "pkg": "libtinfo-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libtinfo-dev:arm64/copyright"
+  },
+  {
+    "number": 388,
+    "pkg": "libtinfo5:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libtinfo5:arm64/copyright"
+  },
+  {
+    "number": 389,
+    "pkg": "libtool",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libtool/copyright"
+  },
+  {
+    "number": 390,
+    "pkg": "libtool-bin",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libtool-bin/copyright"
+  },
+  {
+    "number": 391,
+    "pkg": "libtsan0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libtsan0:arm64/copyright"
+  },
+  {
+    "number": 392,
+    "pkg": "libubsan0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libubsan0:arm64/copyright"
+  },
+  {
+    "number": 393,
+    "pkg": "libudev-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libudev-dev:arm64/copyright"
+  },
+  {
+    "number": 394,
+    "pkg": "libudev1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libudev1:arm64/copyright"
+  },
+  {
+    "number": 395,
+    "pkg": "libunistring2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libunistring2:arm64/copyright"
+  },
+  {
+    "number": 396,
+    "pkg": "libunwind8:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libunwind8:arm64/copyright"
+  },
+  {
+    "number": 397,
+    "pkg": "libusb-1.0-0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libusb-1.0-0:arm64/copyright"
+  },
+  {
+    "number": 398,
+    "pkg": "libusbredirparser1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libusbredirparser1:arm64/copyright"
+  },
+  {
+    "number": 399,
+    "pkg": "libuuid1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libuuid1:arm64/copyright"
+  },
+  {
+    "number": 400,
+    "pkg": "libvorbis0a:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libvorbis0a:arm64/copyright"
+  },
+  {
+    "number": 401,
+    "pkg": "libvorbisenc2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libvorbisenc2:arm64/copyright"
+  },
+  {
+    "number": 402,
+    "pkg": "libwacom-bin",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libwacom-bin/copyright"
+  },
+  {
+    "number": 403,
+    "pkg": "libwacom-common",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libwacom-common/copyright"
+  },
+  {
+    "number": 404,
+    "pkg": "libwacom-dev",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libwacom-dev/copyright"
+  },
+  {
+    "number": 405,
+    "pkg": "libwacom2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libwacom2:arm64/copyright"
+  },
+  {
+    "number": 406,
+    "pkg": "libwind0-heimdal:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libwind0-heimdal:arm64/copyright"
+  },
+  {
+    "number": 407,
+    "pkg": "libwrap0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libwrap0:arm64/copyright"
+  },
+  {
+    "number": 408,
+    "pkg": "libx11-6:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libx11-6:arm64/copyright"
+  },
+  {
+    "number": 409,
+    "pkg": "libx11-data",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libx11-data/copyright"
+  },
+  {
+    "number": 410,
+    "pkg": "libx11-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libx11-dev:arm64/copyright"
+  },
+  {
+    "number": 411,
+    "pkg": "libx11-doc",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libx11-doc/copyright"
+  },
+  {
+    "number": 412,
+    "pkg": "libxau-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxau-dev:arm64/copyright"
+  },
+  {
+    "number": 413,
+    "pkg": "libxau6:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxau6:arm64/copyright"
+  },
+  {
+    "number": 414,
+    "pkg": "libxcb-render0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxcb-render0:arm64/copyright"
+  },
+  {
+    "number": 415,
+    "pkg": "libxcb-render0-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxcb-render0-dev:arm64/copyright"
+  },
+  {
+    "number": 416,
+    "pkg": "libxcb-shm0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxcb-shm0:arm64/copyright"
+  },
+  {
+    "number": 417,
+    "pkg": "libxcb-shm0-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxcb-shm0-dev:arm64/copyright"
+  },
+  {
+    "number": 418,
+    "pkg": "libxcb1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxcb1:arm64/copyright"
+  },
+  {
+    "number": 419,
+    "pkg": "libxcb1-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxcb1-dev:arm64/copyright"
+  },
+  {
+    "number": 420,
+    "pkg": "libxdmcp-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxdmcp-dev:arm64/copyright"
+  },
+  {
+    "number": 421,
+    "pkg": "libxdmcp6:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxdmcp6:arm64/copyright"
+  },
+  {
+    "number": 422,
+    "pkg": "libxext-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxext-dev:arm64/copyright"
+  },
+  {
+    "number": 423,
+    "pkg": "libxext6:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxext6:arm64/copyright"
+  },
+  {
+    "number": 424,
+    "pkg": "libxkbcommon-dev",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxkbcommon-dev/copyright"
+  },
+  {
+    "number": 425,
+    "pkg": "libxkbcommon0:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxkbcommon0:arm64/copyright"
+  },
+  {
+    "number": 426,
+    "pkg": "libxml2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxml2:arm64/copyright"
+  },
+  {
+    "number": 427,
+    "pkg": "libxml2-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxml2-dev:arm64/copyright"
+  },
+  {
+    "number": 428,
+    "pkg": "libxmuu1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxmuu1:arm64/copyright"
+  },
+  {
+    "number": 429,
+    "pkg": "libxrender-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxrender-dev:arm64/copyright"
+  },
+  {
+    "number": 430,
+    "pkg": "libxrender1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxrender1:arm64/copyright"
+  },
+  {
+    "number": 431,
+    "pkg": "libxtables12:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libxtables12:arm64/copyright"
+  },
+  {
+    "number": 432,
+    "pkg": "libyaml-0-2:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libyaml-0-2:arm64/copyright"
+  },
+  {
+    "number": 433,
+    "pkg": "libzstd1:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/libzstd1:arm64/copyright"
+  },
+  {
+    "number": 434,
+    "pkg": "linux-base",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/linux-base/copyright"
+  },
+  {
+    "number": 435,
+    "pkg": "linux-libc-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/linux-libc-dev:arm64/copyright"
+  },
+  {
+    "number": 436,
+    "pkg": "linux-tools-4.15.0-51",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/linux-tools-4.15.0-51/copyright"
+  },
+  {
+    "number": 437,
+    "pkg": "linux-tools-4.15.0-51-generic",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/linux-tools-4.15.0-51-generic/copyright"
+  },
+  {
+    "number": 438,
+    "pkg": "linux-tools-common",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/linux-tools-common/copyright"
+  },
+  {
+    "number": 439,
+    "pkg": "linux-tools-generic",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/linux-tools-generic/copyright"
+  },
+  {
+    "number": 440,
+    "pkg": "locales",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/locales/copyright"
+  },
+  {
+    "number": 441,
+    "pkg": "login",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/login/copyright"
+  },
+  {
+    "number": 442,
+    "pkg": "logrotate",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/logrotate/copyright"
+  },
+  {
+    "number": 443,
+    "pkg": "lsb-base",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/lsb-base/copyright"
+  },
+  {
+    "number": 444,
+    "pkg": "lsb-release",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/lsb-release/copyright"
+  },
+  {
+    "number": 445,
+    "pkg": "m4",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/m4/copyright"
+  },
+  {
+    "number": 446,
+    "pkg": "make",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/make/copyright"
+  },
+  {
+    "number": 447,
+    "pkg": "man-db",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/man-db/copyright"
+  },
+  {
+    "number": 448,
+    "pkg": "manpages",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/manpages/copyright"
+  },
+  {
+    "number": 449,
+    "pkg": "manpages-dev",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/manpages-dev/copyright"
+  },
+  {
+    "number": 450,
+    "pkg": "mawk",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/mawk/copyright"
+  },
+  {
+    "number": 451,
+    "pkg": "mdadm",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/mdadm/copyright"
+  },
+  {
+    "number": 452,
+    "pkg": "mime-support",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/mime-support/copyright"
+  },
+  {
+    "number": 453,
+    "pkg": "mount",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/mount/copyright"
+  },
+  {
+    "number": 454,
+    "pkg": "mtd-utils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/mtd-utils/copyright"
+  },
+  {
+    "number": 455,
+    "pkg": "multiarch-support",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/multiarch-support/copyright"
+  },
+  {
+    "number": 456,
+    "pkg": "ncurses-base",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/ncurses-base/copyright"
+  },
+  {
+    "number": 457,
+    "pkg": "ncurses-bin",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/ncurses-bin/copyright"
+  },
+  {
+    "number": 458,
+    "pkg": "ncurses-term",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/ncurses-term/copyright"
+  },
+  {
+    "number": 459,
+    "pkg": "net-tools",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/net-tools/copyright"
+  },
+  {
+    "number": 460,
+    "pkg": "netbase",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/netbase/copyright"
+  },
+  {
+    "number": 461,
+    "pkg": "netcat-openbsd",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/netcat-openbsd/copyright"
+  },
+  {
+    "number": 462,
+    "pkg": "netplan.io",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/netplan.io/copyright"
+  },
+  {
+    "number": 463,
+    "pkg": "networkd-dispatcher",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/networkd-dispatcher/copyright"
+  },
+  {
+    "number": 464,
+    "pkg": "nplan",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/nplan/copyright"
+  },
+  {
+    "number": 465,
+    "pkg": "openssh-client",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/openssh-client/copyright"
+  },
+  {
+    "number": 466,
+    "pkg": "openssh-server",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/openssh-server/copyright"
+  },
+  {
+    "number": 467,
+    "pkg": "openssh-sftp-server",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/openssh-sftp-server/copyright"
+  },
+  {
+    "number": 468,
+    "pkg": "openssl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/openssl/copyright"
+  },
+  {
+    "number": 469,
+    "pkg": "passwd",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/passwd/copyright"
+  },
+  {
+    "number": 470,
+    "pkg": "patch",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/patch/copyright"
+  },
+  {
+    "number": 471,
+    "pkg": "pciutils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/pciutils/copyright"
+  },
+  {
+    "number": 472,
+    "pkg": "perl",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/perl/copyright"
+  },
+  {
+    "number": 473,
+    "pkg": "perl-base",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/perl-base/copyright"
+  },
+  {
+    "number": 474,
+    "pkg": "perl-modules-5.26",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/perl-modules-5.26/copyright"
+  },
+  {
+    "number": 475,
+    "pkg": "pinentry-curses",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/pinentry-curses/copyright"
+  },
+  {
+    "number": 476,
+    "pkg": "pkg-config",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/pkg-config/copyright"
+  },
+  {
+    "number": 477,
+    "pkg": "po-debconf",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/po-debconf/copyright"
+  },
+  {
+    "number": 478,
+    "pkg": "powermgmt-base",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/powermgmt-base/copyright"
+  },
+  {
+    "number": 479,
+    "pkg": "procps",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/procps/copyright"
+  },
+  {
+    "number": 480,
+    "pkg": "psmisc",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/psmisc/copyright"
+  },
+  {
+    "number": 481,
+    "pkg": "publicsuffix",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/publicsuffix/copyright"
+  },
+  {
+    "number": 482,
+    "pkg": "python",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python/copyright"
+  },
+  {
+    "number": 483,
+    "pkg": "python-apt-common",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python-apt-common/copyright"
+  },
+  {
+    "number": 484,
+    "pkg": "python-dev",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python-dev/copyright"
+  },
+  {
+    "number": 485,
+    "pkg": "python-minimal",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python-minimal/copyright"
+  },
+  {
+    "number": 486,
+    "pkg": "python-numpy",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python-numpy/copyright"
+  },
+  {
+    "number": 487,
+    "pkg": "python2.7",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python2.7/copyright"
+  },
+  {
+    "number": 488,
+    "pkg": "python2.7-dev",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python2.7-dev/copyright"
+  },
+  {
+    "number": 489,
+    "pkg": "python2.7-minimal",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python2.7-minimal/copyright"
+  },
+  {
+    "number": 490,
+    "pkg": "python3",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3/copyright"
+  },
+  {
+    "number": 491,
+    "pkg": "python3-apt",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3-apt/copyright"
+  },
+  {
+    "number": 492,
+    "pkg": "python3-certifi",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3-certifi/copyright"
+  },
+  {
+    "number": 493,
+    "pkg": "python3-chardet",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3-chardet/copyright"
+  },
+  {
+    "number": 494,
+    "pkg": "python3-dbus",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3-dbus/copyright"
+  },
+  {
+    "number": 495,
+    "pkg": "python3-distutils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3-distutils/copyright"
+  },
+  {
+    "number": 496,
+    "pkg": "python3-gi",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3-gi/copyright"
+  },
+  {
+    "number": 497,
+    "pkg": "python3-idna",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3-idna/copyright"
+  },
+  {
+    "number": 498,
+    "pkg": "python3-lib2to3",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3-lib2to3/copyright"
+  },
+  {
+    "number": 499,
+    "pkg": "python3-minimal",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3-minimal/copyright"
+  },
+  {
+    "number": 500,
+    "pkg": "python3-netifaces",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3-netifaces/copyright"
+  },
+  {
+    "number": 501,
+    "pkg": "python3-pkg-resources",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3-pkg-resources/copyright"
+  },
+  {
+    "number": 502,
+    "pkg": "python3-requests",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3-requests/copyright"
+  },
+  {
+    "number": 503,
+    "pkg": "python3-six",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3-six/copyright"
+  },
+  {
+    "number": 504,
+    "pkg": "python3-software-properties",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3-software-properties/copyright"
+  },
+  {
+    "number": 505,
+    "pkg": "python3-urllib3",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3-urllib3/copyright"
+  },
+  {
+    "number": 506,
+    "pkg": "python3-yaml",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3-yaml/copyright"
+  },
+  {
+    "number": 507,
+    "pkg": "python3.6",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3.6/copyright"
+  },
+  {
+    "number": 508,
+    "pkg": "python3.6-minimal",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/python3.6-minimal/copyright"
+  },
+  {
+    "number": 509,
+    "pkg": "qemu-block-extra:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/qemu-block-extra:arm64/copyright"
+  },
+  {
+    "number": 510,
+    "pkg": "qemu-kvm",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/qemu-kvm/copyright"
+  },
+  {
+    "number": 511,
+    "pkg": "qemu-system-arm",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/qemu-system-arm/copyright"
+  },
+  {
+    "number": 512,
+    "pkg": "qemu-system-common",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/qemu-system-common/copyright"
+  },
+  {
+    "number": 513,
+    "pkg": "qemu-utils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/qemu-utils/copyright"
+  },
+  {
+    "number": 514,
+    "pkg": "rdate",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/rdate/copyright"
+  },
+  {
+    "number": 515,
+    "pkg": "readline-common",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/readline-common/copyright"
+  },
+  {
+    "number": 516,
+    "pkg": "rsyslog",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/rsyslog/copyright"
+  },
+  {
+    "number": 517,
+    "pkg": "sed",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/sed/copyright"
+  },
+  {
+    "number": 518,
+    "pkg": "sensible-utils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/sensible-utils/copyright"
+  },
+  {
+    "number": 519,
+    "pkg": "shared-mime-info",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/shared-mime-info/copyright"
+  },
+  {
+    "number": 520,
+    "pkg": "sharutils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/sharutils/copyright"
+  },
+  {
+    "number": 521,
+    "pkg": "software-properties-common",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/software-properties-common/copyright"
+  },
+  {
+    "number": 522,
+    "pkg": "ssh-import-id",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/ssh-import-id/copyright"
+  },
+  {
+    "number": 523,
+    "pkg": "ssl-cert",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/ssl-cert/copyright"
+  },
+  {
+    "number": 524,
+    "pkg": "strace",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/strace/copyright"
+  },
+  {
+    "number": 525,
+    "pkg": "sudo",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/sudo/copyright"
+  },
+  {
+    "number": 526,
+    "pkg": "sysstat",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/sysstat/copyright"
+  },
+  {
+    "number": 527,
+    "pkg": "systemd",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/systemd/copyright"
+  },
+  {
+    "number": 528,
+    "pkg": "systemd-sysv",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/systemd-sysv/copyright"
+  },
+  {
+    "number": 529,
+    "pkg": "sysvinit-utils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/sysvinit-utils/copyright"
+  },
+  {
+    "number": 530,
+    "pkg": "tar",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/tar/copyright"
+  },
+  {
+    "number": 531,
+    "pkg": "tcpdump",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/tcpdump/copyright"
+  },
+  {
+    "number": 532,
+    "pkg": "telnet",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/telnet/copyright"
+  },
+  {
+    "number": 533,
+    "pkg": "tftp-hpa",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/tftp-hpa/copyright"
+  },
+  {
+    "number": 534,
+    "pkg": "tftpd-hpa",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/tftpd-hpa/copyright"
+  },
+  {
+    "number": 535,
+    "pkg": "tzdata",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/tzdata/copyright"
+  },
+  {
+    "number": 536,
+    "pkg": "u-boot-tools",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/u-boot-tools/copyright"
+  },
+  {
+    "number": 537,
+    "pkg": "ubuntu-advantage-tools",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/ubuntu-advantage-tools/copyright"
+  },
+  {
+    "number": 538,
+    "pkg": "ubuntu-keyring",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/ubuntu-keyring/copyright"
+  },
+  {
+    "number": 539,
+    "pkg": "ubuntu-minimal",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/ubuntu-minimal/copyright"
+  },
+  {
+    "number": 540,
+    "pkg": "ucf",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/ucf/copyright"
+  },
+  {
+    "number": 541,
+    "pkg": "udev",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/udev/copyright"
+  },
+  {
+    "number": 542,
+    "pkg": "unattended-upgrades",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/unattended-upgrades/copyright"
+  },
+  {
+    "number": 543,
+    "pkg": "unzip",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/unzip/copyright"
+  },
+  {
+    "number": 544,
+    "pkg": "util-linux",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/util-linux/copyright"
+  },
+  {
+    "number": 545,
+    "pkg": "vim",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/vim/copyright"
+  },
+  {
+    "number": 546,
+    "pkg": "vim-common",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/vim-common/copyright"
+  },
+  {
+    "number": 547,
+    "pkg": "vim-runtime",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/vim-runtime/copyright"
+  },
+  {
+    "number": 548,
+    "pkg": "vim-tiny",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/vim-tiny/copyright"
+  },
+  {
+    "number": 549,
+    "pkg": "vlan",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/vlan/copyright"
+  },
+  {
+    "number": 550,
+    "pkg": "vsftpd",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/vsftpd/copyright"
+  },
+  {
+    "number": 551,
+    "pkg": "wget",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/wget/copyright"
+  },
+  {
+    "number": 552,
+    "pkg": "whiptail",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/whiptail/copyright"
+  },
+  {
+    "number": 553,
+    "pkg": "x11-common",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/x11-common/copyright"
+  },
+  {
+    "number": 554,
+    "pkg": "x11proto-core-dev",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/x11proto-core-dev/copyright"
+  },
+  {
+    "number": 555,
+    "pkg": "x11proto-dev",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/x11proto-dev/copyright"
+  },
+  {
+    "number": 556,
+    "pkg": "x11proto-xext-dev",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/x11proto-xext-dev/copyright"
+  },
+  {
+    "number": 557,
+    "pkg": "xauth",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/xauth/copyright"
+  },
+  {
+    "number": 558,
+    "pkg": "xdg-user-dirs",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/xdg-user-dirs/copyright"
+  },
+  {
+    "number": 559,
+    "pkg": "xkb-data",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/xkb-data/copyright"
+  },
+  {
+    "number": 560,
+    "pkg": "xorg-sgml-doctools",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/xorg-sgml-doctools/copyright"
+  },
+  {
+    "number": 561,
+    "pkg": "xtrans-dev",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/xtrans-dev/copyright"
+  },
+  {
+    "number": 562,
+    "pkg": "xxd",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/xxd/copyright"
+  },
+  {
+    "number": 563,
+    "pkg": "xz-utils",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/xz-utils/copyright"
+  },
+  {
+    "number": 564,
+    "pkg": "zip",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/zip/copyright"
+  },
+  {
+    "number": 565,
+    "pkg": "zlib1g:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/zlib1g:arm64/copyright"
+  },
+  {
+    "number": 566,
+    "pkg": "zlib1g-dev:arm64",
+    "con": "http://sun.ap.freescale.net/tftpboot/b19537/1906-scr/zlib1g-dev:arm64/copyright"
+  }
+]
