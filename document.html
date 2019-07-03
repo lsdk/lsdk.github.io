@@ -154,6 +154,15 @@
    Acquire::http::proxy "http://&ltdomain&gt\&ltusername&gt:&ltpassword&gt@&ltURL&gt:&ltport&gt"<br>
    Acquire::https::proxy "http://&ltdomain&gt\&ltusername&gt:&ltpassword&gt@&ltURL&gt:&ltport&gt"<br><p>
                         </li>
+                        <li><strong>Question:</strong> Why does LSDK distro might boot fail after re-installing it onto the same storage device which had been deployed LSDK distro before?<br>
+                                <strong>Answer:</strong> flex-installer will skip the formatting of system partition-4 in which LSDK had been deployed to prevent damaging user's important data by default. <br>
+                                You can back up the important data in this partition if necessary, then format this partition and re-install it as below:<br>
+                                Example:<br>
+                                <pre class="codeblock">
+ $ sudo umount /dev/mmcblk0p4
+ $ sudo parted -s /dev/mmcblk0 rm 4
+ $ flex-installer -i auto -m &ltmachine&gt -d /dev/mmcblk0</pre>
+                         </li>
                     </ul>
                 </div>
                 <div class="tab-pane" role="tabpanel" id="three">
