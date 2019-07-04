@@ -58,7 +58,7 @@
 	["srk.pri","b5ad4d82ad13d0b56fab482f77b05bc9","srk.pri.","https://www.nxp.com/lgfiles/sdk/lsdk1906/srk.pri"],
 	["srk.pub","683e1a6822953943455cb8582873ccdb","srk.pub.","https://www.nxp.com/lgfiles/sdk/lsdk1906/srk.pub"],
 	["rootfs_lsdk1906_LS_arm32_main.tgz","1ca8bd9d06bd60b9eab435679762873d","Arm32 userland including Ubuntu main packages and NXP packages.","https://www.nxp.com/lgfiles/sdk/lsdk1906/rootfs_lsdk1906_LS_arm32_main.tgz"],
-	["rootfs_lsdk1906_LS_arm64_main.tgz","00427b5194cc47e955c086214e6da630","Arm32 userland including Ubuntu main packages and NXP packages.","https://www.nxp.com/lgfiles/sdk/lsdk1906/rootfs_lsdk1906_LS_arm64_main.tgz"],
+	["rootfs_lsdk1906_LS_arm64_main.tgz","00427b5194cc47e955c086214e6da630","Arm64 userland including Ubuntu main packages and NXP packages.","https://www.nxp.com/lgfiles/sdk/lsdk1906/rootfs_lsdk1906_LS_arm64_main.tgz"],
 	["rootfs_lsdk1906_LS_arm32_edgescale.tgz","50cce2d6828e6ba647bc289eadcfbb9a","Arm32 userland including Ubuntu main packages and NXP packages with edgescale support.","https://www.nxp.com/lgfiles/sdk/lsdk1906/rootfs_lsdk1906_LS_arm32_edgescale.tgz"],
 	["rootfs_lsdk1906_LS_arm64_edgescale.tgz","78f68232579992761a8fbd471f85fe25","Arm64 userland including Ubuntu main packages and NXP packages with edgescale support.","https://www.nxp.com/lgfiles/sdk/lsdk1906/rootfs_lsdk1906_LS_arm64_edgescale.tgz"]
 ]
