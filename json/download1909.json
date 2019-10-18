@@ -1,13 +1,13 @@
 [
 	["bootpartition_LS_arm32_lts_4.14.tgz","cd482ee86a950477e63c853913b559da","The prebuilt images for boot partition generation of ARM32 targets with kernel 4.14.","https://www.nxp.com/lgfiles/sdk/lsdk1909/bootpartition_LS_arm32_lts_4.14.tgz"],
 	["bootpartition_LS_arm32_lts_4.19.tgz","69e7d08c2de8514e9e356b090708b7bc","The prebuilt images for boot partition generation of ARM32 targets with kernel 4.19.","https://www.nxp.com/lgfiles/sdk/lsdk1909/bootpartition_LS_arm32_lts_4.19.tgz"],
-	["bootpartition_LS_arm64_lts_4.14.tgz","9b2700c89608ff51590019adb3080037","The prebuilt images for boot partition generation of ARM64 targets with kernel 4.14.","https://www.nxp.com/lgfiles/sdk/lsdk1909/bootpartition_LS_arm64_lts_4.14.tgz"],
-	["bootpartition_LS_arm64_lts_4.19.tgz","c65a2420cba2c133e1c14335a56168c4","The prebuilt images for boot partition generation of ARM64 targets with kernel 4.19.","https://www.nxp.com/lgfiles/sdk/lsdk1909/bootpartition_LS_arm64_lts_4.19.tgz"],
+	["bootpartition_LS_arm64_lts_4.14.tgz","37575021393e2bd861f9b12cc6e401ef","The prebuilt images for boot partition generation of ARM64 targets with kernel 4.14.","https://www.nxp.com/lgfiles/sdk/lsdk1909/bootpartition_LS_arm64_lts_4.14.tgz"],
+	["bootpartition_LS_arm64_lts_4.19.tgz","82d67e6fe77b8a75cd35fa7b47a625cb","The prebuilt images for boot partition generation of ARM64 targets with kernel 4.19.","https://www.nxp.com/lgfiles/sdk/lsdk1909/bootpartition_LS_arm64_lts_4.19.tgz"],
 	["firmware_ls1012afrwy_512mb_uboot_qspiboot.img","570ba5a5b0062b96f146f3a2824daa07","The firmware image to boot ls1012afrwy(512M) board from QSPI flash with u-boot.","https://www.nxp.com/lgfiles/sdk/lsdk1909/firmware_ls1012afrwy_512mb_uboot_qspiboot.img"],
 	["firmware_ls1012afrwy_512mb_uboot_qspiboot_secure.img","0431da3fec3aa3875123632bbb48b588","The firmware image to secure boot ls1012afrwy(512M) board from QSPI flash with u-boot.","https://www.nxp.com/lgfiles/sdk/lsdk1909/firmware_ls1012afrwy_512mb_uboot_qspiboot_secure.img"],
 	["firmware_ls1012afrwy_uboot_qspiboot.img","2edd5fc23949c188ab1d937582a902f9","The firmware image to boot ls1012afrwy board from QSPI flash with u-boot.","https://www.nxp.com/lgfiles/sdk/lsdk1909/firmware_ls1012afrwy_uboot_qspiboot.img"],
 	["firmware_ls1012afrwy_uboot_qspiboot_secure.img","0ace2e5af25429753455ffd348ce1f4f","The firmware image to secure boot ls1012afrwy board from QSPI flash with u-boot.","https://www.nxp.com/lgfiles/sdk/lsdk1909/firmware_ls1012afrwy_uboot_qspiboot_secure.img"],
-	["firmware_ls1012ardb_uboot_qspiboot.img","de2ab764b8f1ed8180a4472b06ac2890","The firmware image to boot ls1012ardb board from QSPI flash with u-boot.","https://www.nxp.com/lgfiles/sdk/lsdk1909/firmware_ls1012ardb_uboot_qspiboot.img"],
+	["firmware_ls1012ardb_uboot_qspiboot.img","e1568b5230c40348b428fdb73879948f","The firmware image to boot ls1012ardb board from QSPI flash with u-boot.","https://www.nxp.com/lgfiles/sdk/lsdk1909/firmware_ls1012ardb_uboot_qspiboot.img"],
 	["firmware_ls1012ardb_uboot_qspiboot_secure.img","118c417f3fc8a2fafcc30b10be638213","The firmware image to secure boot ls1012ardb board from QSPI flash with u-boot.","https://www.nxp.com/lgfiles/sdk/lsdk1909/firmware_ls1012ardb_uboot_qspiboot_secure.img"],
 	["firmware_ls1021atwr_uboot_norboot.img","546556eaf2effbacbe229931bd0baf11","The firmware image to boot ls1021atwr board from NOR flash with u-boot.","https://www.nxp.com/lgfiles/sdk/lsdk1909/firmware_ls1021atwr_uboot_norboot.img"],
 	["firmware_ls1021atwr_uboot_norboot_secure.img","7dd8d74c838843011e6ece9f39ef6509","The firmware image to secure boot ls1021atwr board from NOR flash with u-boot.","https://www.nxp.com/lgfiles/sdk/lsdk1909/firmware_ls1021atwr_uboot_norboot_secure.img"],
@@ -54,10 +54,10 @@
 	["linux_4.19_LS_arm32.tgz","47761ac5cf575de20b79a8bd8ececc88","The prebuilt kernel image/dtb/modules of linux-4.19 for ARM32 targets.","https://www.nxp.com/lgfiles/sdk/lsdk1909/linux_4.19_LS_arm32.tgz"],
 	["linux_4.19_LS_arm64.tgz","8d0467cb54ed24b1c829230ac1ee321e","The prebuilt kernel image/dtb/modules of linux-4.19 for ARM64 targets.","https://www.nxp.com/lgfiles/sdk/lsdk1909/linux_4.19_LS_arm64.tgz"],
 	["lsdk_linux_arm32_LS_tiny.itb","32a18fb326bdeeeca4bda19d8c08d526","The Kernel ITB file for Ubuntu userland deployment on ARM32 target board.","https://www.nxp.com/lgfiles/sdk/lsdk1909/lsdk_linux_arm32_LS_tiny.itb"],
-	["lsdk_linux_arm64_LS_tiny.itb","f51230978581d92af859d7fcf2e0fba6","The Kernel ITB file for Ubuntu userland deployment on ARM64 target board.","https://www.nxp.com/lgfiles/sdk/lsdk1909/lsdk_linux_arm64_LS_tiny.itb"],
+	["lsdk_linux_arm64_LS_tiny.itb","cfdd0a9562ac7b1e1f22eb17c3da572c","The Kernel ITB file for Ubuntu userland deployment on ARM64 target board.","https://www.nxp.com/lgfiles/sdk/lsdk1909/lsdk_linux_arm64_LS_tiny.itb"],
 	["srk_hash.txt","6cc11bf5fe9bae5706bf1becc4e1d93a","SRK (Public Key) Hash.","https://www.nxp.com/lgfiles/sdk/lsdk1909/srk_hash.txt"],
 	["srk.pri","b5ad4d82ad13d0b56fab482f77b05bc9","srk.pri.","https://www.nxp.com/lgfiles/sdk/lsdk1909/srk.pri"],
 	["srk.pub","683e1a6822953943455cb8582873ccdb","srk.pub.","https://www.nxp.com/lgfiles/sdk/lsdk1909/srk.pub"],
 	["rootfs_lsdk1909_LS_arm32_main.tgz","5201d9a481150be937ba67d63e603e04","Arm32 userland including Ubuntu main packages and NXP packages.","https://www.nxp.com/lgfiles/sdk/lsdk1909/rootfs_lsdk1909_LS_arm32_main.tgz"],
-	["rootfs_lsdk1909_LS_arm64_main.tgz","bad1a2f2da7b15b3ee11da7ce2718e17","Arm64 userland including Ubuntu main packages and NXP packages.","https://www.nxp.com/lgfiles/sdk/lsdk1909/rootfs_lsdk1909_LS_arm64_main.tgz"]
+	["rootfs_lsdk1909_LS_arm64_main.tgz","fb30f7ae939811a2d6fdf28decdd4c39","Arm64 userland including Ubuntu main packages and NXP packages.","https://www.nxp.com/lgfiles/sdk/lsdk1909/rootfs_lsdk1909_LS_arm64_main.tgz"]
 ]
