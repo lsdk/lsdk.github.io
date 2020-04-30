@@ -63,5 +63,5 @@
 	["srk.pri","b5ad4d82ad13d0b56fab482f77b05bc9","srk.pri.","https://www.nxp.com/lgfiles/sdk/lsdk2004/srk.pri"],
 	["srk.pub","683e1a6822953943455cb8582873ccdb","srk.pub.","https://www.nxp.com/lgfiles/sdk/lsdk2004/srk.pub"],
 	["rootfs_lsdk2004_ubuntu_main_arm32.tgz","6bda38053350865ccb127dea92995c5e","Arm32 userland including Ubuntu main packages and NXP packages.","https://www.nxp.com/lgfiles/sdk/lsdk2004/rootfs_lsdk2004_ubuntu_main_arm32.tgz"],
-	["rootfs_lsdk2004_ubuntu_main_arm64.tgz","45440655c2df85eeb2079c352f1783e6","Arm64 userland including Ubuntu main packages and NXP packages.","https://www.nxp.com/lgfiles/sdk/lsdk2004/rootfs_lsdk2004_ubuntu_main_arm64.tgz"]
+	["rootfs_lsdk2004_ubuntu_main_arm64.tgz","95210617a16de4473a2002c94ecb21c8","Arm64 userland including Ubuntu main packages and NXP packages.","https://www.nxp.com/lgfiles/sdk/lsdk2004/rootfs_lsdk2004_ubuntu_main_arm64.tgz"]
 ]
