@@ -689,6 +689,7 @@
                                     <tbody class="js-nxp-table">
                                     </tbody>
                                 </table>
+                                <pre></pre>
                             </div>
                             <div role="tabpanel" class="tab-pane" id="profile">
                                 <!-- <div><h4>ramdiskfs</h4></div> -->
@@ -752,12 +753,13 @@
         getScr(url)
         getScr(root_url)
         function getScr(url){
+            let _cUrl = url.split('.')[0]
             var url='json/'+url;
             $.ajax({
                 method: 'get',
                 url,
                 success: function (rs) {
-                    if(typeof rs=='string'){
+                    if(typeof rs=='string' && !url.endsWith('txt')){
                         rs=JSON.parse(rs)
                     }
                     if (url.startsWith("json/rootfs")) {
@@ -767,9 +769,16 @@
                         for (var item of rs) {
                             $(".js-rootfs-table").append(`<tr><td>${item.number}</td><td>${item.pkg}</td><td><a href='${item.con}' target='_blank'>copyright</a></td></tr>`);
                         }
+                    } else if (url.endsWith('txt')) {
+                        $(".dgtc").show()
+                        $(".dgtc a").tab('show')
+                        $("#home table").hide()
+                        $("#home pre").show().html(rs)
                     } else {
                         $(".dgtc, .profile").show()
                         $(".dgtc a, .profile a").tab('show')
+                        $("#home table").show()
+                        $("#home pre").hide()
                         var nxp_data=rs["NXP"], ramdiskfs_table=rs["ramdiskfs"];
                         var table_style='<tr><td></td><td></td><td></td><td></td></tr>';
                         for(var nxpIdx=0;nxpIdx<nxp_data.length;nxpIdx++){
@@ -783,7 +792,10 @@
                     }
                 },
                 error: function (err) {
-                    console.log(url.startsWith("json/rootfs"))
+                    if (url.startsWith("json/nxpdata")) {
+                        _cUrl += '.txt'
+                        getScr(_cUrl)
+                    }
                     if (url.startsWith("json/rootfs")) {
                         $(".rootf").hide()
                     } else {

@@ -1,0 +1,387 @@
+NXP Software Content Register
+
+Release - LSDK-20.12
+ December 2020
+
+--------------------------------------------
+BSP Packages
+--------------------------------------------
+
+Package:                     aiopsl
+Outgoing License:            BSD-3-Clause
+License File:                LICENSE
+Package Category:            user space
+Type of Content:             source
+Description and comments:    DPAA2 Accelerated I/O Processing service layer
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/aiopsl
+
+--------------------------------------------
+
+Package:                     atf
+Outgoing License:            BSD
+License File:                license.rst
+Package Category:            firmware
+Type of Content:             source
+Description and comments:    ARM Trusted Firmware
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/atf
+
+--------------------------------------------
+
+Package:                     boot-format
+Outgoing License:            GPLv2
+License File:                COPYING
+Package Category:            user space
+Type of Content:             source
+Description and comments:    Boot format utility
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/boot-format
+
+--------------------------------------------
+
+Package:                     ceetm
+Outgoing License:            GPLv2 & BSD
+License File:                COPYING
+Package Category:            user space
+Type of Content:             source
+Description and comments:    CEETM TC QDISC
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/ceetm
+
+--------------------------------------------
+
+Package:                     cryptodev-linux
+Outgoing License:            GPLv2
+License File:                COPYING
+Package Category:            kernel
+Type of Content:             source
+Description and comments:    crypto device driver
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/cryptodev-linux
+
+--------------------------------------------
+
+Package:                     cst
+Outgoing License:            BSD
+License File:                COPYING
+Package Category:            user space
+Type of Content:             source
+Description and comments:    utility for security boot
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/cst
+
+--------------------------------------------
+
+Package:                     dce
+Outgoing License:            BSD-3-Clause
+License File:                LICENSE
+Package Category:            user space
+Type of Content:             source
+Description and comments:    Decompression Compression Engine Userspace Utils
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/dce
+
+--------------------------------------------
+
+Package:                     ddr-phy-binary
+Outgoing License:            NXP-Binary-EULA
+License File:                NXP-Binary-EULA.txt
+Package Category:            firmware
+Type of Content:             binary
+Description and comments:    DDR PHY firmware
+Release Location:            https://github.com/nxp/ddr-phy-binary
+
+--------------------------------------------
+
+Package:                     dpdk
+Outgoing License:            BSD-3-Clause & LGPLv2 & GPLv2
+License File:                license/README
+Package Category:            user space
+Type of Content:             source
+Description and comments:    Data Plane Development Kit
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/dpdk
+
+--------------------------------------------
+
+Package:                     dp-firmware-cadence
+Outgoing License:            Proprietary
+License File:                COPYING
+Package Category:            firmware
+Type of Content:             binary
+Description and comments:    DP firmware
+Release Location:            https://www.nxp.com/lgfiles/sdk/lsdk2004/firmware-cadence-lsdk2004.bin
+
+--------------------------------------------
+
+Package:                     eth-config
+Outgoing License:            BSD & GPLv2+
+License File:                COPYING
+Package Category:            user space
+Type of Content:             source
+Description and comments:    Ethernet Configuration Files
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/eth-config
+
+--------------------------------------------
+
+Package:                     fmc
+Outgoing License:            MIT
+License File:                COPYING
+Package Category:            user space
+Type of Content:             source
+Description and comments:    Frame Manager Configuration tool
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/fmc
+
+--------------------------------------------
+
+Package:                     fmlib
+Outgoing License:            BSD & GPLv2
+License File:                COPYING
+Package Category:            user space
+Type of Content:             source
+Description and comments:    Frame Manager User Space Library
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/fmlib
+
+--------------------------------------------
+
+Package:                     gpp-aioptool
+Outgoing License:            BSD
+License File:                LICENSE
+Package Category:            user space
+Type of Content:             source
+Description and comments:    userspace application for performing operations
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/gpp-aioptool
+
+--------------------------------------------
+
+Package:                     libpkcs11
+Outgoing License:            GPLv2 & BSD
+License File:                LICENSE
+Package Category:            user space
+Type of Content:             source
+Description and comments:    PKCS library
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/libpkcs11
+
+--------------------------------------------
+
+Package:                     linux
+Outgoing License:            GPLv2
+License File:                COPYING
+Package Category:            kernel
+Type of Content:             source
+Description and comments:    linux
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/linux
+
+--------------------------------------------
+
+Package:                     mc-utils
+Outgoing License:            BSD
+License File:                LICENSE; 
+Package Category:            firmware
+Type of Content:             source
+Description and comments:    MC API and Configuration
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/mc-utils
+
+--------------------------------------------
+
+Package:                     optee_client
+Outgoing License:            BSD
+License File:                LICENSE
+Package Category:            user space
+Type of Content:             source
+Description and comments:    OP-TEE Client
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/optee_client
+
+--------------------------------------------
+
+Package:                     optee_os
+Outgoing License:            BSD
+License File:                LICENSE
+Package Category:            firmware
+Type of Content:             source
+Description and comments:    OP-TEE Trusted OS
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/optee_os
+
+--------------------------------------------
+
+Package:                     optee_test
+Outgoing License:            BSD & GPLv2
+License File:                LICENSE.md
+Package Category:            user space
+Type of Content:             source
+Description and comments:    OP-TEE sanity testsuite
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/optee_test
+
+--------------------------------------------
+
+Package:                     ovs-dpdk
+Outgoing License:            BSD
+License File:                LICENSE
+Package Category:            user space
+Type of Content:             source
+Description and comments:    OVS DPDK
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/ovs-dpdk
+
+--------------------------------------------
+
+Package:                     pktgen-dpdk
+Outgoing License:            BSD
+License File:                LICENSE
+Package Category:            user space
+Type of Content:             source
+Description and comments:    PKTGEN DPDK
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/pktgen-dpdk
+
+--------------------------------------------
+
+Package:                     ptpd
+Outgoing License:            BSD
+License File:                README
+Package Category:            user space
+Type of Content:             source
+Description and comments:    PTP daemon
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/ptpd
+
+--------------------------------------------
+
+Package:                     qoriq-engine-pfe-bin
+Outgoing License:            NXP-Binary-EULA
+License File:                NXP-Binary-EULA.txt
+Package Category:            firmware
+Type of Content:             binary
+Description and comments:    Linux pfe firmware
+Release Location:            https://github.com/nxp/qoriq-engine-pfe-bin
+
+--------------------------------------------
+
+Package:                     qoriq-firmware-cortina
+Outgoing License:            NXP-Binary-EULA
+License File:                EULA.txt
+Package Category:            firmware
+Type of Content:             binary
+Description and comments:    Cortina PHY firmware
+Release Location:            https://github.com/nxp/qoriq-firmware-cortina
+
+--------------------------------------------
+
+Package:                     qoriq-firmware-inphi
+Outgoing License:            NXP-Binary-EULA
+License File:                EULA.txt
+Package Category:            firmware
+Type of Content:             binary
+Description and comments:    IN112525 Phy firmware
+Release Location:            https://github.com/nxp/qoriq-firmware-inphi
+
+--------------------------------------------
+
+Package:                     qoriq-fm-ucode
+Outgoing License:            Freescale-Binary-EULA
+License File:                Freescale-Binary-EULA
+Package Category:            firmware
+Type of Content:             binary
+Description and comments:    Fman microcode binary
+Release Location:            https://github.com/nxp/qoriq-fm-ucode
+
+--------------------------------------------
+
+Package:                     qoriq-mc-binary
+Outgoing License:            NXP-Binary-EULA
+License File:                NXP-Binary-EULA.txt
+Package Category:            firmware
+Type of Content:             binary
+Description and comments:    DPAA2 Management Complex Firmware
+Release Location:            https://github.com/nxp/qoriq-mc-binary
+
+--------------------------------------------
+
+Package:                     qoriq-qe-ucode
+Outgoing License:            NXP-Binary-EULA
+License File:                NXP-Binary-EULA
+Package Category:            firmware
+Type of Content:             binary
+Description and comments:    QE microcode binary
+Release Location:            https://github.com/nxp/qoriq-qe-ucode
+
+--------------------------------------------
+
+Package:                     qoriq-uefi-binary
+Outgoing License:            NXP-Binary-EULA
+License File:                NXP-Binary-EULA
+Package Category:            firmware
+Type of Content:             binary
+Description and comments:    Unified Extensible Firmware Interface binaries
+Release Location:            https://github.com/nxp/qoriq-uefi-binary
+
+--------------------------------------------
+
+Package:                     rcw
+Outgoing License:            BSD
+License File:                LICENSE
+Package Category:            firmware
+Type of Content:             source
+Description and comments:    Reset Configuration Word
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/rcw
+
+--------------------------------------------
+
+Package:                     restool
+Outgoing License:            BSD
+License File:                COPYING
+Package Category:            user space
+Type of Content:             source
+Description and comments:    DPAA2 Resource Manager Tool
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/restool
+
+--------------------------------------------
+
+Package:                     secure_obj
+Outgoing License:            BSD
+License File:                README
+Package Category:            user space
+Type of Content:             source
+Description and comments:    Secure Object
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/secure_obj
+
+--------------------------------------------
+
+Package:                     skmm-ep
+Outgoing License:            BSD & GPLv2
+License File:                Makefile;endline=30
+Package Category:            user space
+Type of Content:             source
+Description and comments:    SKMM application for PCIe endpoint
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/skmm-ep
+
+--------------------------------------------
+
+Package:                     skmm-host
+Outgoing License:            BSD & GPLv2+
+License File:                COPYING
+Package Category:            kernel
+Type of Content:             source
+Description and comments:    skmm host driver
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/skmm-host
+
+--------------------------------------------
+
+Package:                     spc
+Outgoing License:            MIT
+License File:                COPYING
+Package Category:            user space
+Type of Content:             source
+Description and comments:    Soft Parser Configuration tool
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/spc
+
+--------------------------------------------
+
+Package:                     tsntool
+Outgoing License:            GPLv2
+License File:                LICENSE
+Package Category:            user space
+Type of Content:             source
+Description and comments:    TSN configuration tool
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/tsntool
+
+--------------------------------------------
+
+Package:                     u-boot
+Outgoing License:            GPLv2 & BSD-3-Clause & BSD-2-Clause & LGPL-2.0 & LGPL-2.1
+License File:                Licenses/gpl-2.0.txt;Licenses/bsd-2-clause.txt;Licenses/bsd-3-clause.txt;Licenses/lgpl-2.0.txt;Licenses/lgpl-2.1.txt; 
+Package Category:            firmware
+Type of Content:             source
+Description and comments:    Universal Boot Loader
+Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/u-boot
+
