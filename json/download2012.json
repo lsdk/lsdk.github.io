@@ -1,6 +1,6 @@
 [
 	["bootpartition_LS_arm32_lts_5.4.tgz","5d457982018275f8cbfed841cd66c5e5","The prebuilt images for boot partition generation of ARM32 targets with kernel 5.4.","https://www.nxp.com/lgfiles/sdk/lsdk2012/bootpartition_LS_arm32_lts_5.4.tgz"],
-	["bootpartition_LS_arm32_lts_4.19.tgz","ebfb258d9faf6a2c2a9f468e8859b3cc","The prebuilt images for boot partition generation of ARM32 targets with kernel 4.19.","https://www.nxp.com/lgfiles/sdk/lsdk2012/bootpartition_LS_arm32_lts_4.19.tgz"],
+	["bootpartition_LS_arm32_lts_4.19.tgz","a27ba2124c470bce3e957319428d82be","The prebuilt images for boot partition generation of ARM32 targets with kernel 4.19.","https://www.nxp.com/lgfiles/sdk/lsdk2012/bootpartition_LS_arm32_lts_4.19.tgz"],
 	["bootpartition_LS_arm64_lts_5.4.tgz","2fe759eae19d8f908f7de2d4ef344b62","The prebuilt images for boot partition generation of ARM64 targets with kernel 5.4.","https://www.nxp.com/lgfiles/sdk/lsdk2012/bootpartition_LS_arm64_lts_5.4.tgz"],
 	["bootpartition_LS_arm64_lts_4.19.tgz","5af3cf125756ffccaedc64a9511f5890","The prebuilt images for boot partition generation of ARM64 targets with kernel 4.19.","https://www.nxp.com/lgfiles/sdk/lsdk2012/bootpartition_LS_arm64_lts_4.19.tgz"],
 	["firmware_ls1012afrwy_512mb_uboot_qspiboot.img","852ac2226fae5e0a810705d0e419f060","The firmware image to boot ls1012afrwy(512M) board from QSPI flash with u-boot.","https://www.nxp.com/lgfiles/sdk/lsdk2012/firmware_ls1012afrwy_512mb_uboot_qspiboot.img"],
