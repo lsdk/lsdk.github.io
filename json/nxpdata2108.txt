@@ -1,7 +1,7 @@
 NXP Software Content Register
 
-Release - LSDK-20.12
- December 2020
+Release - LSDK-21.08
+ August 2021
 
 --------------------------------------------
 BSP Packages
