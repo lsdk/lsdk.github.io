@@ -13,7 +13,7 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    DPAA2 Accelerated I/O Processing service layer
-Release Location:            https://https://github.com/nxp-qoriq/aiopsl
+Release Location:            https://github.com/nxp-qoriq/aiopsl
 
 --------------------------------------------
 
@@ -23,7 +23,7 @@ License File:                license.rst
 Package Category:            firmware
 Type of Content:             source
 Description and comments:    ARM Trusted Firmware
-Release Location:            https://https://github.com/nxp-qoriq/atf
+Release Location:            https://github.com/nxp-qoriq/atf
 
 --------------------------------------------
 
@@ -33,7 +33,7 @@ License File:                COPYING
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Boot format utility
-Release Location:            https://https://github.com/nxp-qoriq-yocto-sdk/boot-format
+Release Location:            https://github.com/nxp-qoriq-yocto-sdk/boot-format
 
 --------------------------------------------
 
@@ -43,7 +43,7 @@ License File:                COPYING
 Package Category:            user space
 Type of Content:             source
 Description and comments:    CEETM TC QDISC
-Release Location:            https://https://github.com/nxp-qoriq/ceetm
+Release Location:            https://github.com/nxp-qoriq/ceetm
 
 --------------------------------------------
 
@@ -53,7 +53,7 @@ License File:                COPYING
 Package Category:            kernel
 Type of Content:             source
 Description and comments:    crypto device driver
-Release Location:            https://https://github.com/nxp-qoriq/cryptodev-linux
+Release Location:            https://github.com/nxp-qoriq/cryptodev-linux
 
 --------------------------------------------
 
@@ -63,7 +63,7 @@ License File:                COPYING
 Package Category:            user space
 Type of Content:             source
 Description and comments:    utility for security boot
-Release Location:            https://https://github.com/nxp-qoriq/cst
+Release Location:            https://github.com/nxp-qoriq/cst
 
 --------------------------------------------
 
@@ -73,7 +73,7 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Decompression Compression Engine Userspace Utils
-Release Location:            https://https://github.com/nxp-qoriq/dce
+Release Location:            https://github.com/nxp-qoriq/dce
 
 --------------------------------------------
 
@@ -93,7 +93,7 @@ License File:                license/README
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Data Plane Development Kit
-Release Location:            https://https://github.com/nxp-qoriq/dpdk
+Release Location:            https://github.com/nxp-qoriq/dpdk
 
 --------------------------------------------
 
@@ -113,7 +113,7 @@ License File:                COPYING
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Ethernet Configuration Files
-Release Location:            https://https://github.com/nxp-qoriq/eth-config
+Release Location:            https://github.com/nxp-qoriq/eth-config
 
 --------------------------------------------
 
@@ -123,7 +123,7 @@ License File:                COPYING
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Frame Manager Configuration tool
-Release Location:            https://https://github.com/nxp-qoriq/fmc
+Release Location:            https://github.com/nxp-qoriq/fmc
 
 --------------------------------------------
 
@@ -133,7 +133,7 @@ License File:                COPYING
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Frame Manager User Space Library
-Release Location:            https://https://github.com/nxp-qoriq/fmlib
+Release Location:            https://github.com/nxp-qoriq/fmlib
 
 --------------------------------------------
 
@@ -143,7 +143,7 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    userspace application for performing operations
-Release Location:            https://https://github.com/nxp-qoriq/gpp-aioptool
+Release Location:            https://github.com/nxp-qoriq/gpp-aioptool
 
 --------------------------------------------
 
@@ -153,7 +153,7 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    PKCS library
-Release Location:            https://https://github.com/nxp-qoriq/libpkcs11
+Release Location:            https://github.com/nxp-qoriq/libpkcs11
 
 --------------------------------------------
 
@@ -163,7 +163,7 @@ License File:                COPYING
 Package Category:            kernel
 Type of Content:             source
 Description and comments:    linux
-Release Location:            https://https://github.com/nxp-qoriq/linux
+Release Location:            https://github.com/nxp-qoriq/linux
 
 --------------------------------------------
 
@@ -173,7 +173,7 @@ License File:                LICENSE;
 Package Category:            firmware
 Type of Content:             source
 Description and comments:    MC API and Configuration
-Release Location:            https://https://github.com/nxp-qoriq/mc-utils
+Release Location:            https://github.com/nxp-qoriq/mc-utils
 
 --------------------------------------------
 
@@ -183,7 +183,7 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    OP-TEE Client
-Release Location:            https://https://github.com/nxp-qoriq/optee_client
+Release Location:            https://github.com/nxp-qoriq/optee_client
 
 --------------------------------------------
 
@@ -193,7 +193,7 @@ License File:                LICENSE
 Package Category:            firmware
 Type of Content:             source
 Description and comments:    OP-TEE Trusted OS
-Release Location:            https://https://github.com/nxp-qoriq/optee_os
+Release Location:            https://github.com/nxp-qoriq/optee_os
 
 --------------------------------------------
 
@@ -203,7 +203,7 @@ License File:                LICENSE.md
 Package Category:            user space
 Type of Content:             source
 Description and comments:    OP-TEE sanity testsuite
-Release Location:            https://https://github.com/nxp-qoriq/optee_test
+Release Location:            https://github.com/nxp-qoriq/optee_test
 
 --------------------------------------------
 
@@ -213,7 +213,7 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    OVS DPDK
-Release Location:            https://https://github.com/nxp-qoriq/ovs-dpdk
+Release Location:            https://github.com/nxp-qoriq/ovs-dpdk
 
 --------------------------------------------
 
@@ -223,7 +223,7 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    PKTGEN DPDK
-Release Location:            https://https://github.com/nxp-qoriq/pktgen-dpdk
+Release Location:            https://github.com/nxp-qoriq/pktgen-dpdk
 
 --------------------------------------------
 
@@ -233,7 +233,7 @@ License File:                README
 Package Category:            user space
 Type of Content:             source
 Description and comments:    PTP daemon
-Release Location:            https://https://github.com/nxp-qoriq/ptpd
+Release Location:            https://github.com/nxp-qoriq/ptpd
 
 --------------------------------------------
 
@@ -313,7 +313,7 @@ License File:                LICENSE
 Package Category:            firmware
 Type of Content:             source
 Description and comments:    Reset Configuration Word
-Release Location:            https://https://github.com/nxp-qoriq/rcw
+Release Location:            https://github.com/nxp-qoriq/rcw
 
 --------------------------------------------
 
@@ -323,7 +323,7 @@ License File:                COPYING
 Package Category:            user space
 Type of Content:             source
 Description and comments:    DPAA2 Resource Manager Tool
-Release Location:            https://https://github.com/nxp-qoriq/restool
+Release Location:            https://github.com/nxp-qoriq/restool
 
 --------------------------------------------
 
@@ -333,7 +333,7 @@ License File:                README
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Secure Object
-Release Location:            https://https://github.com/nxp-qoriq/secure_obj
+Release Location:            https://github.com/nxp-qoriq/secure_obj
 
 --------------------------------------------
 
@@ -343,7 +343,7 @@ License File:                Makefile;endline=30
 Package Category:            user space
 Type of Content:             source
 Description and comments:    SKMM application for PCIe endpoint
-Release Location:            https://https://github.com/nxp-qoriq-yocto-sdk/skmm-ep
+Release Location:            https://github.com/nxp-qoriq-yocto-sdk/skmm-ep
 
 --------------------------------------------
 
@@ -353,7 +353,7 @@ License File:                COPYING
 Package Category:            kernel
 Type of Content:             source
 Description and comments:    skmm host driver
-Release Location:            https://https://github.com/nxp-qoriq-yocto-sdk/skmm-host
+Release Location:            https://github.com/nxp-qoriq-yocto-sdk/skmm-host
 
 --------------------------------------------
 
@@ -363,7 +363,7 @@ License File:                COPYING
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Soft Parser Configuration tool
-Release Location:            https://https://github.com/nxp-qoriq/spc
+Release Location:            https://github.com/nxp-qoriq/spc
 
 --------------------------------------------
 
@@ -373,7 +373,7 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    TSN configuration tool
-Release Location:            https://https://github.com/nxp-qoriq/tsntool
+Release Location:            https://github.com/nxp-qoriq/tsntool
 
 --------------------------------------------
 
@@ -383,5 +383,5 @@ License File:                Licenses/gpl-2.0.txt;Licenses/bsd-2-clause.txt;Lice
 Package Category:            firmware
 Type of Content:             source
 Description and comments:    Universal Boot Loader
-Release Location:            https://https://github.com/nxp-qoriq/u-boot
+Release Location:            https://github.com/nxp-qoriq/u-boot
 
