@@ -13,7 +13,7 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    DPAA2 Accelerated I/O Processing service layer
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/aiopsl
+Release Location:            https://https://github.com/nxp-qoriq/aiopsl
 
 --------------------------------------------
 
@@ -23,7 +23,7 @@ License File:                license.rst
 Package Category:            firmware
 Type of Content:             source
 Description and comments:    ARM Trusted Firmware
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/atf
+Release Location:            https://https://github.com/nxp-qoriq/atf
 
 --------------------------------------------
 
@@ -33,7 +33,7 @@ License File:                COPYING
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Boot format utility
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/boot-format
+Release Location:            https://https://github.com/nxp-qoriq-yocto-sdk/boot-format
 
 --------------------------------------------
 
@@ -43,7 +43,7 @@ License File:                COPYING
 Package Category:            user space
 Type of Content:             source
 Description and comments:    CEETM TC QDISC
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/ceetm
+Release Location:            https://https://github.com/nxp-qoriq/ceetm
 
 --------------------------------------------
 
@@ -53,7 +53,7 @@ License File:                COPYING
 Package Category:            kernel
 Type of Content:             source
 Description and comments:    crypto device driver
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/cryptodev-linux
+Release Location:            https://https://github.com/nxp-qoriq/cryptodev-linux
 
 --------------------------------------------
 
@@ -63,7 +63,7 @@ License File:                COPYING
 Package Category:            user space
 Type of Content:             source
 Description and comments:    utility for security boot
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/cst
+Release Location:            https://https://github.com/nxp-qoriq/cst
 
 --------------------------------------------
 
@@ -73,7 +73,7 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Decompression Compression Engine Userspace Utils
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/dce
+Release Location:            https://https://github.com/nxp-qoriq/dce
 
 --------------------------------------------
 
@@ -93,7 +93,7 @@ License File:                license/README
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Data Plane Development Kit
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/dpdk
+Release Location:            https://https://github.com/nxp-qoriq/dpdk
 
 --------------------------------------------
 
@@ -113,7 +113,7 @@ License File:                COPYING
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Ethernet Configuration Files
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/eth-config
+Release Location:            https://https://github.com/nxp-qoriq/eth-config
 
 --------------------------------------------
 
@@ -123,7 +123,7 @@ License File:                COPYING
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Frame Manager Configuration tool
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/fmc
+Release Location:            https://https://github.com/nxp-qoriq/fmc
 
 --------------------------------------------
 
@@ -133,7 +133,7 @@ License File:                COPYING
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Frame Manager User Space Library
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/fmlib
+Release Location:            https://https://github.com/nxp-qoriq/fmlib
 
 --------------------------------------------
 
@@ -143,7 +143,7 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    userspace application for performing operations
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/gpp-aioptool
+Release Location:            https://https://github.com/nxp-qoriq/gpp-aioptool
 
 --------------------------------------------
 
@@ -153,7 +153,7 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    PKCS library
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/libpkcs11
+Release Location:            https://https://github.com/nxp-qoriq/libpkcs11
 
 --------------------------------------------
 
@@ -163,7 +163,7 @@ License File:                COPYING
 Package Category:            kernel
 Type of Content:             source
 Description and comments:    linux
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/linux
+Release Location:            https://https://github.com/nxp-qoriq/linux
 
 --------------------------------------------
 
@@ -173,7 +173,7 @@ License File:                LICENSE;
 Package Category:            firmware
 Type of Content:             source
 Description and comments:    MC API and Configuration
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/mc-utils
+Release Location:            https://https://github.com/nxp-qoriq/mc-utils
 
 --------------------------------------------
 
@@ -183,7 +183,7 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    OP-TEE Client
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/optee_client
+Release Location:            https://https://github.com/nxp-qoriq/optee_client
 
 --------------------------------------------
 
@@ -193,7 +193,7 @@ License File:                LICENSE
 Package Category:            firmware
 Type of Content:             source
 Description and comments:    OP-TEE Trusted OS
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/optee_os
+Release Location:            https://https://github.com/nxp-qoriq/optee_os
 
 --------------------------------------------
 
@@ -203,7 +203,7 @@ License File:                LICENSE.md
 Package Category:            user space
 Type of Content:             source
 Description and comments:    OP-TEE sanity testsuite
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/optee_test
+Release Location:            https://https://github.com/nxp-qoriq/optee_test
 
 --------------------------------------------
 
@@ -213,7 +213,7 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    OVS DPDK
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/ovs-dpdk
+Release Location:            https://https://github.com/nxp-qoriq/ovs-dpdk
 
 --------------------------------------------
 
@@ -223,7 +223,7 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    PKTGEN DPDK
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/pktgen-dpdk
+Release Location:            https://https://github.com/nxp-qoriq/pktgen-dpdk
 
 --------------------------------------------
 
@@ -233,7 +233,7 @@ License File:                README
 Package Category:            user space
 Type of Content:             source
 Description and comments:    PTP daemon
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/ptpd
+Release Location:            https://https://github.com/nxp-qoriq/ptpd
 
 --------------------------------------------
 
@@ -313,7 +313,7 @@ License File:                LICENSE
 Package Category:            firmware
 Type of Content:             source
 Description and comments:    Reset Configuration Word
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/rcw
+Release Location:            https://https://github.com/nxp-qoriq/rcw
 
 --------------------------------------------
 
@@ -323,7 +323,7 @@ License File:                COPYING
 Package Category:            user space
 Type of Content:             source
 Description and comments:    DPAA2 Resource Manager Tool
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/restool
+Release Location:            https://https://github.com/nxp-qoriq/restool
 
 --------------------------------------------
 
@@ -333,7 +333,7 @@ License File:                README
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Secure Object
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/secure_obj
+Release Location:            https://https://github.com/nxp-qoriq/secure_obj
 
 --------------------------------------------
 
@@ -343,7 +343,7 @@ License File:                Makefile;endline=30
 Package Category:            user space
 Type of Content:             source
 Description and comments:    SKMM application for PCIe endpoint
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/skmm-ep
+Release Location:            https://https://github.com/nxp-qoriq-yocto-sdk/skmm-ep
 
 --------------------------------------------
 
@@ -353,7 +353,7 @@ License File:                COPYING
 Package Category:            kernel
 Type of Content:             source
 Description and comments:    skmm host driver
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/skmm-host
+Release Location:            https://https://github.com/nxp-qoriq-yocto-sdk/skmm-host
 
 --------------------------------------------
 
@@ -363,7 +363,7 @@ License File:                COPYING
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Soft Parser Configuration tool
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/spc
+Release Location:            https://https://github.com/nxp-qoriq/spc
 
 --------------------------------------------
 
@@ -373,7 +373,7 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    TSN configuration tool
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/tsntool
+Release Location:            https://https://github.com/nxp-qoriq/tsntool
 
 --------------------------------------------
 
@@ -383,7 +383,7 @@ License File:                Licenses/gpl-2.0.txt;Licenses/bsd-2-clause.txt;Lice
 Package Category:            firmware
 Type of Content:             source
 Description and comments:    Universal Boot Loader
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/u-boot
+Release Location:            https://https://github.com/nxp-qoriq/u-boot
 
 --------------------------------------------
 
@@ -393,7 +393,7 @@ License File:                LICENSE
 Package Category:            kernel module, user space
 Type of Content:             source
 Description and comments:    Kernel module and user-space application for accessing any MDIO device
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/mdio-proxy-module
+Release Location:            https://https://github.com/nxp-qoriq/mdio-proxy-module
 
 --------------------------------------------
 
@@ -403,7 +403,7 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Firmware tool for AQuantia Ethernet PHYs
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/aquantia-firmware-utility
+Release Location:            https://https://github.com/nxp-qoriq/aquantia-firmware-utility
 
 --------------------------------------------
 
@@ -413,5 +413,5 @@ License File:                LICENSE
 Package Category:            user space
 Type of Content:             source
 Description and comments:    Vector Packet Processor
-Release Location:            https://source.codeaurora.org/external/qoriq/qoriq-components/vpp
+Release Location:            https://https://github.com/nxp-qoriq/vpp
 
