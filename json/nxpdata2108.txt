@@ -3,6 +3,8 @@ NXP Software Content Register
 Release - LSDK-21.08
  August 2021
 
+Additional distribution license granted, license in Section 2.3 applies
+
 --------------------------------------------
 BSP Packages
 --------------------------------------------
